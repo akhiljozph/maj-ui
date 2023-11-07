@@ -7,6 +7,6 @@ import Majui from './components/maj-ui/MajUi'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Majui />
+    <Majui backgroundColor="#644040" color="#ffad0d" />
   </React.StrictMode>,
 )

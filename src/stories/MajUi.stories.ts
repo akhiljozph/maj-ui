@@ -7,6 +7,10 @@ const meta = {
     component: MajUi,
     parameters: {
         layout: 'centered',
+        argTypes: {
+            color: { control: 'color' },
+            backgroundColor: { control: 'text'}
+        }
     },
     tags: ['autodocs'],
 } satisfies Meta<typeof MajUi>;
