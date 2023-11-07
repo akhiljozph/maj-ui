@@ -1,8 +1,14 @@
 import './MajUi.scss'
 
-function MajUi(color: string, backgroundColor: string) {
+interface MajUiProps {
+    color: string,
+    backgroundColor: string
+}
+
+function MajUi(props: MajUiProps) {
+
     return (
-        <div className='maj-ui' style={{ color: color, lineHeight : backgroundColor }}>
+        <div className='maj-ui' style={{ color: props.color, backgroundColor: props.backgroundColor }}>
             MAJui
         </div>
     )
