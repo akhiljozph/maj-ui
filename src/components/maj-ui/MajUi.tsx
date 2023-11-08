@@ -1,4 +1,4 @@
-import './MajUi.scss'
+import './MajUi.scss';
 
 interface MajUiProps {
     color: string,
