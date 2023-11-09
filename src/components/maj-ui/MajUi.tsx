@@ -13,5 +13,9 @@ function MajUi(props: MajUiProps) {
         </div>
     )
 }
-
 export default MajUi;
+
+MajUi.defaultProps = {
+    color: '#ffc40c',
+    backgroundColor: '#000000',
+}
