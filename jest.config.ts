@@ -8,4 +8,7 @@ export default {
         '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/__mocks__/fileMock.js',
         '\\.(scss|sass|css|lass)$': '<rootDir>/__mocks__/styleMock.js',
     },
+    setupFilesAfterEnv: [
+        "<rootDir>/setupTests.js"
+    ],
 }
