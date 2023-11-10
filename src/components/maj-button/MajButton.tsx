@@ -1,6 +1,8 @@
-function MajButton() {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
+function MajButton(props: any) {
+
     return (
-        <button>Button</button>
+        <button>{ props.children }</button>
     )
 }
 
