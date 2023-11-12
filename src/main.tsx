@@ -15,7 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       new features faster. Start with MAJui, our fully loaded component library or
       bring your own design system to our production-ready components.
     </div>
-
-    <MajButton>Discover our components</MajButton>
+    <div className="maj-btn-doc">
+      <MajButton>Discover our components</MajButton>
+    </div>
   </React.StrictMode>,
 )
