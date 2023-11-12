@@ -1,8 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
 function MajButton(props: any) {
 
+    const btnClickFn = (link: string) => {
+        window.open(link, "_blank");
+    }
+
     return (
-        <button>{ props.children }</button>
+        <button onClick={() => btnClickFn(props.link)}>{ props.children }</button>
     )
 }
 
