@@ -1,7 +1,17 @@
+body {
+    margin: 0;
+}
+
 .maj-ui-desc {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     font-weight: 600;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.maj-btn-doc {
+    padding: 2rem;
 }
