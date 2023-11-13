@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       bring your own design system to our production-ready components.
     </div>
     <div className="maj-btn-doc">
-      <MajButton link={'http://localhost:8090'}>Discover our components</MajButton>
+      <MajButton link={'https://127.0.0.1:8090/'}>Discover our components</MajButton>
     </div>
   </React.StrictMode>,
 )
