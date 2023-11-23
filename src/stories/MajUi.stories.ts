@@ -1,6 +1,6 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { Meta, StoryObj } from '@storybook/react';
 
-import MajUi from "../components/maj-ui/MajUi";
+import MajUi from '../components/maj-ui/MajUi';
 
 const meta = {
     title: 'Maj Ui',

@@ -7,10 +7,8 @@ function MajButton(props: MajButtonProps) {
 
     const btnClickFn = (link?: string) => {
         if (checkForURLValidity(link)) {
-            console.log('IF')
             window.open(link, "_blank");
         }
-        console.log('ELSE');
     }
 
     const checkForURLValidity = (link?: string) => {
