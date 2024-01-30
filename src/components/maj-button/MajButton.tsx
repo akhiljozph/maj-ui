@@ -1,6 +1,9 @@
+import './MajButton.scss';
+
 interface MajButtonProps {
     link?: string,
-    children: string,
+    children?: string,
+    primary?: boolean,
 }
 
 function MajButton(props: MajButtonProps) {
@@ -27,7 +30,7 @@ function MajButton(props: MajButtonProps) {
     }
 
     return (
-        <button onClick={() => btnClickFn(props.link)}>{ props.children }</button>
+        <button type="button" className="maj-btn maj-btn-default" onClick={() => btnClickFn(props.link)}>{ props.children }</button>
     )
 }
 
