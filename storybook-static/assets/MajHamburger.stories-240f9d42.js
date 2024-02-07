@@ -1,0 +1,2 @@
+import{M as o}from"./MajDialog-8e3e703a.js";import"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";const u={title:"Maj Hamburger",component:o,parameters:{layout:"centered"},tags:["autodocs"]},e={};var r,a,t;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(t=(a=e.parameters)==null?void 0:a.docs)==null?void 0:t.source}}};const d=["Default"];export{e as Default,d as __namedExportsOrder,u as default};
+//# sourceMappingURL=MajHamburger.stories-240f9d42.js.map

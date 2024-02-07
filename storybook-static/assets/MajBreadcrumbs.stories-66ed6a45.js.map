@@ -1,0 +1,1 @@
+{"version":3,"file":"MajBreadcrumbs.stories-66ed6a45.js","sources":["../../src/components/maj-breadcrumbs/MajBreadcrumbs.tsx"],"sourcesContent":["function MajBreadcrumbs() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajBreadcrumbs;"],"names":["MajBreadcrumbs"],"mappings":"iHAAA,SAASA,GAAiB,CACtB,aACK,MAED,CAAA,CAAA,CAER"}

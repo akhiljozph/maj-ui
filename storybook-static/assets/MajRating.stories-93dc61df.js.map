@@ -1,0 +1,1 @@
+{"version":3,"file":"MajRating.stories-93dc61df.js","sources":["../../src/components/maj-rating/MajRating.tsx"],"sourcesContent":["function MajRating() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajRating;"],"names":["MajRating"],"mappings":"iHAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAER"}

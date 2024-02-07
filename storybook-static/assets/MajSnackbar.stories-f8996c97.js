@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const p={title:"Maj Snackbar",component:s,parameters:{layout:"centered"},tags:["autodocs"]},r={};var t,a,e;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(e=(a=r.parameters)==null?void 0:a.docs)==null?void 0:e.source}}};const u=["Default"];export{r as Default,u as __namedExportsOrder,p as default};
+//# sourceMappingURL=MajSnackbar.stories-f8996c97.js.map

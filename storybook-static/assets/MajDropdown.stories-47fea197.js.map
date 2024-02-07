@@ -1,0 +1,1 @@
+{"version":3,"file":"MajDropdown.stories-47fea197.js","sources":["../../src/components/maj-dropdown/MajDropdown.tsx"],"sourcesContent":["function MajDropdown() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajDropdown;"],"names":["MajDropdown"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAER"}

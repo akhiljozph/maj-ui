@@ -1,0 +1,1 @@
+{"version":3,"file":"MajMenu.stories-7b0e217d.js","sources":["../../src/components/maj-menu/MajMenu.tsx"],"sourcesContent":["function MajMenu() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajMenu;"],"names":["MajMenu"],"mappings":"iHAAA,SAASA,GAAU,CACf,aACK,MAED,CAAA,CAAA,CAER"}

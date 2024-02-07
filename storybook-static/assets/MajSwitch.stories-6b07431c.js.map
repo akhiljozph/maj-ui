@@ -1,0 +1,1 @@
+{"version":3,"file":"MajSwitch.stories-6b07431c.js","sources":["../../src/components/maj-switch/MajSwitch.tsx"],"sourcesContent":["function MajSwitch() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajSwitch;"],"names":["MajSwitch"],"mappings":"iHAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAGR"}

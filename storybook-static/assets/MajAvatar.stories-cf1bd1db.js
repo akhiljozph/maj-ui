@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const p={title:"Maj Avatar",component:s,parameters:{layout:"centered"},tags:["autodocs"]},t={};var r,a,e;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(e=(a=t.parameters)==null?void 0:a.docs)==null?void 0:e.source}}};const u=["Default"];export{t as Default,u as __namedExportsOrder,p as default};
+//# sourceMappingURL=MajAvatar.stories-cf1bd1db.js.map

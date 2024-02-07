@@ -1,0 +1,1 @@
+{"version":3,"file":"MajRadio.stories-814f0c99.js","sources":["../../src/components/maj-radio/MajRadio.tsx"],"sourcesContent":["function MajRadio() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajRadio;"],"names":["MajRadio"],"mappings":"iHAAA,SAASA,GAAW,CAChB,aACK,MAED,CAAA,CAAA,CAGR"}

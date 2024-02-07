@@ -1,0 +1,2 @@
+import{j as a}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return a.jsx("div",{})}const u={title:"Maj Autocomplete",component:s,parameters:{layout:"centered"},tags:["autodocs"]},t={};var e,o,r;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(r=(o=t.parameters)==null?void 0:o.docs)==null?void 0:r.source}}};const n=["Default"];export{t as Default,n as __namedExportsOrder,u as default};
+//# sourceMappingURL=MajAutocomplete.stories-4a1f257f.js.map

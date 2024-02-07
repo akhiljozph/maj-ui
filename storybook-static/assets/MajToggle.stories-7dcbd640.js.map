@@ -1,0 +1,1 @@
+{"version":3,"file":"MajToggle.stories-7dcbd640.js","sources":["../../src/components/maj-toggle/MajToggle.tsx"],"sourcesContent":["function MajToggle() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajToggle;"],"names":["MajToggle"],"mappings":"iHAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAER"}
