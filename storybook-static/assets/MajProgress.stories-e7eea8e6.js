@@ -1,0 +1,2 @@
+import{j as s}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function a(){return s.jsx("div",{})}const p={title:"Maj Progress",component:a,parameters:{layout:"centered"},tags:["autodocs"]},r={};var e,t,o;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(o=(t=r.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};const u=["Default"];export{r as Default,u as __namedExportsOrder,p as default};
+//# sourceMappingURL=MajProgress.stories-e7eea8e6.js.map

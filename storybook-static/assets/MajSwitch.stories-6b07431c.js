@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const p={title:"Maj Switch",component:s,parameters:{layout:"centered"},tags:["autodocs"]},t={};var e,r,a;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(a=(r=t.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const i=["Default"];export{t as Default,i as __namedExportsOrder,p as default};
+//# sourceMappingURL=MajSwitch.stories-6b07431c.js.map

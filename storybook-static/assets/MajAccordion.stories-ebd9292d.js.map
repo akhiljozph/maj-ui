@@ -1,0 +1,1 @@
+{"version":3,"file":"MajAccordion.stories-ebd9292d.js","sources":["../../src/components/maj-accordion/MajAccordion.tsx"],"sourcesContent":["function MajAccordion() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajAccordion;"],"names":["MajAccordion"],"mappings":"iHAAA,SAASA,GAAe,CACpB,aACK,MAED,CAAA,CAAA,CAGR"}

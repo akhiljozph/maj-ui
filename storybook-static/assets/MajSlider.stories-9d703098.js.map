@@ -1,0 +1,1 @@
+{"version":3,"file":"MajSlider.stories-9d703098.js","sources":["../../src/components/maj-slider/MajSlider.tsx"],"sourcesContent":["function MajSlider() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajSlider;"],"names":["MajSlider"],"mappings":"iHAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAER"}

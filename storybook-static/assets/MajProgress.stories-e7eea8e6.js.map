@@ -1,0 +1,1 @@
+{"version":3,"file":"MajProgress.stories-e7eea8e6.js","sources":["../../src/components/maj-progress/MajProgress.tsx"],"sourcesContent":["function MajProgress() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajProgress;"],"names":["MajProgress"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAER"}

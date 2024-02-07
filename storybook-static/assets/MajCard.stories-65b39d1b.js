@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const p={title:"Maj Card",component:s,parameters:{layout:"centered"},tags:["autodocs"]},r={};var t,e,a;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(a=(e=r.parameters)==null?void 0:e.docs)==null?void 0:a.source}}};const d=["Default"];export{r as Default,d as __namedExportsOrder,p as default};
+//# sourceMappingURL=MajCard.stories-65b39d1b.js.map

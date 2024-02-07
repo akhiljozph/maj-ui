@@ -1,0 +1,1 @@
+{"version":3,"file":"MajAvatar.stories-cf1bd1db.js","sources":["../../src/components/maj-avatar/MajAvatar.tsx"],"sourcesContent":["function MajAvatar() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajAvatar;"],"names":["MajAvatar"],"mappings":"iHAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAER"}
