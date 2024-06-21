@@ -1,11 +1,8 @@
 {
-  "name": "@akhiljozph/maj-ui",
+  "name": "maj-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "publishConfig": {
-    "@akhiljozph:registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "dev": "vite --port 8091",
     "test": "jest",
