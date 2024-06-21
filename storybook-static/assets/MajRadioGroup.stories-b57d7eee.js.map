@@ -1,1 +1,0 @@
-{"version":3,"file":"MajRadioGroup.stories-b57d7eee.js","sources":["../../src/components/maj-radio-group/MajRadioGroup.tsx"],"sourcesContent":["function MajRadioGroup() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajRadioGroup;"],"names":["MajRadioGroup"],"mappings":"iHAAA,SAASA,GAAgB,CACrB,aACK,MAED,CAAA,CAAA,CAER"}

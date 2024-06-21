@@ -1,1 +1,0 @@
-{"version":3,"file":"MajStepper.stories-383ec0bb.js","sources":["../../src/components/maj-stepper/MajStepper.tsx"],"sourcesContent":["function MajStepper() {\n    return(\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajStepper;"],"names":["MajStepper"],"mappings":"iHAAA,SAASA,GAAa,CAClB,aACK,MAED,CAAA,CAAA,CAER"}

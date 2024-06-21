@@ -1,2 +1,0 @@
-import{j as a}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return a.jsx("div",{})}const c={title:"Maj Button Group",component:s,parameters:{layout:"centered"},tags:["autodocs"]},t={};var r,e,o;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(o=(e=t.parameters)==null?void 0:e.docs)==null?void 0:o.source}}};const m=["Default"];export{t as Default,m as __namedExportsOrder,c as default};
-//# sourceMappingURL=MajButtonGroup.stories-5550b110.js.map

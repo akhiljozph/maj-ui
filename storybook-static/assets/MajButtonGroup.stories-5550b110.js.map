@@ -1,1 +1,0 @@
-{"version":3,"file":"MajButtonGroup.stories-5550b110.js","sources":["../../src/components/maj-button-group/MajButtonGroup.tsx"],"sourcesContent":["function MajButtonGroup() {\n    return (\n        <div>\n            \n        </div>\n    )\n}\n\nexport default MajButtonGroup;"],"names":["MajButtonGroup"],"mappings":"iHAAA,SAASA,GAAiB,CACtB,aACK,MAED,CAAA,CAAA,CAER"}

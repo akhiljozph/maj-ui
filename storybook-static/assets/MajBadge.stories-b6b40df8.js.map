@@ -1,1 +1,0 @@
-{"version":3,"file":"MajBadge.stories-b6b40df8.js","sources":["../../src/components/maj-badge/MajBadge.tsx"],"sourcesContent":["function MajBadge() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajBadge;"],"names":["MajBadge"],"mappings":"iHAAA,SAASA,GAAW,CAChB,aACK,MAED,CAAA,CAAA,CAER"}

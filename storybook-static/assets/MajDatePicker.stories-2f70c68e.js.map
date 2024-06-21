@@ -1,1 +1,0 @@
-{"version":3,"file":"MajDatePicker.stories-2f70c68e.js","sources":["../../src/components/maj-date-picker/MajDatePicker.tsx"],"sourcesContent":["function MajDatePicker() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajDatePicker;"],"names":["MajDatePicker"],"mappings":"iHAAA,SAASA,GAAgB,CACrB,aACK,MAED,CAAA,CAAA,CAER"}

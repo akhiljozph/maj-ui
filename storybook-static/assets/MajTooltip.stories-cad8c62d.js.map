@@ -1,1 +1,0 @@
-{"version":3,"file":"MajTooltip.stories-cad8c62d.js","sources":["../../src/components/maj-tooltip/MajTooltip.tsx"],"sourcesContent":["function MajTooltip() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajTooltip;"],"names":["MajTooltip"],"mappings":"iHAAA,SAASA,GAAa,CAClB,aACK,MAED,CAAA,CAAA,CAER"}

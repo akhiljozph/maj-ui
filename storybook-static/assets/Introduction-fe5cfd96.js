@@ -1,5 +1,0 @@
-import{j as t}from"./jsx-runtime-ffb262ed.js";import{M as s}from"./index-9243a69b.js";import{u as i}from"./index-a1cf9e47.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-513e93d1.js";import"../sb-preview/runtime.js";import"./index-932496f1.js";import"./index-d37d4223.js";import"./index-356e4a49.js";function e(o){const n=Object.assign({h1:"h1",h2:"h2",h3:"h3"},i(),o.components);return t.jsxs(t.Fragment,{children:[t.jsx(s,{title:"Introduction"}),`
-`,t.jsx(n.h1,{id:"majui",children:"MAJui"}),`
-`,t.jsx(n.h2,{id:"simply-awesome",children:"Simply awesome"}),`
-`,t.jsx(n.h3,{id:"a-collection-of-awesome-ui-components-which-is-made-upon-the-top-react-application",children:"A collection of awesome ui components which is made upon the top react application."})]})}function x(o={}){const{wrapper:n}=Object.assign({},i(),o.components);return n?t.jsx(n,Object.assign({},o,{children:t.jsx(e,o)})):e(o)}export{x as default};
-//# sourceMappingURL=Introduction-fe5cfd96.js.map

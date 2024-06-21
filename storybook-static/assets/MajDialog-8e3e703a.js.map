@@ -1,1 +1,0 @@
-{"version":3,"file":"MajDialog-8e3e703a.js","sources":["../../src/components/maj-dialog/MajDialog.tsx"],"sourcesContent":["function MajDialog() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajDialog;"],"names":["MajDialog"],"mappings":"8CAAA,SAASA,GAAY,CACjB,aACK,MAED,CAAA,CAAA,CAER"}

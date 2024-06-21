@@ -1,2 +1,0 @@
-import{M as r}from"./MajDialog-8e3e703a.js";import"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";const i={title:"Maj Dialog",component:r,parameters:{layout:"centered"},tags:["autodocs"]},a={};var e,t,o;a.parameters={...a.parameters,docs:{...(e=a.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(o=(t=a.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};const d=["Default"];export{a as Default,d as __namedExportsOrder,i as default};
-//# sourceMappingURL=MajDialog.stories-38ec703e.js.map

@@ -1,1 +1,0 @@
-{"version":3,"file":"MajSnackbar.stories-f8996c97.js","sources":["../../src/components/maj-snackbar/MajSnackbar.tsx"],"sourcesContent":["function MajSnackbar() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajSnackbar;"],"names":["MajSnackbar"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAER"}

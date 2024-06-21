@@ -1,1 +1,0 @@
-{"version":3,"file":"MajCard.stories-65b39d1b.js","sources":["../../src/components/maj-card/MajCard.tsx"],"sourcesContent":["function MajCard() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajCard;"],"names":["MajCard"],"mappings":"iHAAA,SAASA,GAAU,CACf,aACK,MAED,CAAA,CAAA,CAER"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"MajCheckbox.stories-0f2ce925.js","sources":["../../src/components/maj-checkbox/MajCheckbox.tsx"],"sourcesContent":["function MajCheckbox() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajCheckbox;"],"names":["MajCheckbox"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAER"}
