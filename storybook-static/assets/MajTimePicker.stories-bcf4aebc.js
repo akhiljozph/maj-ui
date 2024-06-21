@@ -1,2 +1,0 @@
-import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const n={title:"Maj Time Picker",component:s,parameters:{layout:"centered"},tags:["autodocs"]},e={};var r,t,a;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(a=(t=e.parameters)==null?void 0:t.docs)==null?void 0:a.source}}};const p=["Default"];export{e as Default,p as __namedExportsOrder,n as default};
-//# sourceMappingURL=MajTimePicker.stories-bcf4aebc.js.map

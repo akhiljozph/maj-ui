@@ -1,2 +1,0 @@
-import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const p={title:"Maj Textarea",component:s,parameters:{layout:"centered"},tags:["autodocs"]},e={};var t,r,a;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(a=(r=e.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const u=["Default"];export{e as Default,u as __namedExportsOrder,p as default};
-//# sourceMappingURL=MajTextarea.stories-7544e2f9.js.map

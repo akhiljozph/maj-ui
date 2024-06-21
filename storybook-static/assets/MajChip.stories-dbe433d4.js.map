@@ -1,1 +1,0 @@
-{"version":3,"file":"MajChip.stories-dbe433d4.js","sources":["../../src/components/maj-chip/MajChip.tsx"],"sourcesContent":["function MajChip() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajChip;"],"names":["MajChip"],"mappings":"iHAAA,SAASA,GAAU,CACf,aACK,MAED,CAAA,CAAA,CAER"}

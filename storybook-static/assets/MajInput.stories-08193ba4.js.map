@@ -1,1 +1,0 @@
-{"version":3,"file":"MajInput.stories-08193ba4.js","sources":["../../src/components/maj-input/MajInput.tsx"],"sourcesContent":["function MajInput() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajInput;"],"names":["MajInput"],"mappings":"iHAAA,SAASA,GAAW,CAChB,aACK,MAED,CAAA,CAAA,CAGR"}

@@ -1,2 +1,0 @@
-import{j as o}from"./jsx-runtime-ffb262ed.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";function s(){return o.jsx("div",{})}const m={title:"Maj Input",component:s,parameters:{layout:"centered"},tags:["autodocs"]},t={};var e,r,a;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(a=(r=t.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const u=["Default"];export{t as Default,u as __namedExportsOrder,m as default};
-//# sourceMappingURL=MajInput.stories-08193ba4.js.map

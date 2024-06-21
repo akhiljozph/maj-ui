@@ -1,1 +1,0 @@
-{"version":3,"file":"MajSpinner.stories-676a1142.js","sources":["../../src/components/maj-spinner/MajSpinner.tsx"],"sourcesContent":["function MajSpinner() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajSpinner"],"names":["MajSpinner"],"mappings":"iHAAA,SAASA,GAAa,CAClB,aACK,MAED,CAAA,CAAA,CAER"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"MajCarousel.stories-48523944.js","sources":["../../src/components/maj-carousel/MajCarousel.tsx"],"sourcesContent":["function MajCarousel() {\n    return (\n        <div>\n\n        </div>\n    )\n}\n\nexport default MajCarousel;"],"names":["MajCarousel"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAER"}

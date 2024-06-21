@@ -1,1 +1,0 @@
-{"version":3,"file":"MajTextarea.stories-7544e2f9.js","sources":["../../src/components/maj-textarea/MajTextarea.tsx"],"sourcesContent":["function MajTextarea() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajTextarea;"],"names":["MajTextarea"],"mappings":"iHAAA,SAASA,GAAc,CACnB,aACK,MAED,CAAA,CAAA,CAGR"}

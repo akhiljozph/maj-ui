@@ -1,1 +1,0 @@
-{"version":3,"file":"MajDivider.stories-0b3c3afc.js","sources":["../../src/components/maj-divider/MajDivider.tsx"],"sourcesContent":["function MajDivider() {\n    return (\n        <div>\n            \n        </div>\n    )\n\n}\n\nexport default MajDivider;"],"names":["MajDivider"],"mappings":"iHAAA,SAASA,GAAa,CAClB,aACK,MAED,CAAA,CAAA,CAGR"}
