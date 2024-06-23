@@ -6,7 +6,6 @@ interface MajUiProps {
 }
 
 function MajUi(props: MajUiProps) {
-    console.log('Sample commit');
     return (
         <div className='maj-ui' style={{ color: props.color, backgroundColor: props.backgroundColor }}>
             MAJui
