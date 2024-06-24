@@ -29,10 +29,10 @@
     text-decoration: underline;
 
     &:hover {
-        color: red;
+        color: #a5d2ee;
     }
-}
 
-.maj-btn-link:visited {
-    color: #681da8;
+    &:visited {
+        color: #681da8;
+    }
 }
