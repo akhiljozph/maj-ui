@@ -1,3 +1,5 @@
+@import "../../assets/color-variables.scss";
+
 .maj-btn {
     display: inline-block;
     margin-bottom: 0;
@@ -24,15 +26,15 @@
 
 .maj-btn-link {
     border: none;
-    color: #1a0dab;
+    color: $maj-link-default-color;
     cursor: pointer;
     text-decoration: underline;
 
     &:hover {
-        color: #a5d2ee;
+        color: $maj-link-hover-color;
     }
 
     &:visited {
-        color: #681da8;
+        color: $maj-link-visited-color;
     }
 }
