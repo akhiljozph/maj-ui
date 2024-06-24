@@ -24,8 +24,13 @@
 
 .maj-btn-link {
     border: none;
-    text-decoration: underline;
     color: #1a0dab;
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover {
+        color: #a5d2ee;
+    }
 
     &:visited {
         color: #681da8;
