@@ -1,21 +1,28 @@
 import './MajButton.scss';
 
 interface MajButtonProps {
-    link?: string,
+    basic?: boolean,
     children?: string,
+    danger?: boolean,
+    default?: boolean,
+    info?: boolean,
+    link?: boolean,
     primary?: boolean,
+    success?: boolean,
+    url?: string,
+    warning?: boolean,
 }
 
 function MajButton(props: MajButtonProps) {
 
-    const btnClickFn = (link?: string) => {
-        if (checkForURLValidity(link)) {
-            window.open(link, "_blank");
+    const btnClickFn = (url?: string) => {
+        if (checkForURLValidity(url)) {
+            window.open(url, "_blank");
         }
     }
 
-    const checkForURLValidity = (link?: string) => {
-        if (link) {
+    const checkForURLValidity = (url?: string) => {
+        if (url) {
             const pattern = new RegExp('^(https?:\\/\\/)?'+
             '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+
             '((\\d{1,3}\\.){3}\\d{1,3}))'+
@@ -23,14 +30,20 @@ function MajButton(props: MajButtonProps) {
             '(\\?[;&a-z\\d%_.~+=-]*)?'+
             '(\\#[-a-z\\d_]*)?$','i');
 
-            return !!pattern.test(link);
+            return !!pattern.test(url);
         }
 
         return false;
     }
 
     return (
-        <button type="button" className="maj-btn maj-btn-default maj-btn-link" onClick={() => btnClickFn(props.link)}>{ props.children }</button>
+        <div>
+            { props && props.link ?
+                <a className='maj-btn-link'>{props.children}</a>
+                : <button type="button" className="maj-btn maj-btn-default" onClick={() => btnClickFn(props.url)}>{ props.children }</button>
+            }
+            
+        </div>
     )
 }
 

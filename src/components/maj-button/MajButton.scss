@@ -24,10 +24,15 @@
 
 .maj-btn-link {
     border: none;
-    text-decoration: underline;
     color: #1a0dab;
+    cursor: pointer;
+    text-decoration: underline;
 
-    &:visited {
-        color: #681da8;
+    &:hover {
+        color: red;
     }
+}
+
+.maj-btn-link:visited {
+    color: #681da8;
 }

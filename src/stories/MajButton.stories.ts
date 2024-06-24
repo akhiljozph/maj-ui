@@ -17,55 +17,63 @@ type Story = StoryObj<typeof meta>;
 // maj-basic
 export const Basic: Story = {
     args: {
-        children: 'Basic'
+        children: 'Basic',
+        basic: true,
     }
 };
 
 // maj-default
 export const Default: Story = {
     args: {
-        children: 'Default'
+        children: 'Default',
+        default: true,
     }
 };
 
 // maj-primary
 export const Primary: Story = {
     args: {
-        children: 'Primary'
+        children: 'Primary',
+        primary: true,
     }
 };
 
 // maj-success
 export const Success: Story = {
     args: {
-        children: 'Success'
+        children: 'Success',
+        success: true,
     }
 };
 
 // maj-info
 export const Info: Story = {
     args: {
-        children: 'Info'
+        children: 'Info',
+        info: true,
     }
 };
 
 // maj-warning
 export const Warning: Story = {
     args: {
-        children: 'Warning'
+        children: 'Warning',
+        warning: true,
     }
 };
 
 // maj-danger
 export const Danger: Story = {
     args: {
-        children: 'Danger'
+        children: 'Danger',
+        danger: true,
     }
 };
 
 // maj-link
 export const Link: Story = {
     args: {
-        children: 'Link'
+        children: 'Link',
+        link: true,
     }
 };
