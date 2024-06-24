@@ -30,7 +30,7 @@ function MajButton(props: MajButtonProps) {
     }
 
     return (
-        <button type="button" className="maj-btn maj-btn-default" onClick={() => btnClickFn(props.link)}>{ props.children }</button>
+        <button type="button" className="maj-btn maj-btn-default maj-btn-link" onClick={() => btnClickFn(props.link)}>{ props.children }</button>
     )
 }
 
