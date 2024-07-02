@@ -5,6 +5,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { Button, TextField } from '@mui/material';
 
 import './ExpLanding.scss';
 
@@ -23,7 +24,19 @@ const rows = [
 function ExpLanding() {
     return (
         <div className='exp-landing-container'>
-            <TableContainer component={Paper}>
+            <div className="add-item-wrapper">
+                <form action="submit" className="form-container">
+                    <TextField id="source" label="Source" variant="outlined" />
+                    <TextField id="category" label="Category" variant="outlined" />
+                    <TextField id="amount" label="Amount" variant="outlined" />
+                    <TextField id="action" label="Action" variant="outlined" />
+
+                    <TextField id="remarks" label="Remarks" multiline rows={4} />
+                </form>
+
+                <Button className="submit-btn" variant="contained">ADD NEW</Button>
+            </div>
+            <TableContainer component={Paper} className="table-container">
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead>
                         <TableRow>
@@ -37,13 +50,8 @@ function ExpLanding() {
                     </TableHead>
                     <TableBody>
                         {rows.map((row) => (
-                            <TableRow
-                                key={row.date}
-                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                            >
-                                <TableCell component="th" scope="row">
-                                    {row.date}
-                                </TableCell>
+                            <TableRow key={row.date} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                                <TableCell component="th" scope="row">{row.date}</TableCell>
                                 <TableCell align="center">{row.source}</TableCell>
                                 <TableCell align="center">{row.category}</TableCell>
                                 <TableCell align="center">{row.amount}</TableCell>
