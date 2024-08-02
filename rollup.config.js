@@ -30,7 +30,7 @@ export default [
             terser(),
             postcss(),
         ],
-        external: ["react", "react-dom", "/\.scss$"],
+        external: ["react", "react-dom", "/\.css$"],
     },
     {
         input: "src/index.ts",
