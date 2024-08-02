@@ -22,6 +22,3 @@ export const Primary: Story = {
     label: "Button",
   },
 };
-
-
-
