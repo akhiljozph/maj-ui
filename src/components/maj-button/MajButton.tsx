@@ -14,19 +14,19 @@ const MajButton: React.FC<MajButtonProps> = (props: MajButtonProps) => {
     const classNameClassifier = () => {
         switch (props.variant) {
             case "primary":
-                setClassName("btn-primary");
+                setClassName("btn btn-primary");
                 break;
             case "secondary":
-                setClassName("btn-secondary");
+                setClassName("btn btn-secondary");
                 break;
             case "tertiary":
-                setClassName("btn-tertiary");
+                setClassName("btn btn-tertiary");
                 break;
             case "quiet":
-                setClassName("btn-quiet");
+                setClassName("btn btn-quiet");
                 break;
             default:
-                setClassName("btn-primary");
+                setClassName("btn btn-primary");
                 break;
         }
     }
