@@ -6,10 +6,10 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "exit 0",
-    "storybook": "storybook dev -p 8090",
+    "build:rollup": "rollup -c --bundleConfigAsCjs",
     "build:storybook": "storybook build",
-    "build:rollup": "rollup -c --bundleConfigAsCjs"
+    "storybook": "storybook dev -p 8090",
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
