@@ -55,5 +55,8 @@
   },
   "peerDependencies": {
     "react": "^18.3.1"
+  },
+  "dependencies": {
+    "@vitest/ui": "^2.0.5"
   }
 }
