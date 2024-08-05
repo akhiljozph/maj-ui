@@ -16,7 +16,7 @@
     "test": "vitest run",
     "test-watch": "vitest",
     "test:ui": "vitest --ui",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 8090",
     "build-storybook": "storybook build"
   },
   "keywords": [],
