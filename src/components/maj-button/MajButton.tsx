@@ -1,15 +1,8 @@
-import React, { MouseEventHandler } from "react";
 import styled from "styled-components";
 
-export type ButtonProps = {
-  text?: string;
-  primary?: boolean;
-  disabled?: boolean;
-  size?: "small" | "medium" | "large";
-  onClick?: MouseEventHandler<HTMLButtonElement>;
-};
+import { MajButtonProps } from "./MajButton.type";
 
-const StyledButton = styled.button<ButtonProps>`
+const StyledMajButton = styled.button<MajButtonProps>`
   border: 0;
   line-height: 1;
   font-size: 15px;
@@ -28,7 +21,7 @@ const StyledButton = styled.button<ButtonProps>`
         : "14px 30px 16px"};
 `;
 
-const Button: React.FC<ButtonProps> = ({
+const MajButton: React.FC<MajButtonProps> = ({
   size,
   primary,
   disabled,
@@ -37,7 +30,7 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   return (
-    <StyledButton
+    <StyledMajButton
       type="button"
       onClick={onClick}
       primary={primary}
@@ -46,8 +39,8 @@ const Button: React.FC<ButtonProps> = ({
       {...props}
     >
       {text}
-    </StyledButton>
+    </StyledMajButton>
   );
 };
 
-export default Button;
+export default MajButton;
