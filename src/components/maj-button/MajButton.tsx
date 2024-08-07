@@ -1,6 +1,6 @@
 import { MajButtonProps } from "./MajButton.type";
 
-import "./MajButton.css";
+import "./MajButton.scss";
 
 const MajButton: React.FC<MajButtonProps> = () => {
   return (
