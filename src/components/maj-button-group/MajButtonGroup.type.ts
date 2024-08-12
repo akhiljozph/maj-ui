@@ -1,1 +1,1 @@
-export type MajButtonGroupProps = { }
+export type MajButtonGroupProps = {};
