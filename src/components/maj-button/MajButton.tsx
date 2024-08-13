@@ -7,6 +7,7 @@ const MajButton: React.FC<MajButtonProps> = (props: MajButtonProps) => {
     <button
       className={`maj-btn maj-${props.variant}-btn`}
       disabled={props.disabled}
+      onClick={props.onClick}
     >
       {props.text}
     </button>
