@@ -14,5 +14,6 @@ export type MajButtonProps = {
     | "link";
   disabled?: boolean;
   size?: "small" | "medium" | "large";
+  type?: "button" | "submit" | "reset";
   onClick?: MouseEventHandler<HTMLButtonElement>;
 };
