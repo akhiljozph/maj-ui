@@ -1,8 +1,6 @@
 node_modules
 dist
 
-# Storybook build directory
-storybook-static
 *storybook.log
 
 .DS_Store
