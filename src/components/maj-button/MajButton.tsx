@@ -6,11 +6,16 @@ const MajButton: React.FC<MajButtonProps> = (props: MajButtonProps) => {
   return (
     <button
       className={
-        props?.size === "large"
-          ? `maj-btn maj-btn-lg maj-${props.variant}-btn`
+        props?.outline ? props?.size === "large"
+          ? `maj-btn maj-btn-lg maj-${props.variant}-outline-btn`
           : props?.size === "small"
-            ? `maj-btn maj-btn-sm maj-${props.variant}-btn `
-            : `maj-btn maj-${props.variant}-btn`
+            ? `maj-btn maj-btn-sm maj-${props.variant}-outline-btn `
+            : `maj-btn maj-${props.variant}-outline-btn` :
+          props?.size === "large"
+            ? `maj-btn maj-btn-lg maj-${props.variant}-btn`
+            : props?.size === "small"
+              ? `maj-btn maj-btn-sm maj-${props.variant}-btn `
+              : `maj-btn maj-${props.variant}-btn`
       }
       disabled={props?.disabled}
       onClick={props?.onClick}

@@ -17,6 +17,7 @@ export const Primary: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The primary button has been clicked!"),
   },
 };
@@ -28,6 +29,7 @@ export const Secondary: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The secondary button has been clicked!"),
   },
 };
@@ -39,6 +41,7 @@ export const Success: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The success button has been clicked!"),
   },
 };
@@ -50,6 +53,7 @@ export const Danger: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The danger button has been clicked!"),
   },
 };
@@ -61,6 +65,7 @@ export const Warning: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The warning button has been clicked!"),
   },
 };
@@ -72,6 +77,7 @@ export const Info: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The info button has been clicked!"),
   },
 };
@@ -83,6 +89,7 @@ export const Light: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The light button has been clicked!"),
   },
 };
@@ -94,6 +101,7 @@ export const Dark: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The dark button has been clicked!"),
   },
 };
@@ -105,6 +113,7 @@ export const Link: Story = {
     disabled: false,
     size: "small",
     type: "button",
+    outline: false,
     onClick: () => console.log("The link button has been clicked!"),
   },
 };
