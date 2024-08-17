@@ -227,29 +227,6 @@
     }
 }
 
-.maj-link-btn {
-    font-weight: 400;
-    color: #007bff;
-    background-color: transparent;
-
-    &:not(:disabled):not(.disabled) {
-        &:active {
-            background-image: none;
-        }
-
-        &:focus {
-            outline: 0;
-        }
-
-        &:hover {
-            color: #0056b3;
-            text-decoration: underline;
-            background-color: transparent;
-            border-color: transparent;
-        }
-    }
-}
-
 .maj-primary-outline-btn {
     color: #007bff;
     background-color: transparent;
@@ -450,6 +427,7 @@
     }
 }
 
+.maj-link-btn,
 .maj-link-outline-btn {
     font-weight: 400;
     color: #007bff;
