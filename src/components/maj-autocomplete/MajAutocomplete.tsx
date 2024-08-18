@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { MajAutocompleteProps } from "./MajAutocomplete.type";
 
+import "./MajAutocomplete.scss";
+
 const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteProps) => {
 
   const [options, setOptions] = useState(props.options);
@@ -18,9 +20,9 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
 
   return (
     <>
-      <div>
-        <input type="text" onChange={findOptions} />
-        <div>
+      <div className="maj-autocomplete">
+        <input className="maj-autocomplete-input" type="text" onChange={findOptions} />
+        <div className="maj-autocomplete-options">
           {autocompleteOptions}
         </div>
       </div>

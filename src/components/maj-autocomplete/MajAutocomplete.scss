@@ -1,0 +1,18 @@
+.maj-autocomplete {
+    .maj-autocomplete-input {
+        display: flex;
+    }
+
+    .maj-autocomplete-options {
+        display: none;
+    }
+}
+
+.maj-autocomplete-input {
+    &:active,
+    &:focus {
+        .maj-autocomplete-options {
+            display: flex;
+        }
+    }
+}
