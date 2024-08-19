@@ -7,7 +7,7 @@ import "./MajAutocomplete.scss";
 const MajAutocomplete: React.FC<MajAutocompleteProps> = (
   props: MajAutocompleteProps,
 ) => {
-  const [options, setOptions] = useState(props.options);
+  const [options, setOptions] = useState<string[]>(props.options);
 
   const findOptions = (event: any) => {
     setOptions(
@@ -21,13 +21,10 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (
 
   return (
     <>
-      <div className="maj-autocomplete">
-        <input
-          className="maj-autocomplete-input"
-          type="text"
-          onChange={findOptions}
-        />
-        <div className="maj-autocomplete-options">{autocompleteOptions}</div>
+      <div>
+        <input type="text" id="myInput" onChange={findOptions}/>
+        <div id="myDiv">{autocompleteOptions}</div>
+        <p>Test block</p>
       </div>
     </>
   );
