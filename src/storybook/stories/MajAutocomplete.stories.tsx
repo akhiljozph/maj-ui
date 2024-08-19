@@ -12,11 +12,6 @@ type Story = StoryObj<typeof MajAutocomplete>;
 
 export const Autocomplete: Story = {
   args: {
-    options: [
-      "Primary",
-      "Secondary",
-      "Tertiary",
-      "Quiet"
-    ]
+    options: ["Primary", "Secondary", "Tertiary", "Quiet"],
   },
 };
