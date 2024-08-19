@@ -1,3 +1,3 @@
 export type MajAutocompleteProps = {
-    options: string[];
-}
+  options: string[];
+};
