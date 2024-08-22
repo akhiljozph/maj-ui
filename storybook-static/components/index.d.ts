@@ -1,1 +1,2 @@
-export * from "./button";
+export * from './maj-autocomplete';
+export * from './maj-button';
