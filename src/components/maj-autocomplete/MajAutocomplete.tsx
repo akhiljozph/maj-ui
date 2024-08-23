@@ -24,7 +24,6 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (
       <div>
         <input type="text" id="myInput" onChange={findOptions} />
         <div id="myDiv">{autocompleteOptions}</div>
-        <p>Test block</p>
       </div>
     </>
   );

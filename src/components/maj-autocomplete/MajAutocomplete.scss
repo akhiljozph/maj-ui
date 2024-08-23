@@ -8,6 +8,8 @@
     border-bottom: none;
     border-top: none;
     z-index: 99;
+    max-height: 100px;
+    overflow: hidden;
 }
 
 #myInput:focus+#myDiv {
@@ -17,8 +19,4 @@
 #myInput,
 #myDiv {
     width: 100px;
-}
-
-p {
-    margin: 0;
 }
