@@ -12,14 +12,14 @@ type Story = StoryObj<typeof MajAvatar>;
 
 export const Icon: Story = {
   args: {
-    avatarType: "icon"
+    avatarType: "icon",
   },
 };
 
 export const Image: Story = {
   args: {
     avatarType: "image",
-    avatarALT: "img"
+    avatarALT: "img",
   },
 };
 
