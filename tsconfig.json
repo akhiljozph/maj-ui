@@ -17,7 +17,7 @@
       "noFallthroughCasesInSwitch": true,
       "declaration": true,
     },
-    "include": ["src"],
+    "include": ["src", "custom.d.ts"],
     "exclude": [
       "src/**/*.stories.tsx","src/**/*.test.tsx"
     ]
