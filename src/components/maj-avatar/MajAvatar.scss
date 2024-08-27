@@ -1,12 +1,14 @@
 .maj-avatar-container {
-    padding: 1rem;
-    background: #edf;
     border-radius: 50%;
-    min-width: 25px;
-    max-width: 25px;
-    min-height: 25px;
-    max-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
     .maj-avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
         .maj-avatar-initial {
 
         }
