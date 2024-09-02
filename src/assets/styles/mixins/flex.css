@@ -12,3 +12,7 @@
     display: flex;
     flex-direction: $flexDirection;
 }
+
+@mixin align-self $alignSelf:center {
+    align-self: $alignSelf;
+}
