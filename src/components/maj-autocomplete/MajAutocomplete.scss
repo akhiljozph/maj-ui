@@ -1,22 +1,50 @@
 #myDiv {
-    display: none;
-    padding-block: 2px;
-    padding-inline: 3px;
-    position: absolute;
-    background-color: #d4d4d4;
-    border: 1px solid #d4d4d4;
-    border-bottom: none;
-    border-top: none;
-    z-index: 99;
-    max-height: 100px;
-    overflow: hidden;
+  display: none;
+  padding-block: 2px;
+  padding-inline: 3px;
+  position: absolute;
+  background-color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  max-height: 100px;
+  overflow: hidden;
 }
 
-#myInput:focus+#myDiv {
-    display: block;
+#myInput:focus + #myDiv {
+  display: block;
 }
+
+#myDiv {
+    cursor: pointer;
+
+    div {
+        margin: 0.5rem 0;
+    }
+}
+
+
 
 #myInput,
 #myDiv {
-    width: 100px;
+  width: 116px;
+  overflow-y: scroll;
+  padding: 0.5rem;
+}
+
+#myDiv::-webkit-scrollbar {
+  width: 20px;
+}
+#myDiv::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+#myDiv::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+#myDiv::-webkit-scrollbar-thumb:hover {
+  background-color: #000;
 }
