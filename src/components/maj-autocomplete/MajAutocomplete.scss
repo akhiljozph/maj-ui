@@ -43,15 +43,18 @@
 #myDiv::-webkit-scrollbar {
   width: 20px;
 }
+
 #myDiv::-webkit-scrollbar-track {
   background-color: transparent;
 }
+
 #myDiv::-webkit-scrollbar-thumb {
   background-color: #fff;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
 }
+
 #myDiv::-webkit-scrollbar-thumb:hover {
   background-color: #000;
 }
