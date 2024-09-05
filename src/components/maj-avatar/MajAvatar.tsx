@@ -1,6 +1,6 @@
 import { MajAvatarProps } from "./MajAvatar.type";
 
-import circleUserIcon  from "../../assets/icons/svg/solid/circle-user.svg";
+import circleUserIcon from "../../assets/icons/svg/solid/circle-user.svg";
 import "./MajAvatar.scss";
 
 const MajAvatar: React.FC<MajAvatarProps> = (props: MajAvatarProps) => {
