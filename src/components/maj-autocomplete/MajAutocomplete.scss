@@ -1,60 +1,40 @@
-#myDiv {
-  display: none;
-  padding-block: 2px;
-  padding-inline: 3px;
-  position: absolute;
-  background-color: #d4d4d4;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;
-  max-height: 100px;
-  overflow: hidden;
-}
+.maj-autocomplete-wrapper {
+  position: relative;
 
-#myInput:focus + #myDiv {
-  display: block;
-}
+  .autocomplete-options {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0.25rem;
+    overflow-y: scroll;
+    max-height: 200px;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow:
+      0 9px 8px -3px rgba(64, 60, 67, 0.24),
+      8px 0 8px -7px rgba(64, 60, 67, 0.24),
+      -8px 0 8px -7px rgba(64, 60, 67, 0.24);
 
-#myDiv {
-  cursor: pointer;
+    &::-webkit-scrollbar {
+      width: 20px;
+    }
 
-  div {
-    margin: 0.5rem 0;
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #fff;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #000;
+    }
   }
-}
-
-#myInput,
-#myDiv {
-  width: 116px;
-  overflow-y: scroll;
-  padding: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  box-shadow:
-    0 9px 8px -3px rgba(64, 60, 67, 0.24),
-    8px 0 8px -7px rgba(64, 60, 67, 0.24),
-    -8px 0 8px -7px rgba(64, 60, 67, 0.24);
-  border: 0;
-  padding-bottom: 4px;
-}
-
-#myDiv::-webkit-scrollbar {
-  width: 20px;
-}
-
-#myDiv::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-#myDiv::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  border-radius: 20px;
-  border: 6px solid transparent;
-  background-clip: content-box;
-}
-
-#myDiv::-webkit-scrollbar-thumb:hover {
-  background-color: #000;
 }
