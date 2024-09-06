@@ -16,7 +16,7 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
       };
 
       const setAutoCompleteValue = (event: any) => {
-            console.log("Click event", event);
+            console.log("Click happened!");
             setValue(event.target.value);
       };
 
@@ -28,9 +28,18 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
 
       return (
             <>
-                  <div>
-                        <input type="text" id="myInput" onChange={findOptions} value={value} />
-                        <div id="myDiv">{autocompleteOptions}</div>
+                  <div className="maj-autocomplete-wrapper">
+                        <input
+                              type="text"
+                              id="autocomplete-input"
+                              onChange={findOptions}
+                              value={value}
+                        />
+                        <div id="autocomplete-options" className="autocomplete-options">
+                              {autocompleteOptions}
+                        </div>
+                        <br/>
+                        <span>Test</span>
                   </div>
             </>
       );
