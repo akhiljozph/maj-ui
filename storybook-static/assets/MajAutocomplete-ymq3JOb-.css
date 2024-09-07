@@ -1,1 +1,0 @@
-#myDiv{display:none;padding-block:2px;padding-inline:3px;position:absolute;background-color:#d4d4d4;border:1px solid #d4d4d4;border-bottom:none;border-top:none;z-index:99;max-height:100px;overflow:hidden}#myInput:focus+#myDiv{display:block}#myInput,#myDiv{width:100px}

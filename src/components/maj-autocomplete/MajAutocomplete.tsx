@@ -16,7 +16,6 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
       };
 
       const setAutoCompleteValue = (event: any) => {
-            console.log("Click happened!");
             setValue(event.target.value);
       };
 
@@ -38,7 +37,7 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
                         <div id="autocomplete-options" className="autocomplete-options">
                               {autocompleteOptions}
                         </div>
-                        <br/>
+                        <br />
                         <span>Test</span>
                   </div>
             </>
