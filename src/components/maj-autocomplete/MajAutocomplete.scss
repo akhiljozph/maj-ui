@@ -18,6 +18,10 @@
       8px 0 8px -7px rgba(64, 60, 67, 0.24),
       -8px 0 8px -7px rgba(64, 60, 67, 0.24);
 
+      .maj-option-item {
+        cursor: pointer;
+      }
+
     &::-webkit-scrollbar {
       width: 20px;
     }
