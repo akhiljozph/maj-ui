@@ -16,11 +16,11 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
       };
 
       const setAutoCompleteValue = (event: any) => {
-            setValue(event.target.value);
+            setValue(event.target.innerHTML);
       };
 
       const autocompleteOptions = options.map((option: string, index: number) => (
-            <div key={index} onClick={setAutoCompleteValue}>
+            <div key={index} onClick={setAutoCompleteValue} className="maj-option-item">
                   {option}
             </div>
       ));
