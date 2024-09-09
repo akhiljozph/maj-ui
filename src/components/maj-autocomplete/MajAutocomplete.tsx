@@ -20,9 +20,9 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
       };
 
       const autocompleteOptions = options.map((option: string, index: number) => (
-            <div key={index} onClick={setAutoCompleteValue} className="maj-option-item">
+            <span key={index} onClick={setAutoCompleteValue} className="maj-option-item">
                   {option}
-            </div>
+            </span>
       ));
 
       return (
@@ -30,15 +30,14 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
                   <div className="maj-autocomplete-wrapper">
                         <input
                               type="text"
-                              id="autocomplete-input"
-                              onChange={findOptions}
                               value={value}
+                              onChange={findOptions}
+                              id="autocomplete-input"
+                              list="autocomplete-options"
                         />
-                        <div id="autocomplete-options" className="autocomplete-options">
+                        <datalist id="autocomplete-options" className="autocomplete-options">
                               {autocompleteOptions}
-                        </div>
-                        <br />
-                        <span>Test</span>
+                        </datalist>
                   </div>
             </>
       );
