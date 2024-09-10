@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { MajAutocompleteProps } from "./MajAutocomplete.type";
 
-import "./MajAutocomplete.scss";
+// import "./MajAutocomplete.scss";
 
 const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteProps) => {
       const [options, setOptions] = useState<string[]>(props.options);
@@ -20,9 +20,9 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
       };
 
       const autocompleteOptions = options.map((option: string, index: number) => (
-            <span key={index} onClick={setAutoCompleteValue} className="maj-option-item">
+            <option key={index} onClick={setAutoCompleteValue} className="maj-option-item">
                   {option}
-            </span>
+            </option>
       ));
 
       return (
