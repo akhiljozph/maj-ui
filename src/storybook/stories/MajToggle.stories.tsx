@@ -13,6 +13,6 @@ type Story = StoryObj<typeof MajToggle>;
 export const Primary: Story = {
     args: {
         toggleOneLabel: "Yearly",
-        toggleTwoLabel: "Monthly"
+        toggleTwoLabel: "Monthly",
     },
 };
