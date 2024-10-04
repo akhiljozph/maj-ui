@@ -1,0 +1,31 @@
+.maj-toggle {
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 8px 1px rgba(0,0,0,1);
+    background-color: #ffffff;
+    .maj-toggle-btn {
+        padding: 0.5rem 1rem;
+        border-radius: inherit;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
+        .maj-toggle-label {
+            cursor: inherit;
+        }
+        &:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        &:active {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        &:focus {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    }
+    .maj-toggle-one {}
+    .maj-toggle-two {}
+}
