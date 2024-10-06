@@ -10,9 +10,13 @@ const meta: Meta<typeof MajToggle> = {
 export default meta;
 type Story = StoryObj<typeof MajToggle>;
 
-export const Primary: Story = {
+export const ToggleWithLabel: Story = {
     args: {
         toggleOneLabel: "Yearly",
         toggleTwoLabel: "Monthly",
     },
+};
+
+export const ToggleWithoutLabel: Story = {
+    args: {},
 };

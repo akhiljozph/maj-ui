@@ -1,4 +1,4 @@
 export type MajToggleProps = {
-    toggleOneLabel: string;
-    toggleTwoLabel: string;
+    toggleOneLabel?: string;
+    toggleTwoLabel?: string;
 };
