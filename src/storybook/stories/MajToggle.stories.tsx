@@ -18,8 +18,5 @@ export const ToggleWithLabel: Story = {
 };
 
 export const ToggleWithoutLabel: Story = {
-    args: {
-        toggleOneLabel: "",
-        toggleTwoLabel: "",
-    },
+    args: {},
 };
