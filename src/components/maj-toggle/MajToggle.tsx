@@ -6,9 +6,10 @@ import { useState } from "react";
 const MajToggle: React.FC<MajToggleProps> = (props: MajToggleProps) => {
     const [selectedToggle, setSelectedToggle] = useState<number>(1);
     const [isToggled, setIsToggled] = useState<boolean>(false);
+
     return (
         <section className="maj-toggle">
-            {props.toggleOneLabel && props.toggleTwoLabel ? (
+            {props?.toggleOneLabel && props?.toggleTwoLabel ? (
                 <>
                     <button
                         className={
