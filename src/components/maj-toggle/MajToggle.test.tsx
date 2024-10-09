@@ -1,6 +1,6 @@
 import React from "react";
 import { describe, expect, it } from "vitest";
-import { render, screen  } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import MajToggle from "./MajToggle";
 
@@ -10,7 +10,10 @@ describe("MAJ Toggle component", () => {
         const toggleTwoLabel = "Monthly";
 
         const majToggleElement = (
-            <MajToggle toggleOneLabel={toggleOneLabel} toggleTwoLabel={toggleTwoLabel} />
+            <MajToggle
+                toggleOneLabel={toggleOneLabel}
+                toggleTwoLabel={toggleTwoLabel}
+            />
         );
 
         render(majToggleElement);
