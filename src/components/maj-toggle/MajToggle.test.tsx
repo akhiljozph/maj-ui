@@ -1,7 +1,27 @@
-import { describe, it, expect } from "vitest";
+import React from "react";
+import { describe, expect, it } from "vitest";
+import { render, screen } from "@testing-library/react";
 
-describe("A truthy statement", () => {
-    it("should be equal to 2", () => {
-        expect(1 + 1).toEqual(2);
+import MajToggle from "./MajToggle";
+
+describe("MAJ Toggle component", () => {
+    it("should render toggles texts", () => {
+        const toggleOneLabel = "Yearly";
+        const toggleTwoLabel = "Monthly";
+
+        const majToggleElement = (
+            <MajToggle
+                toggleOneLabel={toggleOneLabel}
+                toggleTwoLabel={toggleTwoLabel}
+            />
+        );
+
+        render(majToggleElement);
+
+        const majToggleLabelOne = screen.getByText(new RegExp(toggleOneLabel, "i"));
+        expect(majToggleLabelOne).toBeDefined();
+
+        const majToggleLabelTwo = screen.getByText(new RegExp(toggleTwoLabel, "i"));
+        expect(majToggleLabelTwo).toBeDefined();
     });
 });
