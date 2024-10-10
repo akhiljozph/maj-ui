@@ -32,9 +32,7 @@ describe("MAJ Toggle component", () => {
         const toggleOneLabel = "Yearly";
         const toggleTwoLabel = "Monthly";
 
-        const majToggleElement = (
-            <MajToggle />
-        );
+        const majToggleElement = <MajToggle />;
 
         render(majToggleElement);
 
