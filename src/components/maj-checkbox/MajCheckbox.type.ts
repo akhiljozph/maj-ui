@@ -1,3 +1,3 @@
 export type MajCheckboxProps = {
-    label: string,
+    label: string;
 };

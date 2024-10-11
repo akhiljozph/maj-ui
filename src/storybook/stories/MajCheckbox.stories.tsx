@@ -12,8 +12,6 @@ type Story = StoryObj<typeof MajCheckbox>;
 
 export const Primary: Story = {
     args: {
-        label: "Checkbox"
+        label: "Checkbox",
     },
 };
-
-
