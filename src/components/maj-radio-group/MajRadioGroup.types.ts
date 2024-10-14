@@ -1,1 +1,4 @@
-export type MajRadioGroupProps = {};
+export type MajRadioGroupProps = {
+    name?: string;
+    radioLists: string[];
+};
