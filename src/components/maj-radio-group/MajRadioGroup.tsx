@@ -7,7 +7,10 @@ const MajRadioGroup: React.FC<MajRadioGroupProps> = (props: MajRadioGroupProps) 
         <section>
             {props.radioLists.map((item: string) => (
                 <>
-                    <input type="radio" name={props?.name} />
+                    <input
+                        type="radio"
+                        name={props?.name}
+                    />
                     <label>{item}</label>
                 </>
             ))}
