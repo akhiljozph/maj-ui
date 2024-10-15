@@ -10,9 +10,18 @@ const meta: Meta<typeof MajRadioGroup> = {
 export default meta;
 type Story = StoryObj<typeof MajRadioGroup>;
 
-export const Primary: Story = {
+export const Horizontal: Story = {
     args: {
         name: "primary",
         radioLists: ["2 Wheeler", "4 Wheeler", "6 Wheeler"],
+        alignment: "horizontal",
+    },
+};
+
+export const Vertical: Story = {
+    args: {
+        name: "primary",
+        radioLists: ["2 Wheeler", "4 Wheeler", "6 Wheeler"],
+        alignment: "vertical",
     },
 };
