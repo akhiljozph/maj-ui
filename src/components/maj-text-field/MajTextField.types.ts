@@ -1,1 +1,4 @@
-export type MajTextFieldProps = {};
+export type MajTextFieldProps = {
+    rows: number;
+    cols: number;
+};
