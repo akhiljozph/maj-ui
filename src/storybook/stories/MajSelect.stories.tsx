@@ -13,3 +13,7 @@ type Story = StoryObj<typeof MajSelect>;
 export const Primary: Story = {
     args: {},
 };
+
+export const Secondary: Story = {
+    args: {},
+};
