@@ -16,3 +16,10 @@ export const Primary: Story = {
         cols: 10,
     },
 };
+
+export const Secondary: Story = {
+    args: {
+        rows: 10,
+        cols: 10,
+    },
+};
