@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 
 import MajToggle from "./MajToggle";
 
-describe("MAJ Toggle component", () => {
+describe("<MajToggle />", () => {
     it("should render toggle texts", () => {
         const toggleOneLabel = "Yearly";
         const toggleTwoLabel = "Monthly";
@@ -27,7 +27,7 @@ describe("MAJ Toggle component", () => {
 });
 
 // Test fails - need to review with someone.
-describe("MAJ Toggle component", () => {
+describe("<MajToggle />", () => {
     it("should not render toggle texts", () => {
         const toggleOneLabel = "Yearly";
         const toggleTwoLabel = "Monthly";
