@@ -1,2 +1,3 @@
-declare const MajSelect: () => import("react/jsx-runtime").JSX.Element;
+import { MajSelectProps } from './MajSelect.type';
+declare const MajSelect: React.FC<MajSelectProps>;
 export default MajSelect;

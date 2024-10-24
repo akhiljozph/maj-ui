@@ -2,7 +2,7 @@ import { MajIconButtonProps } from "./MajIconButton.type";
 
 import "./MajIconButton.scss";
 
-const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
+const MajIconButton: React.FC<MajIconButtonProps> = () => {
     return <>maj-icon-button works!</>;
 };
 
