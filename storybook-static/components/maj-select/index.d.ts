@@ -1,1 +1,1 @@
-export { default as MajSelect } from "./MajSelect";
+export { default as MajSelect } from './MajSelect';
