@@ -1,1 +1,1 @@
-export { default as MajAvatar } from "./MajAvatar";
+export { default as MajAvatar } from './MajAvatar';
