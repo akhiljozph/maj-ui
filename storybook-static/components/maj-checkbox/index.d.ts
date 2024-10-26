@@ -1,1 +1,1 @@
-export { default as MajCheckbox } from './MajCheckbox';
+export { default as MajCheckbox } from "./MajCheckbox";
