@@ -3,7 +3,7 @@ const MajTypography = () => {
         <>
             <p>Typography works!</p>
         </>
-    )
+    );
 };
 
 export default MajTypography;
