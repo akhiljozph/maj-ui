@@ -17,3 +17,7 @@ export const Primary: Story = {
 export const Secondary: Story = {
     args: {},
 };
+
+export const Tertiary: Story = {
+    args: {}
+}
