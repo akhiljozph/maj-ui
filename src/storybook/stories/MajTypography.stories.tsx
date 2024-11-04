@@ -19,5 +19,5 @@ export const Secondary: Story = {
 };
 
 export const Tertiary: Story = {
-    args: {}
-}
+    args: {},
+};
