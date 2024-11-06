@@ -13,7 +13,3 @@ type Story = StoryObj<typeof MajTypography>;
 export const Primary: Story = {
     args: {},
 };
-
-export const Secondary: Story = {
-    args: {},
-};
