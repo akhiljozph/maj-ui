@@ -20,7 +20,3 @@ export const ToggleWithLabel: Story = {
 export const ToggleWithoutLabel: Story = {
     args: {},
 };
-
-export const ToggleWithIcon: Story = {
-    args: {},
-};
