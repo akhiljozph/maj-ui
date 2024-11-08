@@ -16,7 +16,3 @@ export const ToggleWithLabel: Story = {
         toggleTwoLabel: "Monthly",
     },
 };
-
-export const ToggleWithoutLabel: Story = {
-    args: {},
-};
