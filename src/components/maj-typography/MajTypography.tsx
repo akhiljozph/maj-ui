@@ -10,6 +10,7 @@ const MajTypography = () => {
             <sub>Subscript typography works!</sub>
             <sup>Superscript typography works!</sup>
             <a>Link typography works!</a>
+            <b>Bold typography works!</b>
         </>
     );
 };
