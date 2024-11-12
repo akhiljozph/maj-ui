@@ -11,3 +11,4 @@ export * from "./maj-select";
 export * from "./maj-text-field";
 export * from "./maj-toggle";
 export * from "./maj-typography";
+export * from "./maj-date-picker";
