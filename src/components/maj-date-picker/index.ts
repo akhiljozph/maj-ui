@@ -1,1 +1,1 @@
-export { default as MajCheckbox } from "./MajDatePicker";
+export { default as MajDatePicker } from "./MajDatePicker";
