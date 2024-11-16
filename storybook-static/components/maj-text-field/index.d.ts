@@ -1,1 +1,1 @@
-export { default as MajTextField } from "./MajTextField";
+export { default as MajTextField } from './MajTextField';
