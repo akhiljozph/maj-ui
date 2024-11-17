@@ -1,1 +1,1 @@
-export { default as MajRating } from './MajRating';
+export { default as MajRating } from "./MajRating";

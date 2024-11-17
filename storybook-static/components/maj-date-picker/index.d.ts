@@ -1,1 +1,1 @@
-export { default as MajDatePicker } from './MajDatePicker';
+export { default as MajDatePicker } from "./MajDatePicker";
