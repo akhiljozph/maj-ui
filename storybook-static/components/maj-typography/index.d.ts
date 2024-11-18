@@ -1,1 +1,1 @@
-export { default as MajTypography } from "./MajTypography";
+export { default as MajTypography } from './MajTypography';
