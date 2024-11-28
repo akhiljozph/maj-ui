@@ -1,1 +1,1 @@
-export { default as MajSwitch } from "./MajSwitch";
+export { default as MajSwitch } from './MajSwitch';
