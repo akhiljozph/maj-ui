@@ -11,5 +11,5 @@ export default meta;
 type Story = StoryObj<typeof MajSwitch>;
 
 export const Default: Story = {
-    args: {}
-}
+    args: {},
+};
