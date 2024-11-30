@@ -1,1 +1,1 @@
-export { default as MajAutocomplete } from "./MajAutocomplete";
+export { default as MajAutocomplete } from './MajAutocomplete';
