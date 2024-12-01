@@ -1,1 +1,1 @@
-export { default as MajRadioGroup } from './MajRadioGroup';
+export { default as MajRadioGroup } from "./MajRadioGroup";
