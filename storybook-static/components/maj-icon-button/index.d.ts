@@ -1,1 +1,1 @@
-export { default as MajIconButton } from "./MajIconButton";
+export { default as MajIconButton } from './MajIconButton';
