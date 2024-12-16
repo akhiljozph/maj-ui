@@ -5,7 +5,10 @@ import "./MajTimePicker.scss";
 const MajTimePicker: React.FC<MajTimePickerProps> = () => {
     return (
         <>
-            <p>maj-time-picker works!</p>
+            <input
+                type="time"
+                className="time"
+            />
         </>
     );
 };
