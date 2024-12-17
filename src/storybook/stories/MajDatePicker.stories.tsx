@@ -10,10 +10,6 @@ const meta: Meta<typeof MajDatePicker> = {
 export default meta;
 type Story = StoryObj<typeof MajDatePicker>;
 
-export const DatePicker: Story = {
-    args: {},
-};
-
-export const DateTimePicker: Story = {
+export const Primary: Story = {
     args: {},
 };

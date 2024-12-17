@@ -14,3 +14,4 @@ export * from "./maj-typography";
 export * from "./maj-date-picker";
 export * from "./maj-switch";
 export * from "./maj-time-picker";
+export * from "./maj-date-time-picker";
