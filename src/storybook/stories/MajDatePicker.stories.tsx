@@ -10,6 +10,18 @@ const meta: Meta<typeof MajDatePicker> = {
 export default meta;
 type Story = StoryObj<typeof MajDatePicker>;
 
-export const Primary: Story = {
+export const Default: Story = {
     args: {},
+};
+
+export const PreviousDatesDisabled: Story = {
+    args: {
+        minimumValue: new Date().toISOString().slice(0, 16),
+    },
+};
+
+export const FutureDatesDisabled: Story = {
+    args: {
+        maximumValue: new Date().toISOString().slice(0, 16),
+    },
 };
