@@ -6,8 +6,9 @@ const MajTextField: React.FC<MajTextFieldProps> = (props: MajTextFieldProps) => 
     return (
         <section>
             <textarea
-                rows={props.rows}
-                cols={props.cols}
+                rows={props.rows ? props.rows : 10}
+                cols={props.cols ? props.cols : 10}
+                placeholder={props.placeholder ? props.placeholder : "Description please..."}
             ></textarea>
         </section>
     );
