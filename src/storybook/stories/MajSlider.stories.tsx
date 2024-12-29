@@ -11,5 +11,11 @@ export default meta;
 type Story = StoryObj<typeof MajSlider>;
 
 export const Primary: Story = {
-    args: {},
+    args: {
+        min: 0,
+        max: 100,
+        label: "Volume",
+        step: 5,
+        value: 45,
+    },
 };
