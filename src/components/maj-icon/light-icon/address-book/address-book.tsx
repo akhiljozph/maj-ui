@@ -2,7 +2,10 @@ import logo from "../../../../assets/icons/svg/light/address-book.svg";
 
 const MajAddressBookIcon: React.FC<any> = () => {
     return (
-        <img src={logo} alt="address-book" />
+        <img
+            src={logo}
+            alt="address-book"
+        />
     );
 };
 
