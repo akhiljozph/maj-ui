@@ -7,12 +7,12 @@ const meta: Meta<typeof MajIconButton> = {
     component: MajIconButton,
     argTypes: {
         shade: {
-            options: ['Light', 'Solid'],
-            control: { type: 'radio' },
+            options: ["Light", "Solid"],
+            control: { type: "radio" },
         },
         variant: {
-            options: ['360', 'address-book'],
-            control: { type: 'select' },
+            options: ["360", "address-book"],
+            control: { type: "select" },
         },
     },
 };
@@ -23,6 +23,6 @@ type Story = StoryObj<typeof MajIconButton>;
 export const Primary: Story = {
     args: {
         shade: "Light",
-        variant: "360"
+        variant: "360",
     },
 };
