@@ -6,5 +6,3 @@ Packed with a rich collection of pre-built, reusable UI elements, MajUi empowers
 ## GitHub Page
 
 https://akhiljozph.github.io/maj-ui/?path=/docs/introduction--docs
-
-## Installation 
