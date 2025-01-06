@@ -3,9 +3,11 @@ import { MajIconButtonProps } from "./MajIconButton.type";
 import {
     MajLightAddressBookIcon,
     MajLightAngleDownIcon,
+    MajLightAngleLeftIcon,
     MajLightThreeSixtyIcon,
     MajSolidAddressBookIcon,
     MajSolidAngleDownIcon,
+    MajSolidAngleLeftIcon,
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
@@ -19,6 +21,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightAddressBookIcon />;
             case "angle-down":
                 return <MajLightAngleDownIcon />;
+            case "angle-left":
+                return <MajLightAngleLeftIcon />;
             default:
                 break;
         }
@@ -32,6 +36,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidAddressBookIcon />;
             case "angle-down":
                 return <MajSolidAngleDownIcon />;
+            case "angle-left":
+                return <MajSolidAngleLeftIcon />;
             default:
                 break;
         }
