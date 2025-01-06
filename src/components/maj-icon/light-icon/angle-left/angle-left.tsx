@@ -4,7 +4,7 @@ const MajAngleLeftIcon: React.FC<any> = () => {
     return (
         <img
             src={logo}
-            alt="angle-down"
+            alt="angle-left"
         />
     );
 };
