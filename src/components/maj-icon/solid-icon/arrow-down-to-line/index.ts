@@ -1,1 +1,1 @@
-export { default as MajSolidArrowDownToLine } from "./arrow-down-to-line";
+export { default as MajSolidArrowDownToLineIcon } from "./arrow-down-to-line";
