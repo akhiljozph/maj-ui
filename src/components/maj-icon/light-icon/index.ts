@@ -6,4 +6,5 @@ export * from "./angle-right";
 export * from "./angle-up";
 export * from "./arrow-down";
 export * from "./arrow-down-to-line";
+export * from "./arrow-left";
 export * from "./arrow-right-arrow-left";
