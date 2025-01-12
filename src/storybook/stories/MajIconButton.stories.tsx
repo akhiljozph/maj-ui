@@ -21,6 +21,7 @@ const meta: Meta<typeof MajIconButton> = {
                 "arrow-down-to-line",
                 "arrow-down",
                 "arrow-left",
+                "arrow-right",
                 "arrow-right-arrow-left",
                 "arrows-rotate",
                 "arrows-up",
