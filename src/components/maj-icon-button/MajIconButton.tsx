@@ -9,6 +9,7 @@ import {
     MajLightArrowDownToLineIcon,
     MajLightArrowLeftIcon,
     MajLightArrowRightArrowLeftIcon,
+    MajLightArrowRightIcon,
     MajLightThreeSixtyIcon,
     MajSolidAddressBookIcon,
     MajSolidAngleDownIcon,
@@ -22,7 +23,6 @@ import {
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
-import { MajLightArrowRightIcon } from "../maj-icon/light-icon/arrow-right";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
