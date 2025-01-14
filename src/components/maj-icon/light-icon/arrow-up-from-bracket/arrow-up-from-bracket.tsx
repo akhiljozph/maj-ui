@@ -4,7 +4,7 @@ const MajArrowUpFromBracketIcon: React.FC<any> = () => {
     return (
         <img
             src={logo}
-            alt="arrow-right-arrow-left"
+            alt="arrow-up-from-bracket"
         />
     );
 };

@@ -10,6 +10,7 @@ import {
     MajLightArrowLeftIcon,
     MajLightArrowRightArrowLeftIcon,
     MajLightArrowRightIcon,
+    MajLightArrowUpFromBracketIcon,
     MajLightThreeSixtyIcon,
     MajSolidAddressBookIcon,
     MajSolidAngleDownIcon,
@@ -20,6 +21,7 @@ import {
     MajSolidArrowLeftIcon,
     MajSolidArrowRightArrowLeftIcon,
     MajSolidArrowRightIcon,
+    MajSolidArrowUpFromBracketIcon,
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
@@ -47,6 +49,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightArrowRightIcon />;
             case "arrow-right-arrow-left":
                 return <MajLightArrowRightArrowLeftIcon />;
+            case "arrow-up-from-bracket":
+                return <MajLightArrowUpFromBracketIcon />;
             default:
                 break;
         }
@@ -74,6 +78,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidArrowRightIcon />;
             case "arrow-right-arrow-left":
                 return <MajSolidArrowRightArrowLeftIcon />;
+            case "arrow-up-from-bracket":
+                return <MajSolidArrowUpFromBracketIcon />;
             default:
                 break;
         }
