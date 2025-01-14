@@ -3,6 +3,7 @@ import logo from "../../../../assets/icons/svg/solid/arrow-right-arrow-left.svg"
 const MajArrowRightArrowLeftIcon: React.FC<any> = () => {
     return (
         <img
+            style={{ height: "inherit", width: "inherit" }}
             src={logo}
             alt="arrow-right-arrow-left"
         />
