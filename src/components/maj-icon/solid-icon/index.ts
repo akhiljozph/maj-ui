@@ -12,3 +12,4 @@ export * from "./arrow-right-arrow-left";
 export * from "./arrow-up-from-bracket";
 export * from "./arrow-up-to-line";
 export * from "./arrow-up";
+export * from "./arrows-rotate";

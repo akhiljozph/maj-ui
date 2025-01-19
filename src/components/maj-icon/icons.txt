@@ -1,0 +1,108 @@
+// 04-10-2024  20:09             3,202 360�.svg
+// 04-10-2024  20:09             2,553 address-book.svg
+// 04-10-2024  20:09               450 angle-down.svg
+// 04-10-2024  20:09               450 angle-left.svg
+// 04-10-2024  20:09               450 angle-right.svg
+// 04-10-2024  20:09               450 angle-up.svg
+// 04-10-2024  20:09               744 arrow-down-to-line.svg
+// 04-10-2024  20:09               548 arrow-down.svg
+// 04-10-2024  20:09               551 arrow-left.svg
+// 04-10-2024  20:09               965 arrow-right-arrow-left.svg
+// 04-10-2024  20:09               548 arrow-right.svg
+// 04-10-2024  20:09             1,153 arrow-up-from-bracket.svg
+// 04-10-2024  20:09               742 arrow-up-to-line.svg
+// 04-10-2024  20:09               551 arrow-up.svg
+// 04-10-2024  20:09             1,534 arrows-rotate.svg
+04-10-2024  20:09               647 backward-step.svg
+04-10-2024  20:09             2,361 barcode-read.svg
+04-10-2024  20:09               701 bars.svg
+04-10-2024  20:09             1,747 bell.svg
+04-10-2024  20:09             1,172 bolt-lightning.svg
+04-10-2024  20:09             1,517 box-open.svg
+04-10-2024  20:09             2,365 bug.svg
+04-10-2024  20:09             1,369 calendar-days.svg
+04-10-2024  20:09             2,944 camera-viewfinder.svg
+04-10-2024  20:09               819 caret-down.svg
+04-10-2024  20:09               827 caret-left.svg
+04-10-2024  20:09               817 caret-right.svg
+04-10-2024  20:09               814 caret-up.svg
+04-10-2024  20:09             3,195 cart-flatbed-boxes.svg
+04-10-2024  20:09             1,795 cart-shopping.svg
+04-10-2024  20:09             1,872 chair-office.svg
+04-10-2024  20:09             1,336 chart-column.svg
+04-10-2024  20:09             1,833 chart-simple.svg
+04-10-2024  20:09               450 check.svg
+04-10-2024  20:09             1,413 circle-check.svg
+04-10-2024  20:09             1,465 circle-exclamation.svg
+04-10-2024  20:09             1,625 circle-info.svg
+04-10-2024  20:09             1,406 circle-minus.svg
+04-10-2024  20:09             1,972 circle-question.svg
+04-10-2024  20:09             2,216 circle-user.svg
+04-10-2024  20:09             1,604 circle-xmark.svg
+04-10-2024  20:09             1,095 circle.svg
+04-10-2024  20:09             2,640 clipboard-list.svg
+04-10-2024  20:09             1,371 clock.svg
+04-10-2024  20:09             1,578 comment.svg
+04-10-2024  20:09             1,417 credit-card.svg
+04-10-2024  20:09             1,923 cross-hairs.svg
+04-10-2024  20:09             1,945 database.svg
+04-10-2024  20:09             1,126 ellipsis-vertical.svg
+04-10-2024  20:09             1,126 ellipsis.svg
+04-10-2024  20:09             1,156 envelope.svg
+04-10-2024  20:09               494 equals.svg
+04-10-2024  20:09             1,081 expand.svg
+04-10-2024  20:09             2,266 eye-slash.svg
+04-10-2024  20:09             2,683 eye.svg
+04-10-2024  20:09             1,451 file-arrow-down.svg
+04-10-2024  20:09             1,453 file-arrow-up.svg
+04-10-2024  20:09             2,006 file-invoice.svg
+04-10-2024  20:09               985 filter.svg
+04-10-2024  20:09               948 flash.svg
+04-10-2024  20:09               647 forward-step.svg
+04-10-2024  20:09             2,622 gauge.svg
+04-10-2024  20:09             5,902 gear.svg
+04-10-2024  20:09             7,896 gears.svg
+04-10-2024  20:09             2,346 globe.svg
+04-10-2024  20:09             3,618 grid-horizontal.svg
+04-10-2024  20:09             5,694 grid.svg
+04-10-2024  20:09             2,932 grip-dots.svg
+04-10-2024  20:09             2,547 headset.svg
+04-10-2024  20:09             2,384 heart-pulse.svg
+04-10-2024  20:09             1,145 house.svg
+19-01-2025  18:27                 0 icons
+04-10-2024  20:09             1,692 location-dot.svg
+04-10-2024  20:09             1,263 lock.svg
+04-10-2024  20:09             1,077 magnifying-glass.svg
+04-10-2024  20:09               311 minus.svg
+04-10-2024  20:09             1,564 paperclip.svg
+04-10-2024  20:09             1,250 pause.svg
+04-10-2024  20:09             1,381 pencil.svg
+04-10-2024  20:09             1,735 picture.svg
+04-10-2024  20:09               743 play.svg
+04-10-2024  20:09               501 plus.svg
+04-10-2024  20:09             1,643 print.svg
+04-10-2024  20:09             1,550 repeat.svg
+04-10-2024  20:09             1,459 share.svg
+04-10-2024  20:09             1,501 shuffle.svg
+04-10-2024  20:09             1,504 sort.svg
+04-10-2024  20:09               505 square-facebook.svg
+04-10-2024  20:09             3,420 square-instagram.svg
+04-10-2024  20:09               965 square-linkedin.svg
+04-10-2024  20:09             1,992 square-list.svg
+04-10-2024  20:09             1,445 square-youtube.svg
+04-10-2024  20:09             1,164 star.svg
+04-10-2024  20:09             2,615 store.svg
+04-10-2024  20:09             1,162 tag.svg
+04-10-2024  20:09             2,689 thumbs-down.svg
+04-10-2024  20:09             2,664 thumbs-up.svg
+04-10-2024  20:09             1,594 trash-can.svg
+04-10-2024  20:09             1,188 triangle-exclamation.svg
+04-10-2024  20:09             2,104 truck.svg
+04-10-2024  20:09               359 twitter-x.svg
+04-10-2024  20:09             1,337 unlock.svg
+04-10-2024  20:09             1,449 upload.svg
+04-10-2024  20:09             1,630 user.svg
+04-10-2024  20:09             1,760 volume-slash.svg
+04-10-2024  20:09             1,767 volume.svg
+04-10-2024  20:09               934 wave-pulse.svg
+04-10-2024  20:09               643 xmark.svg
