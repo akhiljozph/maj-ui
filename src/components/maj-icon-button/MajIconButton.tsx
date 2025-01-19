@@ -10,6 +10,7 @@ import {
     MajLightArrowLeftIcon,
     MajLightArrowRightArrowLeftIcon,
     MajLightArrowRightIcon,
+    MajLightArrowsRotateIcon,
     MajLightArrowUpFromBracketIcon,
     MajLightArrowUpToLineIcon,
     MajLightArrowwUpIcon,
@@ -23,6 +24,7 @@ import {
     MajSolidArrowLeftIcon,
     MajSolidArrowRightArrowLeftIcon,
     MajSolidArrowRightIcon,
+    MajSolidArrowsRotateIcon,
     MajSolidArrowUpFromBracketIcon,
     MajSolidArrowUpToLineIcon,
     MajSolidArrowwUpIcon,
@@ -59,6 +61,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightArrowUpToLineIcon />;
             case "arrow-up":
                 return <MajLightArrowwUpIcon />;
+            case "arrows-rotate":
+                return <MajLightArrowsRotateIcon />;
             default:
                 break;
         }
@@ -92,6 +96,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidArrowUpToLineIcon />;
             case "arrow-up":
                 return <MajSolidArrowwUpIcon />;
+            case "arrows-rotate":
+                return <MajSolidArrowsRotateIcon />;
             default:
                 break;
         }
