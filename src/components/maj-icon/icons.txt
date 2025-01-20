@@ -13,7 +13,7 @@
 // 04-10-2024  20:09               742 arrow-up-to-line.svg
 // 04-10-2024  20:09               551 arrow-up.svg
 // 04-10-2024  20:09             1,534 arrows-rotate.svg
-04-10-2024  20:09               647 backward-step.svg
+// 04-10-2024  20:09               647 backward-step.svg
 04-10-2024  20:09             2,361 barcode-read.svg
 04-10-2024  20:09               701 bars.svg
 04-10-2024  20:09             1,747 bell.svg
