@@ -28,9 +28,11 @@ import {
     MajSolidArrowUpFromBracketIcon,
     MajSolidArrowUpToLineIcon,
     MajSolidArrowwUpIcon,
+    MajSolidBackwardStepIcon,
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
+import { MajLightBackwardStepIcon } from "../maj-icon/light-icon/backward-step";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -63,6 +65,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightArrowwUpIcon />;
             case "arrows-rotate":
                 return <MajLightArrowsRotateIcon />;
+            case "backward-step":
+                return <MajLightBackwardStepIcon />;
             default:
                 break;
         }
@@ -98,6 +102,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidArrowwUpIcon />;
             case "arrows-rotate":
                 return <MajSolidArrowsRotateIcon />;
+            case "backward-step":
+                return <MajSolidBackwardStepIcon />;
             default:
                 break;
         }
