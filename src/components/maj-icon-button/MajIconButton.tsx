@@ -14,6 +14,7 @@ import {
     MajLightArrowUpFromBracketIcon,
     MajLightArrowUpToLineIcon,
     MajLightArrowwUpIcon,
+    MajLightBarcodeReadIcon,
     MajLightThreeSixtyIcon,
     MajSolidAddressBookIcon,
     MajSolidAngleDownIcon,
@@ -29,6 +30,7 @@ import {
     MajSolidArrowUpToLineIcon,
     MajSolidArrowwUpIcon,
     MajSolidBackwardStepIcon,
+    MajSolidBarcodeReadIcon,
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
@@ -67,6 +69,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightArrowsRotateIcon />;
             case "backward-step":
                 return <MajLightBackwardStepIcon />;
+            case "barcode-read":
+                return <MajLightBarcodeReadIcon />;
             default:
                 break;
         }
@@ -104,6 +108,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidArrowsRotateIcon />;
             case "backward-step":
                 return <MajSolidBackwardStepIcon />;
+            case "barcode-read":
+                return <MajSolidBarcodeReadIcon />;
             default:
                 break;
         }
