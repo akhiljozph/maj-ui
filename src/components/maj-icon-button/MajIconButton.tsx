@@ -5,6 +5,7 @@ import {
     MajLightAngleDownIcon,
     MajLightAngleLeftIcon,
     MajLightAngleRightIcon,
+    MajLightAngleUpIcon,
     MajLightArrowDownIcon,
     MajLightArrowDownToLineIcon,
     MajLightArrowLeftIcon,
@@ -14,12 +15,14 @@ import {
     MajLightArrowUpFromBracketIcon,
     MajLightArrowUpToLineIcon,
     MajLightArrowwUpIcon,
+    MajLightBackwardStepIcon,
     MajLightBarcodeReadIcon,
     MajLightThreeSixtyIcon,
     MajSolidAddressBookIcon,
     MajSolidAngleDownIcon,
     MajSolidAngleLeftIcon,
     MajSolidAngleRightIcon,
+    MajSolidAngleUpIcon,
     MajSolidArrowDownIcon,
     MajSolidArrowDownToLineIcon,
     MajSolidArrowLeftIcon,
@@ -34,7 +37,6 @@ import {
     MajSolidThreeSixtyIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
-import { MajLightBackwardStepIcon } from "../maj-icon/light-icon/backward-step";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -45,6 +47,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightAddressBookIcon />;
             case "angle-down":
                 return <MajLightAngleDownIcon />;
+            case "angle-up":
+                return <MajLightAngleUpIcon />;
             case "angle-left":
                 return <MajLightAngleLeftIcon />;
             case "angle-right":
@@ -84,6 +88,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidAddressBookIcon />;
             case "angle-down":
                 return <MajSolidAngleDownIcon />;
+            case "angle-up":
+                return <MajSolidAngleUpIcon />;
             case "angle-left":
                 return <MajSolidAngleLeftIcon />;
             case "angle-right":
@@ -102,7 +108,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidArrowUpFromBracketIcon />;
             case "arrow-up-to-line":
                 return <MajSolidArrowUpToLineIcon />;
-            case "arrow-up":
+            case "arrows-up":
                 return <MajSolidArrowwUpIcon />;
             case "arrows-rotate":
                 return <MajSolidArrowsRotateIcon />;
@@ -116,8 +122,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
     };
 
     return (
-        <section>
-            <button>
+        <section className="maj-section">
+            <button className="maj-btn">
                 {props?.shade === "Light"
                     ? getLightIcons()
                     : props.shade === "Solid"
