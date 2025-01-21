@@ -1,9 +1,10 @@
 import logo from "../../../../assets/icons/svg/solid/arrow-down-to-line.svg";
+import "../../assets/MajIcon.scss";
 
 const MajArrowDownToLineIcon: React.FC<any> = () => {
     return (
         <img
-            style={{ height: "inherit", width: "inherit" }}
+            className="maj-img"
             src={logo}
             alt="arrow-down-to-line"
         />
