@@ -15,3 +15,4 @@ export * from "./arrow-up";
 export * from "./arrows-rotate";
 export * from "./backward-step";
 export * from "./barcode-read";
+export * from "./bars";

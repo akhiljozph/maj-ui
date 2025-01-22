@@ -1,9 +1,10 @@
 import logo from "../../../../assets/icons/svg/solid/arrow-left.svg";
+import "../../assets/MajIcon.scss";
 
 const MajArrowLeftIcon: React.FC<any> = () => {
     return (
         <img
-            style={{ height: "inherit", width: "inherit" }}
+            className="maj-img"
             src={logo}
             alt="arrow-left"
         />
