@@ -121,7 +121,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
             case "barcode-read":
                 return <MajSolidBarcodeReadIcon />;
             case "bars":
-                return <MajSolidBarsIcon />
+                return <MajSolidBarsIcon />;
             default:
                 break;
         }
