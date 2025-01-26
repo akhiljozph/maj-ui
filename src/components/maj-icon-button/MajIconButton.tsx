@@ -87,7 +87,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightBarsIcon />;
             case "bell":
                 return <MajLightBellIcon />;
-            case "bell":
+            case "bolt-lightning":
                 return <MajLightBoltLightningIcon />;
             case "box-open":
                 return <MajLightBoxOpenIcon />;
@@ -136,7 +136,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidBarsIcon />;
             case "bell":
                 return <MajSolidBellIcon />;
-            case "bell":
+            case "bolt-lightning":
                 return <MajSolidBoltLightningIcon />;
             case "box-open":
                 return <MajSolidBoxOpenIcon />;
