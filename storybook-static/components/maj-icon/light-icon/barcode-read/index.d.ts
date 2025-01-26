@@ -1,1 +1,1 @@
-export { default as MajLightBarcodeReadIcon } from './barcode-read';
+export { default as MajLightBarcodeReadIcon } from "./barcode-read";

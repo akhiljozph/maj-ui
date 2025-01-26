@@ -1,1 +1,1 @@
-export { default as MajSolidAddressBookIcon } from './address-book';
+export { default as MajSolidAddressBookIcon } from "./address-book";

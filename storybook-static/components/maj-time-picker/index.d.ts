@@ -1,1 +1,1 @@
-export { default as MajTimePicker } from './MajTimePicker';
+export { default as MajTimePicker } from "./MajTimePicker";
