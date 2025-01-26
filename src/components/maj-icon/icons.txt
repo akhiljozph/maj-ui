@@ -17,8 +17,8 @@
 // 04-10-2024  20:09             2,361 barcode-read.svg
 // 04-10-2024  20:09               701 bars.svg
 // 04-10-2024  20:09             1,747 bell.svg
-04-10-2024  20:09             1,172 bolt-lightning.svg
-04-10-2024  20:09             1,517 box-open.svg
+// 04-10-2024  20:09             1,172 bolt-lightning.svg
+// 04-10-2024  20:09             1,517 box-open.svg
 04-10-2024  20:09             2,365 bug.svg
 04-10-2024  20:09             1,369 calendar-days.svg
 04-10-2024  20:09             2,944 camera-viewfinder.svg
