@@ -43,6 +43,8 @@ import {
     MajSolidBoltLightningIcon,
     MajSolidBoxOpenIcon,
     MajSolidThreeSixtyIcon,
+    MajLightBugIcon,
+    MajSolidBugIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -91,6 +93,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightBoltLightningIcon />;
             case "box-open":
                 return <MajLightBoxOpenIcon />;
+            case "bug":
+                return <MajLightBugIcon />;
             default:
                 break;
         }
@@ -140,6 +144,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidBoltLightningIcon />;
             case "box-open":
                 return <MajSolidBoxOpenIcon />;
+            case "bug":
+                return <MajSolidBugIcon />;
             default:
                 break;
         }
