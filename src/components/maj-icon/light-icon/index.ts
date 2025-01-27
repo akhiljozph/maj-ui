@@ -19,3 +19,4 @@ export * from "./bars";
 export * from "./bell";
 export * from "./bolt-lightning";
 export * from "./box-open";
+export * from "./bug";
