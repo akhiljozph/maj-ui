@@ -45,6 +45,8 @@ import {
     MajSolidThreeSixtyIcon,
     MajLightBugIcon,
     MajSolidBugIcon,
+    MajLightCalendarDaysIcon,
+    MajSolidCalendarDaysIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -95,6 +97,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightBoxOpenIcon />;
             case "bug":
                 return <MajLightBugIcon />;
+            case "calendar-boys":
+                return <MajLightCalendarDaysIcon />;
             default:
                 break;
         }
@@ -146,6 +150,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidBoxOpenIcon />;
             case "bug":
                 return <MajSolidBugIcon />;
+            case "calendar-days":
+                return <MajSolidCalendarDaysIcon />;
             default:
                 break;
         }
