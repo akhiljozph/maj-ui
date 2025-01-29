@@ -21,3 +21,4 @@ export * from "./bolt-lightning";
 export * from "./box-open";
 export * from "./bug";
 export * from "./calendar-days";
+export * from "./camera-viewfinder";

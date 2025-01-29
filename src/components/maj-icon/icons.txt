@@ -21,7 +21,7 @@
 // 04-10-2024  20:09             1,517 box-open.svg
 // 04-10-2024  20:09             2,365 bug.svg
 // 04-10-2024  20:09             1,369 calendar-days.svg
-04-10-2024  20:09             2,944 camera-viewfinder.svg
+// 04-10-2024  20:09             2,944 camera-viewfinder.svg
 04-10-2024  20:09               819 caret-down.svg
 04-10-2024  20:09               827 caret-left.svg
 04-10-2024  20:09               817 caret-right.svg
