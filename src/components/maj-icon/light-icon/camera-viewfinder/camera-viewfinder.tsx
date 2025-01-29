@@ -1,5 +1,5 @@
 import logo from "../../../../assets/icons/svg/light/camera-viewfinder.svg";
-import "../../assets/MajIcons.scss";
+import "../../assets/MajIcon.scss";
 
 const MajCameraViewfinderIcon: React.FC<any> = () => {
     return (
