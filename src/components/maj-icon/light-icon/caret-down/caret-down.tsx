@@ -8,7 +8,7 @@ const MajCaretDownIcon: React.FC<any> = () => {
             src={logo}
             alt="caret-down"
         />
-    )
+    );
 };
 
 export default MajCaretDownIcon;
