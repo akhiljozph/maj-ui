@@ -49,6 +49,8 @@ import {
     MajSolidCalendarDaysIcon,
     MajLightCameraViewfinderIcon,
     MajSolidCameraViewfinderIcon,
+    MajLightCaretDownIcon,
+    MajSolidCaretDownIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -103,6 +105,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCalendarDaysIcon />;
             case "camera-viewfinder":
                 return <MajLightCameraViewfinderIcon />;
+            case "caret-down":
+                return <MajLightCaretDownIcon />;
             default:
                 break;
         }
@@ -158,6 +162,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCalendarDaysIcon />;
             case "camera-viewfinder":
                 return <MajSolidCameraViewfinderIcon />;
+            case "caret-icon":
+                return <MajSolidCaretDownIcon />;
             default:
                 break;
         }
