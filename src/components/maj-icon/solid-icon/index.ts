@@ -22,3 +22,4 @@ export * from "./box-open";
 export * from "./bug";
 export * from "./calendar-days";
 export * from "./camera-viewfinder";
+export * from "./caret-down";
