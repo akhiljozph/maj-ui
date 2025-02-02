@@ -24,3 +24,4 @@ export * from "./calendar-days";
 export * from "./camera-viewfinder";
 export * from "./caret-down";
 export * from "./caret-left";
+export * from "./caret-right";
