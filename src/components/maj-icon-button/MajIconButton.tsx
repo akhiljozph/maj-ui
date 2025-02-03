@@ -55,6 +55,8 @@ import {
     MajSolidCaretLeftIcon,
     MajLightCaretRightIcon,
     MajSolidCaretRightIcon,
+    MajSolidCaretUpIcon,
+    MajLightCaretUpIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -115,6 +117,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCaretLeftIcon />;
             case "caret-right":
                 return <MajLightCaretRightIcon />;
+            case "caret-up":
+                return <MajLightCaretUpIcon />;
             default:
                 break;
         }
@@ -176,6 +180,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCaretLeftIcon />;
             case "caret-right":
                 return <MajSolidCaretRightIcon />;
+            case "caret-up":
+                return <MajSolidCaretUpIcon />;
             default:
                 break;
         }
