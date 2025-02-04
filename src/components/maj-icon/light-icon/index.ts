@@ -26,3 +26,5 @@ export * from "./caret-down";
 export * from "./caret-left";
 export * from "./caret-right";
 export * from "./caret-up";
+export * from "./cart-flatbed-boxes";
+export * from "./cart-shopping";
