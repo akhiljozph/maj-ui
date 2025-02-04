@@ -57,6 +57,8 @@ import {
     MajSolidCaretRightIcon,
     MajSolidCaretUpIcon,
     MajLightCaretUpIcon,
+    MajLightCartFlatbedBoxesIcon,
+    MajSolidCartFlatbedBoxes,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -119,6 +121,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCaretRightIcon />;
             case "caret-up":
                 return <MajLightCaretUpIcon />;
+            case "cart-flatbed-boxes":
+                return <MajLightCartFlatbedBoxesIcon />;
             default:
                 break;
         }
@@ -182,6 +186,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCaretRightIcon />;
             case "caret-up":
                 return <MajSolidCaretUpIcon />;
+            case "cart-flatbed-boxes":
+                return <MajSolidCartFlatbedBoxes />;
             default:
                 break;
         }

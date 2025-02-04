@@ -26,7 +26,7 @@
 // 04-10-2024  20:09               827 caret-left.svg
 // 04-10-2024  20:09               817 caret-right.svg
 // 04-10-2024  20:09               814 caret-up.svg
-04-10-2024  20:09             3,195 cart-flatbed-boxes.svg
+// 04-10-2024  20:09             3,195 cart-flatbed-boxes.svg
 04-10-2024  20:09             1,795 cart-shopping.svg
 04-10-2024  20:09             1,872 chair-office.svg
 04-10-2024  20:09             1,336 chart-column.svg
