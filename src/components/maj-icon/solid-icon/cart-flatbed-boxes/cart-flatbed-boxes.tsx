@@ -8,7 +8,7 @@ const MajCartFlatbedBoxesIcon: React.FC<any> = () => {
             src={logo}
             alt="cart-flatbed-boxes"
         />
-    )
+    );
 };
 
 export default MajCartFlatbedBoxesIcon;
