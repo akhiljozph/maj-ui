@@ -63,6 +63,10 @@ import {
     MajSolidCartShoppingIcon,
     MajLightChairOfficeIcon,
     MajSolidChairOfficeIcon,
+    MajLightChartColumnIcon,
+    MajSolidChartColumnIcon,
+    MajLightChartSimpleIcon,
+    MajSolidChartSimpleIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -131,6 +135,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCartShoppingIcon />;
             case "chair-office":
                 return <MajLightChairOfficeIcon />;
+            case "chart-column":
+                return <MajLightChartColumnIcon />;
+            case "chart-simple":
+                return <MajLightChartSimpleIcon />;
             default:
                 break;
         }
@@ -200,6 +208,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCartShoppingIcon />;
             case "chair-office":
                 return <MajSolidChairOfficeIcon />;
+            case "chart-column":
+                return <MajSolidChartColumnIcon />;
+            case "chart-simple":
+                return <MajSolidChartSimpleIcon />;
             default:
                 break;
         }
