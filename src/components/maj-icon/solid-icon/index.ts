@@ -29,3 +29,5 @@ export * from "./caret-up";
 export * from "./cart-flatbed-boxes";
 export * from "./cart-shopping";
 export * from "./chair-office";
+export * from "./chart-column";
+export * from "./chart-simple";
