@@ -31,3 +31,4 @@ export * from "./cart-shopping";
 export * from "./chair-office";
 export * from "./chart-column";
 export * from "./chart-simple";
+export * from "./check";
