@@ -67,6 +67,8 @@ import {
     MajSolidChartColumnIcon,
     MajLightChartSimpleIcon,
     MajSolidChartSimpleIcon,
+    MajLightCheckIcon,
+    MajSolidCheckIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -139,6 +141,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightChartColumnIcon />;
             case "chart-simple":
                 return <MajLightChartSimpleIcon />;
+            case "check":
+                return <MajLightCheckIcon />;
             default:
                 break;
         }
@@ -212,6 +216,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidChartColumnIcon />;
             case "chart-simple":
                 return <MajSolidChartSimpleIcon />;
+            case "check":
+                return <MajSolidCheckIcon />;
             default:
                 break;
         }
