@@ -33,3 +33,5 @@ export * from "./chart-column";
 export * from "./chart-simple";
 export * from "./check";
 export * from "./circle-check";
+export * from "./circle-exclamation";
+export * from "./circle-info";

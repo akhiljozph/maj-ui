@@ -69,6 +69,10 @@ import {
     MajSolidChartSimpleIcon,
     MajLightCheckIcon,
     MajSolidCheckIcon,
+    MajSolidCircleExclamationIcon,
+    MajLightCircleExclamationIcon,
+    MajLightCircleInfoIcon,
+    MajSolidCircleInfoIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -143,6 +147,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightChartSimpleIcon />;
             case "check":
                 return <MajLightCheckIcon />;
+            case "circle-exclamation":
+                return <MajLightCircleExclamationIcon />;
+            case "circle-info":
+                return <MajLightCircleInfoIcon />;
             default:
                 break;
         }
@@ -218,6 +226,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidChartSimpleIcon />;
             case "check":
                 return <MajSolidCheckIcon />;
+            case "circle-exclamation":
+                return <MajSolidCircleExclamationIcon />;
+            case "circle-info":
+                return <MajSolidCircleInfoIcon />;
             default:
                 break;
         }

@@ -33,8 +33,8 @@
 // 04-10-2024  20:09             1,833 chart-simple.svg
 // 04-10-2024  20:09               450 check.svg
 // 04-10-2024  20:09             1,413 circle-check.svg
-04-10-2024  20:09             1,465 circle-exclamation.svg
-04-10-2024  20:09             1,625 circle-info.svg
+// 04-10-2024  20:09             1,465 circle-exclamation.svg
+// 04-10-2024  20:09             1,625 circle-info.svg
 04-10-2024  20:09             1,406 circle-minus.svg
 04-10-2024  20:09             1,972 circle-question.svg
 04-10-2024  20:09             2,216 circle-user.svg
