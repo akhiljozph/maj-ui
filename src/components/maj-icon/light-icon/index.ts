@@ -35,3 +35,4 @@ export * from "./check";
 export * from "./circle-check";
 export * from "./circle-exclamation";
 export * from "./circle-info";
+export * from "./circle-minus";
