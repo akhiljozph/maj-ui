@@ -73,8 +73,12 @@ import {
     MajLightCircleExclamationIcon,
     MajLightCircleInfoIcon,
     MajSolidCircleInfoIcon,
+    MajLightCircleMinusIcon,
+    MajSolidCircleMinusIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
+import { MajLightCircleQuestionIcon } from "../maj-icon/light-icon/circle-question";
+import { MajSolidCircleQuestionIcon } from "../maj-icon/solid-icon/circle-question";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -151,6 +155,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCircleExclamationIcon />;
             case "circle-info":
                 return <MajLightCircleInfoIcon />;
+            case "circle-minus":
+                return <MajLightCircleMinusIcon />;
+            case "circle-question":
+                return <MajLightCircleQuestionIcon />;
             default:
                 break;
         }
@@ -230,6 +238,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCircleExclamationIcon />;
             case "circle-info":
                 return <MajSolidCircleInfoIcon />;
+            case "circle-minus":
+                return <MajSolidCircleMinusIcon />;
+            case "circle-question":
+                return <MajSolidCircleQuestionIcon />;
             default:
                 break;
         }
