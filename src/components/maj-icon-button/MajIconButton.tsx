@@ -75,6 +75,22 @@ import {
     MajSolidCircleInfoIcon,
     MajLightCircleMinusIcon,
     MajSolidCircleMinusIcon,
+    MajLightCircleIcon,
+    MajLightCircleUserIcon,
+    MajLightCircleXMarkIcon,
+    MajLightClipboardListIcon,
+    MajLightClockIcon,
+    MajLightCommentIcon,
+    MajLightCreditCardIcon,
+    MajLightCrossHairsIcon,
+    MajSolidCircleIcon,
+    MajSolidCircleUserIcon,
+    MajSolidCircleXMarkIcon,
+    MajSolidClipboardListIcon,
+    MajSolidClockIcon,
+    MajSolidCommentIcon,
+    MajSolidCreditCardIcon,
+    MajSolidCrossHairsIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightCircleQuestionIcon } from "../maj-icon/light-icon/circle-question";
@@ -159,6 +175,22 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCircleMinusIcon />;
             case "circle-question":
                 return <MajLightCircleQuestionIcon />;
+            case "circle":
+                return <MajLightCircleIcon />;
+            case "circle-user":
+                return <MajLightCircleUserIcon />;
+            case "circle-x-mark":
+                return <MajLightCircleXMarkIcon />;
+            case "clipboard-list":
+                return <MajLightClipboardListIcon />;
+            case "clock":
+                return <MajLightClockIcon />;
+            case "comment":
+                return <MajLightCommentIcon />;
+            case "credit-card":
+                return <MajLightCreditCardIcon />;
+            case "cross-hairs":
+                return <MajLightCrossHairsIcon />;
             default:
                 break;
         }
@@ -242,6 +274,22 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCircleMinusIcon />;
             case "circle-question":
                 return <MajSolidCircleQuestionIcon />;
+            case "circle":
+                return <MajSolidCircleIcon />;
+            case "circle-user":
+                return <MajSolidCircleUserIcon />;
+            case "circle-x-mark":
+                return <MajSolidCircleXMarkIcon />;
+            case "clipboard-list":
+                return <MajSolidClipboardListIcon />;
+            case "clock":
+                return <MajSolidClockIcon />;
+            case "comment":
+                return <MajSolidCommentIcon />;
+            case "credit-card":
+                return <MajSolidCreditCardIcon />;
+            case "cross-hairs":
+                return <MajSolidCrossHairsIcon />;
             default:
                 break;
         }
