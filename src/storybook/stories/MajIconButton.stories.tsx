@@ -52,7 +52,7 @@ const meta: Meta<typeof MajIconButton> = {
                 "circle-minus",
                 "circle-question",
                 "circle-user",
-                "circle-xmark",
+                "circle-x-mark",
                 "circle",
                 "clipboard-list",
                 "clock",
