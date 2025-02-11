@@ -91,6 +91,8 @@ import {
     MajSolidCommentIcon,
     MajSolidCreditCardIcon,
     MajSolidCrossHairsIcon,
+    MajSolidDatabaseIcon,
+    MajLightDatabaseIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightCircleQuestionIcon } from "../maj-icon/light-icon/circle-question";
@@ -191,6 +193,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCreditCardIcon />;
             case "cross-hairs":
                 return <MajLightCrossHairsIcon />;
+            case "database":
+                return <MajLightDatabaseIcon />;
             default:
                 break;
         }
@@ -290,6 +294,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCreditCardIcon />;
             case "cross-hairs":
                 return <MajSolidCrossHairsIcon />;
+            case "database":
+                return <MajSolidDatabaseIcon />;
             default:
                 break;
         }
