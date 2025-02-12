@@ -47,3 +47,4 @@ export * from "./cross-hairs";
 export * from "./database";
 export * from "./ellipsis-vertical";
 export * from "./ellipsis";
+export * from "./envelope";
