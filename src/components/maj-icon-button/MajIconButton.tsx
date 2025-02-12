@@ -99,10 +99,10 @@ import {
     MajSolidEllipsisIcon,
     MajLightEnvelopeIcon,
     MajSolidEnvelopeIcon,
+    MajSolidCircleQuestionIcon,
+    MajLightCircleQuestionIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
-import { MajLightCircleQuestionIcon } from "../maj-icon/light-icon/circle-question";
-import { MajSolidCircleQuestionIcon } from "../maj-icon/solid-icon/circle-question";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {

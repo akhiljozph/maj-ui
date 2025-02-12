@@ -1,5 +1,5 @@
 import logo from "../../../../assets/icons/svg/solid/envelope.svg";
-import "../../MajIcon.scss";
+import "../../assets/MajIcon.scss";
 
 const MajEnvelopeIcon: React.FC<any> = () => {
     return (
