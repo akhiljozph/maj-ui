@@ -93,6 +93,8 @@ import {
     MajSolidCrossHairsIcon,
     MajSolidDatabaseIcon,
     MajLightDatabaseIcon,
+    MajLightEllipsisVerticalIcon,
+    MajSolidEllipsisVerticalIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightCircleQuestionIcon } from "../maj-icon/light-icon/circle-question";
@@ -195,6 +197,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightCrossHairsIcon />;
             case "database":
                 return <MajLightDatabaseIcon />;
+            case "ellipsis-vertical":
+                return <MajLightEllipsisVerticalIcon />;
             default:
                 break;
         }
@@ -296,6 +300,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCrossHairsIcon />;
             case "database":
                 return <MajSolidDatabaseIcon />;
+            case "ellipsis-vertical":
+                return <MajSolidEllipsisVerticalIcon />;
             default:
                 break;
         }

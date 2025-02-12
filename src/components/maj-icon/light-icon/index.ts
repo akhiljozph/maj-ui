@@ -45,3 +45,4 @@ export * from "./comment";
 export * from "./credit-card";
 export * from "./cross-hairs";
 export * from "./database";
+export * from "./ellipsis-vertical";
