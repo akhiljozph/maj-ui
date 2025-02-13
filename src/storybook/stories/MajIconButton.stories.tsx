@@ -119,7 +119,7 @@ const meta: Meta<typeof MajIconButton> = {
                 "volume-slash",
                 "volume",
                 "wave-pulse",
-                "xmark",
+                "x-mark",
             ],
             control: { type: "select" },
         },
