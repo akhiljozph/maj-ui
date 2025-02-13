@@ -49,7 +49,7 @@
 // 04-10-2024  20:09             1,126 ellipsis-vertical.svg
 // 04-10-2024  20:09             1,126 ellipsis.svg
 // 04-10-2024  20:09             1,156 envelope.svg
-04-10-2024  20:09               494 equals.svg
+// 04-10-2024  20:09               494 equals.svg
 04-10-2024  20:09             1,081 expand.svg
 04-10-2024  20:09             2,266 eye-slash.svg
 04-10-2024  20:09             2,683 eye.svg
@@ -105,4 +105,4 @@
 04-10-2024  20:09             1,760 volume-slash.svg
 04-10-2024  20:09             1,767 volume.svg
 04-10-2024  20:09               934 wave-pulse.svg
-04-10-2024  20:09               643 xmark.svg
+04-10-2024  20:09               643 x-mark.svg
