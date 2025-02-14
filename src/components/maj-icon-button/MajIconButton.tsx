@@ -103,6 +103,8 @@ import {
     MajLightCircleQuestionIcon,
     MajLightEqualsIcon,
     MajSolidEqualsIcon,
+    MajLightExpandIcon,
+    MajSolidExpandIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -211,6 +213,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightEnvelopeIcon />;
             case "equals":
                 return <MajLightEqualsIcon />;
+            case "expand":
+                return <MajLightExpandIcon />;
             default:
                 break;
         }
@@ -320,6 +324,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidEnvelopeIcon />;
             case "equals":
                 return <MajSolidEqualsIcon />;
+            case "expand":
+                return <MajSolidExpandIcon />;
             default:
                 break;
         }
