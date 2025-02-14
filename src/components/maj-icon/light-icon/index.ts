@@ -50,3 +50,4 @@ export * from "./ellipsis";
 export * from "./envelope";
 export * from "./circle-question";
 export * from "./equals";
+export * from "./expand";
