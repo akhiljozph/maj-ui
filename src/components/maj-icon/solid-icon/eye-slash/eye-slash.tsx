@@ -1,5 +1,5 @@
 import logo from "../../../../assets/icons/svg/solid/eye-slash.svg";
-import "../../MajIcon.scss";
+import "../../assets/MajIcon.scss";
 
 const MajEyeSlashIcon: React.FC<any> = () => {
     return (
