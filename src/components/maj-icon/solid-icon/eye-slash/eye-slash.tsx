@@ -1,5 +1,5 @@
-import logo from "../../../../assets/icons/svg/light/eye-slash.svg";
-import "../../assets/MajIcon.scss";
+import logo from "../../../../assets/icons/svg/solid/eye-slash.svg";
+import "../../MajIcon.scss";
 
 const MajEyeSlashIcon: React.FC<any> = () => {
     return (
@@ -9,6 +9,6 @@ const MajEyeSlashIcon: React.FC<any> = () => {
             alt="eye-slash"
         />
     )
-}
+};
 
 export default MajEyeSlashIcon;
