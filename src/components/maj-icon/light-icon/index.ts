@@ -51,3 +51,4 @@ export * from "./envelope";
 export * from "./circle-question";
 export * from "./equals";
 export * from "./expand";
+export * from "./eye-slash";
