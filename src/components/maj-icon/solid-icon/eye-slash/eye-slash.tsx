@@ -8,7 +8,7 @@ const MajEyeSlashIcon: React.FC<any> = () => {
             src={logo}
             alt="eye-slash"
         />
-    )
+    );
 };
 
 export default MajEyeSlashIcon;
