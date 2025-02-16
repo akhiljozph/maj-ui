@@ -8,7 +8,7 @@ const MajEyeIcon: React.FC<any> = () => {
             src={logo}
             alt="eye"
         />
-    )
-}
+    );
+};
 
 export default MajEyeIcon;
