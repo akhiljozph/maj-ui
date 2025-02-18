@@ -109,6 +109,8 @@ import {
     MajSolidEyeSlashIcon,
     MajSolidEyeIcon,
     MajLightEyeIcon,
+    MajSolidFileArrowDownIcon,
+    MajLightFileArrowDownIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -223,6 +225,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightEyeSlashIcon />;
             case "eye":
                 return <MajLightEyeIcon />;
+            case "file-arrow-down":
+                return <MajLightFileArrowDownIcon />;
             default:
                 break;
         }
@@ -338,6 +342,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidEyeSlashIcon />;
             case "eye":
                 return <MajSolidEyeIcon />;
+            case "file-arrow-down":
+                return <MajSolidFileArrowDownIcon />;
             default:
                 break;
         }
