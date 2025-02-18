@@ -8,7 +8,7 @@ const MajFileArrowDownIcon: React.FC<any> = () => {
             src={logo}
             alt="file-arrow-down"
         />
-    )
-}
+    );
+};
 
 export default MajFileArrowDownIcon;
