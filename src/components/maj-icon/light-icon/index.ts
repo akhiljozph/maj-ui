@@ -55,3 +55,4 @@ export * from "./eye-slash";
 export * from "./eye";
 export * from "./file-arrow-down";
 export * from "./file-arrow-up";
+export * from "./file-invoice";
