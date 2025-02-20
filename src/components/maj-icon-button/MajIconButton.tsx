@@ -113,6 +113,8 @@ import {
     MajLightFileArrowDownIcon,
     MajLightFileArrowUpIcon,
     MajSolidFileArrowUpIcon,
+    MajSolidFileInvoiceIcon,
+    MajLightFileInvoiceIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -231,6 +233,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightFileArrowDownIcon />;
             case "file-arrow-up":
                 return <MajLightFileArrowUpIcon />;
+            case "file-invoice":
+                return <MajLightFileInvoiceIcon />;
             default:
                 break;
         }
@@ -350,6 +354,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidFileArrowDownIcon />;
             case "file-arrow-up":
                 return <MajSolidFileArrowUpIcon />;
+            case "file-invoice":
+                return <MajSolidFileInvoiceIcon />;
             default:
                 break;
         }
