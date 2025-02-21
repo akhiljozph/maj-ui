@@ -57,3 +57,4 @@ export * from "./file-arrow-down";
 export * from "./file-arrow-up";
 export * from "./file-invoice";
 export * from "./filter";
+export * from "./flash";
