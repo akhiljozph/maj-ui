@@ -60,3 +60,4 @@ export * from "./filter";
 export * from "./flash";
 export * from "./forward-step";
 export * from "./gauge";
+export * from "./gear";
