@@ -116,6 +116,8 @@ import {
     MajSolidFileInvoiceIcon,
     MajLightFileInvoiceIcon,
     MajSolidFilterIcon,
+    MajLightFlashIcon,
+    MajSolidFlashIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
@@ -239,6 +241,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightFileInvoiceIcon />;
             case "filter":
                 return <MajLightFilterIcon />;
+            case "flash":
+                return <MajLightFlashIcon />;
             default:
                 break;
         }
@@ -362,6 +366,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidFileInvoiceIcon />;
             case "filter":
                 return <MajSolidFilterIcon />;
+            case "flash":
+                return <MajSolidFlashIcon />;
             default:
                 break;
         }
