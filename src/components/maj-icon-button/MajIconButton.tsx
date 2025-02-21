@@ -122,6 +122,8 @@ import {
     MajSolidForwardStepIcon,
     MajSolidGaugeIcon,
     MajLightGaugeIcon,
+    MajLightGearIcon,
+    MajSolidGearIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
@@ -251,6 +253,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightForwardStepIcon />;
             case "gauge":
                 return <MajLightGaugeIcon />;
+            case "gear":
+                return <MajLightGearIcon />;
             default:
                 break;
         }
@@ -380,6 +384,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidForwardStepIcon />;
             case "gauge":
                 return <MajSolidGaugeIcon />;
+            case "gear":
+                return <MajSolidGearIcon />;
             default:
                 break;
         }

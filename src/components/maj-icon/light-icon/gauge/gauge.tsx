@@ -6,7 +6,7 @@ const MajGaugeIcon: React.FC<any> = () => {
         <img
             className="maj-img"
             src={logo}
-            alt="forward-step"
+            alt="gauge"
         />
     );
 };
