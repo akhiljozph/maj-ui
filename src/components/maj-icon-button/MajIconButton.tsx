@@ -115,8 +115,10 @@ import {
     MajSolidFileArrowUpIcon,
     MajSolidFileInvoiceIcon,
     MajLightFileInvoiceIcon,
+    MajSolidFilterIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
+import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -235,6 +237,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightFileArrowUpIcon />;
             case "file-invoice":
                 return <MajLightFileInvoiceIcon />;
+            case "filter":
+                return <MajLightFilterIcon />;
             default:
                 break;
         }
@@ -356,6 +360,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidFileArrowUpIcon />;
             case "file-invoice":
                 return <MajSolidFileInvoiceIcon />;
+            case "filter":
+                return <MajSolidFilterIcon />;
             default:
                 break;
         }
