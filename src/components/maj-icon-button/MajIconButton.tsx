@@ -126,6 +126,8 @@ import {
     MajSolidGearIcon,
     MajLightGearsIcon,
     MajSolidGearsIcon,
+    MajLightGlobeIcon,
+    MajSolidGlobeIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
@@ -259,6 +261,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightGearIcon />;
             case "gears":
                 return <MajLightGearsIcon />;
+            case "globe":
+                return <MajLightGlobeIcon />;
             default:
                 break;
         }
@@ -392,6 +396,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidGearIcon />;
             case "gears":
                 return <MajSolidGearsIcon />;
+            case "globe":
+                return <MajSolidGlobeIcon />;
             default:
                 break;
         }
