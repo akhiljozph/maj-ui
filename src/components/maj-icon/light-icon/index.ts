@@ -63,3 +63,4 @@ export * from "./gauge";
 export * from "./gear";
 export * from "./gears";
 export * from "./globe";
+export * from "./grid";
