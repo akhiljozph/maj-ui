@@ -132,6 +132,8 @@ import {
     MajLightGridIcon,
     MajSolidGridHorizontalIcon,
     MajLightGridHorizontalIcon,
+    MajLightGripDotsIcon,
+    MajSolidGripDotsIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
@@ -271,6 +273,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightGridIcon />;
             case "grid-horizontal":
                 return <MajLightGridHorizontalIcon />;
+            case "grip-dots":
+                return <MajLightGripDotsIcon />;
             default:
                 break;
         }
@@ -410,6 +414,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidGridIcon />;
             case "grid-horizontal":
                 return <MajSolidGridHorizontalIcon />;
+            case "grip-dots":
+                return <MajSolidGripDotsIcon />;
             default:
                 break;
         }

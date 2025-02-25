@@ -65,3 +65,4 @@ export * from "./gears";
 export * from "./globe";
 export * from "./grid";
 export * from "./grid-horizontal";
+export * from "./grip-dots";
