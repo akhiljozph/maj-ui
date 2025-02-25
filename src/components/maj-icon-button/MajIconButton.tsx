@@ -130,6 +130,8 @@ import {
     MajSolidGlobeIcon,
     MajSolidGridIcon,
     MajLightGridIcon,
+    MajSolidGridHorizontalIcon,
+    MajLightGridHorizontalIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
@@ -267,6 +269,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightGlobeIcon />;
             case "grid":
                 return <MajLightGridIcon />;
+            case "grid-horizontal":
+                return <MajLightGridHorizontalIcon />;
             default:
                 break;
         }
@@ -404,6 +408,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidGlobeIcon />;
             case "grid":
                 return <MajSolidGridIcon />;
+            case "grid-horizontal":
+                return <MajSolidGridHorizontalIcon />;
             default:
                 break;
         }
