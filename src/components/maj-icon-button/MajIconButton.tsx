@@ -136,9 +136,13 @@ import {
     MajSolidGripDotsIcon,
     MajSolidHeadsetIcon,
     MajLightHeadsetIcon,
+    MajLightHeartPulseIcon,
+    MajSolidHeartPulseIcon,
+    MajLightFilterIcon,
+    MajLightCircleCheckIcon,
+    MajSolidCircleCheckIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
-import { MajLightFilterIcon } from "../maj-icon/light-icon/filter/input";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -187,7 +191,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightBoxOpenIcon />;
             case "bug":
                 return <MajLightBugIcon />;
-            case "calendar-boys":
+            case "calendar-days":
                 return <MajLightCalendarDaysIcon />;
             case "camera-viewfinder":
                 return <MajLightCameraViewfinderIcon />;
@@ -211,6 +215,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightChartSimpleIcon />;
             case "check":
                 return <MajLightCheckIcon />;
+            case "circle-check":
+                return <MajLightCircleCheckIcon />;
             case "circle-exclamation":
                 return <MajLightCircleExclamationIcon />;
             case "circle-info":
@@ -279,6 +285,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightGripDotsIcon />;
             case "headset":
                 return <MajLightHeadsetIcon />;
+            case "heart-pulse":
+                return <MajLightHeartPulseIcon />;
             default:
                 break;
         }
@@ -334,7 +342,7 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidCalendarDaysIcon />;
             case "camera-viewfinder":
                 return <MajSolidCameraViewfinderIcon />;
-            case "caret-icon":
+            case "caret-down":
                 return <MajSolidCaretDownIcon />;
             case "caret-left":
                 return <MajSolidCaretLeftIcon />;
@@ -354,6 +362,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidChartSimpleIcon />;
             case "check":
                 return <MajSolidCheckIcon />;
+            case "circle-check":
+                return <MajSolidCircleCheckIcon />;
             case "circle-exclamation":
                 return <MajSolidCircleExclamationIcon />;
             case "circle-info":
@@ -422,6 +432,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidGripDotsIcon />;
             case "headset":
                 return <MajSolidHeadsetIcon />;
+            case "heart-pulse":
+                return <MajSolidHeartPulseIcon />;
             default:
                 break;
         }
