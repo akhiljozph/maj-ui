@@ -141,6 +141,8 @@ import {
     MajLightFilterIcon,
     MajLightCircleCheckIcon,
     MajSolidCircleCheckIcon,
+    MajLightHouseIcon,
+    MajSolidHouseIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -287,6 +289,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightHeadsetIcon />;
             case "heart-pulse":
                 return <MajLightHeartPulseIcon />;
+            case "house":
+                return <MajLightHouseIcon />;
             default:
                 break;
         }
@@ -434,6 +438,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidHeadsetIcon />;
             case "heart-pulse":
                 return <MajSolidHeartPulseIcon />;
+            case "house":
+                return <MajSolidHouseIcon />;
             default:
                 break;
         }
