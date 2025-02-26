@@ -67,3 +67,4 @@ export * from "./grid";
 export * from "./grid-horizontal";
 export * from "./grip-dots";
 export * from "./headset";
+export * from "./heart-pulse";
