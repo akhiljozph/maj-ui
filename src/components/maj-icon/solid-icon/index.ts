@@ -69,3 +69,4 @@ export * from "./grip-dots";
 export * from "./headset";
 export * from "./heart-pulse";
 export * from "./house";
+export * from "./location-dot";
