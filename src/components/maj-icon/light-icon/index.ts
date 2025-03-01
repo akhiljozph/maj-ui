@@ -70,3 +70,5 @@ export * from "./headset";
 export * from "./heart-pulse";
 export * from "./house";
 export * from "./location-dot";
+export * from "./lock";
+export * from "./magnifying-glass";
