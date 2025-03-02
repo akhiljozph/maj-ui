@@ -72,3 +72,4 @@ export * from "./house";
 export * from "./location-dot";
 export * from "./lock";
 export * from "./magnifying-glass";
+export * from "./minus";
