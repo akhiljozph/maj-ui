@@ -149,6 +149,8 @@ import {
     MajLightMagnifyingGlassIcon,
     MajLightMinusIcon,
     MajSolidMinusIcon,
+    MajLightPaperclipIcon,
+    MajSolidPaperclipIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidLockIcon } from "../maj-icon/solid-icon/lock";
@@ -307,6 +309,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightMagnifyingGlassIcon />;
             case "minus":
                 return <MajLightMinusIcon />;
+            case "paperclip":
+                return <MajLightPaperclipIcon />;
             default:
                 break;
         }
@@ -464,6 +468,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidMagnifyingGlassIcon />;
             case "minus":
                 return <MajSolidMinusIcon />;
+            case "paperclip":
+                return <MajSolidPaperclipIcon />;
             default:
                 break;
         }
