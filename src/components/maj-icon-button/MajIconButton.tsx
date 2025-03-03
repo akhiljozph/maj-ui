@@ -151,10 +151,10 @@ import {
     MajSolidMinusIcon,
     MajLightPaperclipIcon,
     MajSolidPaperclipIcon,
+    MajLightLockIcon,
+    MajSolidLockIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
-import { MajSolidLockIcon } from "../maj-icon/solid-icon/lock";
-import { MajLightLockIcon } from "../maj-icon/light-icon/lock";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
