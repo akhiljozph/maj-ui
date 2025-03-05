@@ -155,6 +155,8 @@ import {
     MajSolidLockIcon,
     MajLightPauseIcon,
     MajSolidPauseIcon,
+    MajSolidPencilIcon,
+    MajLightPencilIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -315,6 +317,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightPaperclipIcon />;
             case "pause":
                 return <MajLightPauseIcon />;
+            case "pencil":
+                return <MajLightPencilIcon />;
             default:
                 break;
         }
@@ -476,6 +480,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidPaperclipIcon />;
             case "pause":
                 return <MajSolidPauseIcon />;
+            case "pencil":
+                return <MajSolidPencilIcon />;
             default:
                 break;
         }

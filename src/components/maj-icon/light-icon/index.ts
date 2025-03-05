@@ -75,3 +75,4 @@ export * from "./magnifying-glass";
 export * from "./minus";
 export * from "./paperclip";
 export * from "./pause";
+export * from "./pencil";
