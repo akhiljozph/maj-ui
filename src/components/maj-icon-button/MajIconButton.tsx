@@ -159,6 +159,8 @@ import {
     MajLightPencilIcon,
     MajLightPictureIcon,
     MajSolidPictureIcon,
+    MajLightPlayIcon,
+    MajSolidPlayIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -323,6 +325,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightPencilIcon />;
             case "picture":
                 return <MajLightPictureIcon />;
+            case "play":
+                return <MajLightPlayIcon />;
             default:
                 break;
         }
@@ -488,6 +492,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidPencilIcon />;
             case "picture":
                 return <MajSolidPictureIcon />;
+            case "play":
+                return <MajSolidPlayIcon />;
             default:
                 break;
         }
