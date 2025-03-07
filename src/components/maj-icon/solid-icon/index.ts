@@ -77,3 +77,4 @@ export * from "./paperclip";
 export * from "./pause";
 export * from "./pencil";
 export * from "./picture";
+export * from "./play";
