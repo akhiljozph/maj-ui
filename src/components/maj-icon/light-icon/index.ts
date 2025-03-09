@@ -79,3 +79,4 @@ export * from "./pencil";
 export * from "./picture";
 export * from "./play";
 export * from "./plus";
+export * from "./print";
