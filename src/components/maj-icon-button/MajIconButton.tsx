@@ -165,6 +165,8 @@ import {
     MajSolidPlusIcon,
     MajLightPrintIcon,
     MajSolidPrintIcon,
+    MajSolidRepeatIcon,
+    MajLightRepeatIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -335,6 +337,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightPlusIcon />;
             case "print":
                 return <MajLightPrintIcon />;
+            case "repeat":
+                return <MajLightRepeatIcon />;
             default:
                 break;
         }
@@ -506,6 +510,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidPlusIcon />;
             case "print":
                 return <MajSolidPrintIcon />;
+            case "repeat":
+                return <MajSolidRepeatIcon />;
             default:
                 break;
         }
