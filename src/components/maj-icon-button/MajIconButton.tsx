@@ -169,6 +169,8 @@ import {
     MajLightRepeatIcon,
     MajSolidShareIcon,
     MajLightShareIcon,
+    MajLightShuffleIcon,
+    MajSolidShuffleIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -343,6 +345,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightRepeatIcon />;
             case "share":
                 return <MajLightShareIcon />;
+            case "shuffle":
+                return <MajLightShuffleIcon />;
             default:
                 break;
         }
@@ -518,6 +522,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidRepeatIcon />;
             case "share":
                 return <MajSolidShareIcon />;
+            case "shuffle":
+                return <MajSolidShuffleIcon />;
             default:
                 break;
         }
