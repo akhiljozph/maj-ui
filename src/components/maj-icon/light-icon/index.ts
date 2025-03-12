@@ -82,3 +82,4 @@ export * from "./plus";
 export * from "./print";
 export * from "./repeat";
 export * from "./share";
+export * from "./shuffle";
