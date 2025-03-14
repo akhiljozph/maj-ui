@@ -84,3 +84,4 @@ export * from "./repeat";
 export * from "./share";
 export * from "./shuffle";
 export * from "./sort";
+export * from "./square-facebook";

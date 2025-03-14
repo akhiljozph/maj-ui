@@ -173,6 +173,8 @@ import {
     MajSolidShuffleIcon,
     MajSolidSortIcon,
     MajLightSortIcon,
+    MajSolidSquareFacebookIcon,
+    MajLightSquareFacebookIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -351,6 +353,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightShuffleIcon />;
             case "sort":
                 return <MajLightSortIcon />;
+            case "square-facebook":
+                return <MajLightSquareFacebookIcon />;
             default:
                 break;
         }
@@ -530,6 +534,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidShuffleIcon />;
             case "sort":
                 return <MajSolidSortIcon />;
+            case "square-facebook":
+                return <MajSolidSquareFacebookIcon />;
             default:
                 break;
         }
