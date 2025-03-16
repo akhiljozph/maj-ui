@@ -177,6 +177,8 @@ import {
     MajLightSquareFacebookIcon,
     MajLightSquareInstagramIcon,
     MajSolidSquareInstagramIcon,
+    MajSolidSquareLinkedInIcon,
+    MajLightSquareLinkedInIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -359,6 +361,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightSquareFacebookIcon />;
             case "square-instagram":
                 return <MajLightSquareInstagramIcon />;
+            case "square-linkedin":
+                return <MajLightSquareLinkedInIcon />;
             default:
                 break;
         }
@@ -542,6 +546,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidSquareFacebookIcon />;
             case "square-instagram":
                 return <MajSolidSquareInstagramIcon />;
+            case "square-linkedin":
+                return <MajSolidSquareLinkedInIcon />;
             default:
                 break;
         }

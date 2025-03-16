@@ -86,3 +86,4 @@ export * from "./shuffle";
 export * from "./sort";
 export * from "./square-facebook";
 export * from "./square-instagram";
+export * from "./square-linkedin";
