@@ -571,8 +571,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 {props?.shade === "Light"
                     ? getLightIcons()
                     : props.shade === "Solid"
-                        ? getSolidIcons()
-                        : ""}
+                      ? getSolidIcons()
+                      : ""}
             </button>
         </section>
     );
