@@ -88,3 +88,5 @@ export * from "./square-facebook";
 export * from "./square-instagram";
 export * from "./square-linkedin";
 export * from "./square-list";
+export * from "./square-youtube";
+

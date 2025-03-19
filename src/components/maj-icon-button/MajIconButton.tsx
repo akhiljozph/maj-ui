@@ -181,6 +181,8 @@ import {
     MajLightSquareLinkedInIcon,
     MajLightSquareListIcon,
     MajSolidSquareListIcon,
+    MajLightSquareYoutubeIcon,
+    MajSolidSquareYoutubeIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -367,6 +369,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightSquareLinkedInIcon />;
             case "square-list":
                 return <MajLightSquareListIcon />;
+            case "square-youtube":
+                return <MajLightSquareYoutubeIcon />;
             default:
                 break;
         }
@@ -554,6 +558,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidSquareLinkedInIcon />;
             case "square-list":
                 return <MajSolidSquareListIcon />;
+            case "square-youtube":
+                return <MajSolidSquareYoutubeIcon />;
             default:
                 break;
         }
@@ -565,8 +571,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 {props?.shade === "Light"
                     ? getLightIcons()
                     : props.shade === "Solid"
-                      ? getSolidIcons()
-                      : ""}
+                        ? getSolidIcons()
+                        : ""}
             </button>
         </section>
     );
