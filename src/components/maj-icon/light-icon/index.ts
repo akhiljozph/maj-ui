@@ -90,3 +90,4 @@ export * from "./square-linkedin";
 export * from "./square-list";
 export * from "./square-youtube";
 export * from "./star";
+export * from "./store";
