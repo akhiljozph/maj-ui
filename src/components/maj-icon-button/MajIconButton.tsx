@@ -187,6 +187,8 @@ import {
     MajLightStarIcon,
     MajLightStoreIcon,
     MajSolidStoreIcon,
+    MajSolidTagIcon,
+    MajLightTagIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 
@@ -379,6 +381,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightStarIcon />;
             case "store":
                 return <MajLightStoreIcon />;
+            case "tag":
+                return <MajLightTagIcon />;
             default:
                 break;
         }
@@ -572,6 +576,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidStarIcon />;
             case "store":
                 return <MajSolidStoreIcon />;
+            case "tag":
+                return <MajSolidTagIcon />;
             default:
                 break;
         }

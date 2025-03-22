@@ -83,7 +83,6 @@ const meta: Meta<typeof MajIconButton> = {
                 "headset",
                 "heart-pulse",
                 "house",
-                "icons",
                 "location-dot",
                 "lock",
                 "magnifying-glass",
