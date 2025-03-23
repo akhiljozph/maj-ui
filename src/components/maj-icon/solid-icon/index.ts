@@ -92,3 +92,4 @@ export * from "./square-youtube";
 export * from "./star";
 export * from "./store";
 export * from "./tag";
+export * from "./thumbs-up";
