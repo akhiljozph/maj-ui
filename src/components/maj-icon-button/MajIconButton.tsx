@@ -189,8 +189,12 @@ import {
     MajSolidStoreIcon,
     MajSolidTagIcon,
     MajLightTagIcon,
+    MajLightThumbsDownIcon,
+    MajLightThumbsUpIcon,
+    MajSolidThumbsUpIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
+import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
 
 const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) => {
     const getLightIcons = () => {
@@ -383,6 +387,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightStoreIcon />;
             case "tag":
                 return <MajLightTagIcon />;
+            case "thumbs-down":
+                return <MajLightThumbsDownIcon />;
+            case "thumbs-up":
+                return <MajLightThumbsUpIcon />;
             default:
                 break;
         }
@@ -578,6 +586,10 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidStoreIcon />;
             case "tag":
                 return <MajSolidTagIcon />;
+            case "thumbs-down":
+                return <MajSolidThumbsDownIcon />;
+            case "thumbs-up":
+                return <MajSolidThumbsUpIcon />;
             default:
                 break;
         }
