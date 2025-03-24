@@ -94,3 +94,4 @@ export * from "./store";
 export * from "./tag";
 export * from "./thumbs-down";
 export * from "./thumbs-up";
+export * from "./trash-can";
