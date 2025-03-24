@@ -93,3 +93,4 @@ export * from "./star";
 export * from "./store";
 export * from "./tag";
 export * from "./thumbs-up";
+export * from "./trash-can";
