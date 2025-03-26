@@ -198,6 +198,8 @@ import {
     MajLightTriangleExclamation,
     MajLightTruckIcon,
     MajSolidTruckIcon,
+    MajSolidTwitterXIcon,
+    MajLightTwitterXIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
@@ -403,6 +405,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightTriangleExclamation />;
             case "truck":
                 return <MajLightTruckIcon />;
+            case "twitter-x":
+                return <MajLightTwitterXIcon />;
             default:
                 break;
         }
@@ -608,6 +612,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidTriangleExclamation />;
             case "truck":
                 return <MajSolidTruckIcon />;
+            case "twitter-x":
+                return <MajSolidTwitterXIcon />;
             default:
                 break;
         }
