@@ -196,6 +196,8 @@ import {
     MajSolidTrashCanIcon,
     MajSolidTriangleExclamation,
     MajLightTriangleExclamation,
+    MajLightTruckIcon,
+    MajSolidTruckIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
@@ -399,6 +401,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightTrashCanIcon />;
             case "triangle-exclamation":
                 return <MajLightTriangleExclamation />;
+            case "truck":
+                return <MajLightTruckIcon />;
             default:
                 break;
         }
@@ -602,6 +606,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidTrashCanIcon />;
             case "triangle-exclamation":
                 return <MajSolidTriangleExclamation />;
+            case "truck":
+                return <MajSolidTruckIcon />;
             default:
                 break;
         }

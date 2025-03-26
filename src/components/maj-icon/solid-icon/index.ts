@@ -95,3 +95,4 @@ export * from "./tag";
 export * from "./thumbs-up";
 export * from "./trash-can";
 export * from "./triangle-exclamation";
+export * from "./truck";
