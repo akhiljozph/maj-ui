@@ -96,3 +96,6 @@ export * from "./thumbs-down";
 export * from "./thumbs-up";
 export * from "./trash-can";
 export * from "./triangle-exclamation";
+export * from "./truck";
+export * from "./twitter-x";
+export * from "./unlock";
