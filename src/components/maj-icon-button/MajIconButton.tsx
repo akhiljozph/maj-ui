@@ -200,6 +200,8 @@ import {
     MajSolidTruckIcon,
     MajSolidTwitterXIcon,
     MajLightTwitterXIcon,
+    MajLightUnlockIcon,
+    MajSolidUnlockIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
@@ -407,6 +409,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightTruckIcon />;
             case "twitter-x":
                 return <MajLightTwitterXIcon />;
+            case "unlock":
+                return <MajLightUnlockIcon />;
             default:
                 break;
         }
@@ -614,6 +618,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidTruckIcon />;
             case "twitter-x":
                 return <MajSolidTwitterXIcon />;
+            case "unlock":
+                return <MajSolidUnlockIcon />;
             default:
                 break;
         }
