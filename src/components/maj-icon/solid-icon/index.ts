@@ -98,3 +98,4 @@ export * from "./triangle-exclamation";
 export * from "./truck";
 export * from "./twitter-x";
 export * from "./unlock";
+export * from "./upload";
