@@ -1,1 +1,8 @@
+# Formatting the source code to follow a unique formatting style.
 npm run format
+
+# Check project build is success or not.
+npm run build
+
+# Check storybook build is success or not.
+npm run build:storybook
