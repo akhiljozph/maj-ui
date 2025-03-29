@@ -204,6 +204,8 @@ import {
     MajSolidUnlockIcon,
     MajLightUploadIcon,
     MajSolidUploadIcon,
+    MajLightUserIcon,
+    MajSolidUserIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
@@ -415,6 +417,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightUnlockIcon />;
             case "upload":
                 return <MajLightUploadIcon />;
+            case "user":
+                return <MajLightUserIcon />;
             default:
                 break;
         }
@@ -626,6 +630,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidUnlockIcon />;
             case "upload":
                 return <MajSolidUploadIcon />;
+            case "user":
+                return <MajSolidUserIcon />;
             default:
                 break;
         }
