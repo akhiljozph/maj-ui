@@ -1,1 +1,1 @@
-export { default as MajSolidClockIcon } from './clock';
+export { default as MajSolidClockIcon } from "./clock";

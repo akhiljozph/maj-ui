@@ -1,1 +1,1 @@
-export { default as MajLightExpandIcon } from './expand';
+export { default as MajLightExpandIcon } from "./expand";

@@ -1,1 +1,1 @@
-export { default as MajLightUploadIcon } from './upload';
+export { default as MajLightUploadIcon } from "./upload";

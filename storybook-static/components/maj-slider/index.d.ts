@@ -1,1 +1,1 @@
-export { default as MajSlider } from './MajSlider';
+export { default as MajSlider } from "./MajSlider";

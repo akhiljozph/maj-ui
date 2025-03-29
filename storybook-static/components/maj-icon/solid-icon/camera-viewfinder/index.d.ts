@@ -1,1 +1,1 @@
-export { default as MajSolidCameraViewfinderIcon } from './camera-viewfinder';
+export { default as MajSolidCameraViewfinderIcon } from "./camera-viewfinder";

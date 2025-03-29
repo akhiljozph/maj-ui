@@ -1,1 +1,1 @@
-export { default as MajSolidCircleExclamationIcon } from './circle-exclamation';
+export { default as MajSolidCircleExclamationIcon } from "./circle-exclamation";

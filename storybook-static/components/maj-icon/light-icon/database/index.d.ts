@@ -1,1 +1,1 @@
-export { default as MajLightDatabaseIcon } from './database';
+export { default as MajLightDatabaseIcon } from "./database";

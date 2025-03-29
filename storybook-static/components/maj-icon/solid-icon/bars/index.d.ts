@@ -1,1 +1,1 @@
-export { default as MajSolidBarsIcon } from './bars';
+export { default as MajSolidBarsIcon } from "./bars";

@@ -1,1 +1,1 @@
-export { default as MajLightPlayIcon } from './play';
+export { default as MajLightPlayIcon } from "./play";

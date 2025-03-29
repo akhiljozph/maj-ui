@@ -1,1 +1,1 @@
-export { default as MajLightMagnifyingGlassIcon } from './magnifying-glass';
+export { default as MajLightMagnifyingGlassIcon } from "./magnifying-glass";

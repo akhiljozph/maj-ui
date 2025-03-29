@@ -1,1 +1,1 @@
-export { default as MajSolidUploadIcon } from './upload';
+export { default as MajSolidUploadIcon } from "./upload";

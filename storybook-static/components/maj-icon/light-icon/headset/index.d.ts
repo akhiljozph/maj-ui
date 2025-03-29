@@ -1,1 +1,1 @@
-export { default as MajLightHeadsetIcon } from './headset';
+export { default as MajLightHeadsetIcon } from "./headset";

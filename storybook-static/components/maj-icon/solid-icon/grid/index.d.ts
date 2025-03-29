@@ -1,1 +1,1 @@
-export { default as MajSolidGridIcon } from './grid';
+export { default as MajSolidGridIcon } from "./grid";

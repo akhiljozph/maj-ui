@@ -1,1 +1,1 @@
-export { default as MajSolidPictureIcon } from './picture';
+export { default as MajSolidPictureIcon } from "./picture";

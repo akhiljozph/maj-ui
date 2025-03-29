@@ -1,1 +1,1 @@
-export { default as MajSolidEnvelopeIcon } from './envelope';
+export { default as MajSolidEnvelopeIcon } from "./envelope";

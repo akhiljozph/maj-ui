@@ -1,1 +1,1 @@
-export { default as MajToggle } from './MajToggle';
+export { default as MajToggle } from "./MajToggle";

@@ -1,1 +1,1 @@
-export { default as MajSolidCartFlatbedBoxes } from './cart-flatbed-boxes';
+export { default as MajSolidCartFlatbedBoxes } from "./cart-flatbed-boxes";

@@ -1,1 +1,1 @@
-export { default as MajLightHouseIcon } from './house';
+export { default as MajLightHouseIcon } from "./house";

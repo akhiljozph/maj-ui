@@ -1,1 +1,1 @@
-export { default as MajSolidTrashCanIcon } from './trash-can';
+export { default as MajSolidTrashCanIcon } from "./trash-can";

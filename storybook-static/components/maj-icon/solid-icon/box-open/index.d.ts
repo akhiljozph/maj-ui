@@ -1,1 +1,1 @@
-export { default as MajSolidBoxOpenIcon } from './box-open';
+export { default as MajSolidBoxOpenIcon } from "./box-open";

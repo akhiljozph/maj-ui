@@ -1,1 +1,1 @@
-export { default as MajLightCalendarDaysIcon } from './calendar-days';
+export { default as MajLightCalendarDaysIcon } from "./calendar-days";

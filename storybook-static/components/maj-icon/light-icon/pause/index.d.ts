@@ -1,1 +1,1 @@
-export { default as MajLightPauseIcon } from './pause';
+export { default as MajLightPauseIcon } from "./pause";

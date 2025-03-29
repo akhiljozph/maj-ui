@@ -1,1 +1,1 @@
-export { default as MajSolidCircleXMarkIcon } from './circle-x-mark';
+export { default as MajSolidCircleXMarkIcon } from "./circle-x-mark";

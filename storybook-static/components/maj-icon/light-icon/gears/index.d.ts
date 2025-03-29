@@ -1,1 +1,1 @@
-export { default as MajLightGearsIcon } from './gears';
+export { default as MajLightGearsIcon } from "./gears";

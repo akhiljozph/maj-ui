@@ -1,1 +1,1 @@
-export { default as MajSolidEqualsIcon } from './equals';
+export { default as MajSolidEqualsIcon } from "./equals";

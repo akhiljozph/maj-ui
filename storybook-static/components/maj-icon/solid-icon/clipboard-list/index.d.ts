@@ -1,1 +1,1 @@
-export { default as MajSolidClipboardListIcon } from './clipboard-list';
+export { default as MajSolidClipboardListIcon } from "./clipboard-list";

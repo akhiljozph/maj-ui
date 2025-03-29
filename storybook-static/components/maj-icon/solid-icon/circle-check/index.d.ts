@@ -1,1 +1,1 @@
-export { default as MajSolidCircleCheckIcon } from './circle-check';
+export { default as MajSolidCircleCheckIcon } from "./circle-check";

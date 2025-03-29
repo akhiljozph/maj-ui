@@ -1,1 +1,1 @@
-export { default as MajLightSquareLinkedInIcon } from './square-linkedin';
+export { default as MajLightSquareLinkedInIcon } from "./square-linkedin";

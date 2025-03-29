@@ -1,1 +1,1 @@
-export { default as MajLightTagIcon } from './tag';
+export { default as MajLightTagIcon } from "./tag";

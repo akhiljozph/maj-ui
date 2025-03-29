@@ -1,1 +1,1 @@
-export { default as MajSolidCaretLeftIcon } from './caret-left';
+export { default as MajSolidCaretLeftIcon } from "./caret-left";

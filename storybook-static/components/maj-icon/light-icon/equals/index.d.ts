@@ -1,1 +1,1 @@
-export { default as MajLightEqualsIcon } from './equals';
+export { default as MajLightEqualsIcon } from "./equals";

@@ -1,1 +1,1 @@
-export { default as MajSolidLockIcon } from './lock';
+export { default as MajSolidLockIcon } from "./lock";

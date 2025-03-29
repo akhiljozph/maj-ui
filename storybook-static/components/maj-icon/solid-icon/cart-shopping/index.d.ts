@@ -1,1 +1,1 @@
-export { default as MajSolidCartShoppingIcon } from './cart-shopping';
+export { default as MajSolidCartShoppingIcon } from "./cart-shopping";

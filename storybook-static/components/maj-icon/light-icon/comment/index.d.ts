@@ -1,1 +1,1 @@
-export { default as MajLightCommentIcon } from './comment';
+export { default as MajLightCommentIcon } from "./comment";
