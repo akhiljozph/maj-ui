@@ -1,1 +1,1 @@
-export { default as MajSolidArrowUpFromBracketIcon } from "./arrow-up-from-bracket";
+export { default as MajSolidArrowUpFromBracketIcon } from './arrow-up-from-bracket';

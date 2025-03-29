@@ -1,1 +1,1 @@
-export { default as MajSolidArrowsRotateIcon } from "./arrows-rotate";
+export { default as MajSolidArrowsRotateIcon } from './arrows-rotate';

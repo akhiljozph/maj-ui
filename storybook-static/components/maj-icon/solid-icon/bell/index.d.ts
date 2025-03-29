@@ -1,1 +1,1 @@
-export { default as MajSolidBellIcon } from "./bell";
+export { default as MajSolidBellIcon } from './bell';

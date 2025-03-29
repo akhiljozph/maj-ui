@@ -1,1 +1,1 @@
-export { default as MajSolidBackwardStepIcon } from "./backward-step";
+export { default as MajSolidBackwardStepIcon } from './backward-step';

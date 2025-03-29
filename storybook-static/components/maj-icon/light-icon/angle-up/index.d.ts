@@ -1,1 +1,1 @@
-export { default as MajLightAngleUpIcon } from "./angle-up";
+export { default as MajLightAngleUpIcon } from './angle-up';

@@ -1,1 +1,1 @@
-export { default as MajLightBoltLightningIcon } from "./bolt-lightning";
+export { default as MajLightBoltLightningIcon } from './bolt-lightning';
