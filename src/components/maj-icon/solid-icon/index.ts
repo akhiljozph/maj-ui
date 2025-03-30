@@ -103,3 +103,4 @@ export * from "./user";
 export * from "./volume";
 export * from "./volume-slash";
 export * from "./wave-pulse";
+export * from "./x-mark";
