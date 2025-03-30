@@ -208,6 +208,8 @@ import {
     MajSolidUserIcon,
     MajSolidVolumeIcon,
     MajLightVolumeIcon,
+    MajLightVolumeSlashIcon,
+    MajSolidVolumeSlashIcon,
 } from "../maj-icon";
 import "./MajIconButton.scss";
 import { MajSolidThumbsDownIcon } from "../maj-icon/solid-icon/thumbs-down";
@@ -423,6 +425,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajLightUserIcon />;
             case "volume":
                 return <MajLightVolumeIcon />;
+            case "volume-slash":
+                return <MajLightVolumeSlashIcon />;
             default:
                 break;
         }
@@ -638,6 +642,8 @@ const MajIconButton: React.FC<MajIconButtonProps> = (props: MajIconButtonProps) 
                 return <MajSolidUserIcon />;
             case "volume":
                 return <MajSolidVolumeIcon />;
+            case "volume-slash":
+                return <MajSolidVolumeSlashIcon />;
             default:
                 break;
         }
