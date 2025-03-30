@@ -101,3 +101,4 @@ export * from "./twitter-x";
 export * from "./unlock";
 export * from "./upload";
 export * from "./user";
+export * from "./volume";
