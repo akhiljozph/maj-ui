@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { MajAutocompleteProps } from "./MajAutocomplete.type";
 
@@ -9,11 +9,18 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
     const [value, setValue] = useState<string>();
 
     const findOptions = (event: any) => {
+        setValue(event.target.value);
+
         const filteredOptions = props.options.filter((option) => {
             return option.toLowerCase().startsWith(event.target.value.toLowerCase());
         });
+
         setOptions(filteredOptions.length > 0 ? filteredOptions : [`${event.target.value}`]);
     };
+
+    useEffect(() => {
+        props?.onSelect(value);
+    }, [value]);
 
     const setAutoCompleteValue = (event: any) => {
         setValue(event.target.innerHTML);
