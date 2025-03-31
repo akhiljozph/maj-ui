@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { MajAutocompleteProps } from "./MajAutocomplete.type";
 
-// import "./MajAutocomplete.scss";
+import "./MajAutocomplete.scss";
 
 const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteProps) => {
     const [options, setOptions] = useState<string[]>(props.options);
