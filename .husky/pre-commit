@@ -1,5 +1,8 @@
 # Formatting the source code to follow a unique formatting style.
 npm run format
 
+# Stage all changes that've been arose due to  formatting
+git add .
+
 # Check project build is success or not.
 npm run build

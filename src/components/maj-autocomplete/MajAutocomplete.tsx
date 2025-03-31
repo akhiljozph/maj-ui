@@ -19,7 +19,6 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
     };
 
     useEffect(() => {
-        console.log("VALUE", value);
         props?.onSelect(value);
     }, [value]);
 
