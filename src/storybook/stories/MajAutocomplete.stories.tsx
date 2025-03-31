@@ -237,5 +237,6 @@ export const Autocomplete: Story = {
             "Zimbabwe",
         ],
         placeholder: "Type something...",
+        onSelect: (event) => { return console.log(event);},
     },
 };
