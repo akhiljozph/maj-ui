@@ -2,16 +2,16 @@ import { useState } from "react";
 
 import { MajAutocompleteProps } from "./MajAutocomplete.type";
 
-// import "./MajAutocomplete.scss";
+import "./MajAutocomplete.scss";
 
 const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteProps) => {
     const [options, setOptions] = useState<string[]>(props.options);
     const [value, setValue] = useState<string>();
 
     const findOptions = (event: any) => {
-        const filteredOptions = props.options.filter((option) =>
-            option.startsWith(event.target.value),
-        );
+        const filteredOptions = props.options.filter((option) => {
+            return option.toLowerCase().startsWith(event.target.value.toLowerCase());
+        });
         setOptions(filteredOptions.length > 0 ? filteredOptions : [`${event.target.value}`]);
     };
 
@@ -33,6 +33,7 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
         <>
             <div className="maj-autocomplete-wrapper">
                 <input
+                    placeholder={props?.placeholder}
                     type="text"
                     value={value}
                     onChange={findOptions}

@@ -236,5 +236,6 @@ export const Autocomplete: Story = {
             "Zambia",
             "Zimbabwe",
         ],
+        placeholder: "Type something...",
     },
 };
