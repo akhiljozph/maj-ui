@@ -101,3 +101,7 @@ export * from "./twitter-x";
 export * from "./unlock";
 export * from "./upload";
 export * from "./user";
+export * from "./volume";
+export * from "./volume-slash";
+export * from "./wave-pulse";
+export * from "./x-mark";
