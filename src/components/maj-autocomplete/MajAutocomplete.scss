@@ -1,9 +1,15 @@
+@import "../../assets/styles/variables/variables.scss";
+
 .maj-autocomplete-wrapper {
   position: relative;
 
   input {
     position: relative;
     padding: 0.5rem;
+
+    &:focus-within {
+      border-color: $primary-border-color;
+    }
   }
 
   // .autocomplete-options {
