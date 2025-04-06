@@ -13,3 +13,21 @@ type Story = StoryObj<typeof MajTypography>;
 export const Primary: Story = {
     args: {},
 };
+
+export const HeadingOne: Story = {};
+
+export const HeadingTwo: Story = {};
+
+export const HeadingThree: Story = {};
+
+export const HeadingFour: Story = {};
+
+export const HeadingFive: Story = {};
+
+export const HeadingSix: Story = {};
+
+export const SubScript: Story = {};
+
+export const SuperScript: Story = {};
+
+export const Link: Story = {};
