@@ -10,10 +10,6 @@ const meta: Meta<typeof MajTypography> = {
 export default meta;
 type Story = StoryObj<typeof MajTypography>;
 
-export const Primary: Story = {
-    args: {},
-};
-
 export const HeadingOne: Story = {};
 
 export const HeadingTwo: Story = {};
