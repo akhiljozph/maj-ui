@@ -1,10 +1,11 @@
 import { MajH1 } from "./maj-heading-one";
+import { MajH2 } from "./maj-heading-two";
 
 const MajTypography = () => {
     return (
         <>
             <MajH1>H1 typography works!</MajH1>
-            <h2>H2 typography works!</h2>
+            <MajH2>H2 typography works!</MajH2>
             <h3>H3 typography works!</h3>
             <h4>H4 typography works!</h4>
             <h5>H5 typography works!</h5>
