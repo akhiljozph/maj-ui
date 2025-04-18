@@ -4,6 +4,7 @@ import { MajH1 } from "./maj-heading-one";
 import { MajH6 } from "./maj-heading-six";
 import { MajH3 } from "./maj-heading-three";
 import { MajH2 } from "./maj-heading-two";
+import { MajSubScript } from "./maj-sub-script";
 
 const MajTypography = () => {
     return (
@@ -14,7 +15,7 @@ const MajTypography = () => {
             <MajH4>H4 typography works!</MajH4>
             <MajH5>H5 typography works!</MajH5>
             <MajH6>H6 typography works!</MajH6>
-            <sub>Subscript typography works!</sub>
+            <MajSubScript>Subscript typography works!</MajSubScript>
             <sup>Superscript typography works!</sup>
             <a>Link typography works!</a>
             <b>Bold typography works!</b>
