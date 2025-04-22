@@ -1,3 +1,4 @@
+import { MajBold } from "./maj-bold";
 import { MajH5 } from "./maj-heading-five";
 import { MajH4 } from "./maj-heading-four";
 import { MajH1 } from "./maj-heading-one";
@@ -20,7 +21,7 @@ const MajTypography = () => {
             <MajSubScript>Subscript typography works!</MajSubScript>
             <MajSuperScript>Superscript typography works!</MajSuperScript>
             <MajLink>Link typography works!</MajLink>
-            <b>Bold typography works!</b>
+            <MajBold>Bold typography works!</MajBold>
         </>
     );
 };
