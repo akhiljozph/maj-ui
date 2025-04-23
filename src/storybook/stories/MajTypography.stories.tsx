@@ -1,7 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajTypography from "../../components/maj-typography/MajTypography";
-
 const meta: Meta<typeof MajTypography> = {
     title: "MajUi/MajTypography",
     component: MajTypography,
