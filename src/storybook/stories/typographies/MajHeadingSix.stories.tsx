@@ -12,6 +12,6 @@ type Story = StoryObj<typeof MajH6>;
 
 export const Bold: Story = {
     args: {
-        children: "Keep calm! This is a heading 6.",
+        children: "Don't panic! This is a heading 6.",
     },
 };
