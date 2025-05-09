@@ -1,11 +1,11 @@
-// import { MajLinkProps } from "./MajLink.types";
+import { MajLabelProps } from "./MajLabel.types";
 
-// const MajLink = ({ children }: MajLinkProps) => {
-//     return (
-//         <>
-//             <a>{children}</a>
-//         </>
-//     );
-// };
+const MajLink = ({ children }: MajLabelProps) => {
+    return (
+        <>
+            <label>{children}</label>
+        </>
+    );
+};
 
-// export default MajLink;
+export default MajLink;
