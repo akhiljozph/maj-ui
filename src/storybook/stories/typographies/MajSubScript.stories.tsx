@@ -10,7 +10,7 @@ const meta: Meta<typeof MajSubScript> = {
 export default meta;
 type Story = StoryObj<typeof MajSubScript>;
 
-export const Bold: Story = {
+export const SubScript: Story = {
     args: {
         children: "Be happy! It's a subscript boy.",
     },
