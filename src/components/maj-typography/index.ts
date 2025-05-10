@@ -5,6 +5,7 @@ export * from "./maj-heading-one";
 export * from "./maj-heading-six";
 export * from "./maj-heading-three";
 export * from "./maj-heading-two";
+export * from "./maj-label";
 export * from "./maj-link";
 export * from "./maj-sub-script";
 export * from "./maj-super-script";
