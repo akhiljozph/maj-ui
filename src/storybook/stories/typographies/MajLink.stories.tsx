@@ -10,7 +10,7 @@ const meta: Meta<typeof MajLink> = {
 export default meta;
 type Story = StoryObj<typeof MajLink>;
 
-export const Bold: Story = {
+export const Link: Story = {
     args: {
         children: "Don't panic! It's a simple link.",
     },
