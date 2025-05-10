@@ -10,7 +10,7 @@ const meta: Meta<typeof MajSuperScript> = {
 export default meta;
 type Story = StoryObj<typeof MajSuperScript>;
 
-export const Bold: Story = {
+export const SuperScript: Story = {
     args: {
         children: "Be happy! It's a superscript boy.",
     },

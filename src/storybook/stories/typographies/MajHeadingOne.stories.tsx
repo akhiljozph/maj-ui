@@ -10,7 +10,7 @@ const meta: Meta<typeof MajH1> = {
 export default meta;
 type Story = StoryObj<typeof MajH1>;
 
-export const Bold: Story = {
+export const H1: Story = {
     args: {
         children: "Keep calm! This is a heading 1.",
     },
