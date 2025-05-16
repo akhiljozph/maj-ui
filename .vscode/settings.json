@@ -18,5 +18,7 @@
         "titleBar.inactiveBackground": "#ffc40c99",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#ffc40c"
+    "peacock.color": "#ffc40c",
+    "editor.fontFamily": "JetBrains Mono Light",
+    "editor.fontSize": 14
 }
