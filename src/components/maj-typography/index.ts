@@ -10,4 +10,3 @@ export * from "./maj-link";
 export * from "./maj-paragraph";
 export * from "./maj-sub-script";
 export * from "./maj-super-script";
-export * from "./maj-article";
