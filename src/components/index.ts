@@ -7,6 +7,7 @@ export * from "./maj-card";
 export * from "./maj-checkbox";
 export * from "./maj-date-picker";
 export * from "./maj-date-time-picker";
+export * from "./maj-embed";
 export * from "./maj-icon";
 export * from "./maj-icon-button";
 export * from "./maj-radio-group";
