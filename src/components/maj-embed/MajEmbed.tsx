@@ -1,5 +1,7 @@
 import { MajEmbedProps } from "./MajEmbed.types";
 
+import "./MajEmbed.scss";
+
 const MajEmbed = (props: MajEmbedProps) => {
     return (
         <embed
