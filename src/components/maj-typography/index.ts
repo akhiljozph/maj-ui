@@ -1,4 +1,5 @@
 export * from "./maj-bold";
+export * from "./maj-del";
 export * from "./maj-heading-five";
 export * from "./maj-heading-four";
 export * from "./maj-heading-one";
@@ -8,6 +9,6 @@ export * from "./maj-heading-two";
 export * from "./maj-label";
 export * from "./maj-link";
 export * from "./maj-paragraph";
+export * from "./maj-small";
 export * from "./maj-sub-script";
 export * from "./maj-super-script";
-export * from "./maj-del";
