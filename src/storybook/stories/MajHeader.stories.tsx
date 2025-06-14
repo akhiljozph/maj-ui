@@ -13,10 +13,6 @@ type Story = StoryObj<typeof MajHeader>;
 
 export const Primary: Story = {
     args: {
-        children: (
-            <>
-                <p>Hello world!</p>
-            </>
-        ),
+        children: <p>Hello world!</p>,
     },
 };
