@@ -1,7 +1,8 @@
+import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import MajHeader from "../../components/maj-header/MajHeader";
-import React from "react";
+import MajArticle from "../../components/maj-article/MajArticle";
 
 const meta: Meta<typeof MajHeader> = {
     title: "MajUi/MajHeader",
@@ -13,6 +14,6 @@ type Story = StoryObj<typeof MajHeader>;
 
 export const Primary: Story = {
     args: {
-        children: <p>Hello world!</p>,
+        children: <MajArticle>Hello world!</MajArticle>,
     },
 };
