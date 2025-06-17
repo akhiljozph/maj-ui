@@ -1,3 +1,4 @@
+import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
 import MajCard from "../../components/maj-card/MajCard";
@@ -12,6 +13,6 @@ type Story = StoryObj<typeof MajCard>;
 
 export const ToggleWithLabel: Story = {
     args: {
-        children: "<div>Card</div>",
+        children: <div>Card</div>,
     },
 };
