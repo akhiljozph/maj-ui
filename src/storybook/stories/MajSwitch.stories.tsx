@@ -13,7 +13,3 @@ type Story = StoryObj<typeof MajSwitch>;
 export const Default: Story = {
     args: {},
 };
-
-export const Primary: Story = {
-    args: {},
-};
