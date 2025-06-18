@@ -13,6 +13,6 @@ type Story = StoryObj<typeof MajTextField>;
 export const Primary: Story = {
     args: {
         rows: 10,
-        cols: 10,
+        cols: 100,
     },
 };
