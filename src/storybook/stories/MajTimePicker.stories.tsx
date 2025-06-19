@@ -13,3 +13,7 @@ type Story = StoryObj<typeof MajTimePicker>;
 export const Primary: Story = {
     args: {},
 };
+
+export const secondary: Story = {
+    args: {},
+};
