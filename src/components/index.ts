@@ -14,6 +14,7 @@ export * from "./maj-radio-group";
 export * from "./maj-rating";
 export * from "./maj-select";
 export * from "./maj-slider";
+export * from "./maj-snackbar";
 export * from "./maj-switch";
 export * from "./maj-text-field";
 export * from "./maj-time-picker";

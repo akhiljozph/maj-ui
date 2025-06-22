@@ -1,6 +1,6 @@
 import { MajSnackbarProps } from "./MajSnackbar.types";
 
-import "./MajCard.scss";
+import "./MajSnackbar.scss";
 
 const MajSnackbar: React.FC<MajSnackbarProps> = (props: MajSnackbarProps) => {
     return <div>{props?.children}</div>;
