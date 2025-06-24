@@ -1,0 +1,1 @@
+import{j as i}from"./jsx-runtime-DEdD30eg.js";const t=e=>i.jsx("article",{children:e==null?void 0:e.children});t.__docgenInfo={description:"",methods:[],displayName:"MajArticle",props:{children:{required:!1,tsType:{name:"ReactNode"},description:""}}};export{t as M};
