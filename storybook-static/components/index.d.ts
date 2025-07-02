@@ -1,3 +1,4 @@
+export * from "./maj-accordion";
 export * from "./maj-article";
 export * from "./maj-autocomplete";
 export * from "./maj-avatar";
@@ -5,6 +6,7 @@ export * from "./maj-button";
 export * from "./maj-button-group";
 export * from "./maj-card";
 export * from "./maj-checkbox";
+export * from "./maj-chip";
 export * from "./maj-date-picker";
 export * from "./maj-date-time-picker";
 export * from "./maj-embed";
