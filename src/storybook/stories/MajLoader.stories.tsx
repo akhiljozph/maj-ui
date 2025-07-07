@@ -10,7 +10,19 @@ const meta: Meta<typeof MajLoader> = {
 export default meta;
 type Story = StoryObj<typeof MajLoader>;
 
-export const Loader: Story = {
+export const CircleLoader: Story = {
+    args: {
+        message: "9",
+    },
+};
+
+export const LineLoader: Story = {
+    args: {
+        message: "9",
+    },
+};
+
+export const SkeletonLoader: Story = {
     args: {
         message: "9",
     },
