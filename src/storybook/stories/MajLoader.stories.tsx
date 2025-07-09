@@ -27,3 +27,9 @@ export const SkeletonLoader: Story = {
         message: "9",
     },
 };
+
+export const CustomLoader: Story = {
+    args: {
+        message: "9",
+    },
+};
