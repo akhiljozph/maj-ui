@@ -10,6 +10,7 @@ export * from "./maj-checkbox";
 export * from "./maj-chip";
 export * from "./maj-date-picker";
 export * from "./maj-date-time-picker";
+export * from "./maj-divider";
 export * from "./maj-embed";
 export * from "./maj-icon";
 export * from "./maj-icon-button";
