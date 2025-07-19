@@ -10,8 +10,9 @@ const meta: Meta<typeof MajDivider> = {
 export default meta;
 type Story = StoryObj<typeof MajDivider>;
 
-export const Divider: Story = {
+export const DefaultDivider: Story = {
     args: {
         stroke: "12",
+        variant: "solid",
     },
 };
