@@ -1,9 +1,9 @@
-import { MajDividerProps } from "./MajDivider.types";
+// import { MajDividerProps } from "./MajDivider.types";
 
 import "./MajDivider.scss";
 
-const MajDivider = (props: MajDividerProps) => {
-    return <>{props} maj-divider works!</>;
+const MajDivider = () => {
+    return <div className="maj-divider"></div>;
 };
 
 export default MajDivider;
