@@ -4,6 +4,17 @@
     margin: 0.5rem;
     border-width: 0;
     align-self: stretch;
-    border-style: solid;
     border-top-width: thin;
+}
+
+.solid-divider {
+    border-style: solid;
+}
+
+.dotted-divider {
+    border-style: dotted;
+}
+
+.dashed-divider {
+    border-style: dashed;
 }
