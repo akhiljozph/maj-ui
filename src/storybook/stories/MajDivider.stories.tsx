@@ -30,3 +30,24 @@ export const DashedDivider: Story = {
         variant: "dashed",
     },
 };
+
+export const DividerOrientationStart: Story = {
+    args: {
+        stroke: "12",
+        variant: "solid",
+    },
+};
+
+export const DividerOrientationCenter: Story = {
+    args: {
+        stroke: "12",
+        variant: "dotted",
+    },
+};
+
+export const DividerOrientationEnd: Story = {
+    args: {
+        stroke: "12",
+        variant: "dashed",
+    },
+};
