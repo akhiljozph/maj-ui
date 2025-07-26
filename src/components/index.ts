@@ -17,6 +17,7 @@ export * from "./maj-icon-button";
 export * from "./maj-loader";
 export * from "./maj-pagination";
 export * from "./maj-popover";
+export * from "./maj-progress-bar";
 export * from "./maj-radio-group";
 export * from "./maj-rating";
 export * from "./maj-select";
