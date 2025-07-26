@@ -1,6 +1,6 @@
 import { MajProgressBarProps } from "./MajProgressBar.types";
 
-import "./MajPopover.scss";
+import "./MajProgressBar.scss";
 
 const MajProgressBar = (props: MajProgressBarProps) => {
     return <> {props?.message} MajProgressBar works!</>;
