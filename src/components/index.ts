@@ -27,4 +27,5 @@ export * from "./maj-switch";
 export * from "./maj-text-field";
 export * from "./maj-time-picker";
 export * from "./maj-toggle";
+export * from "./maj-tooltip";
 export * from "./maj-typography";
