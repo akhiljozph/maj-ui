@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajDatePicker from "../../components/maj-date-picker/MajDatePicker";
+import { MajDatePicker } from "../../components";
 
 const meta: Meta<typeof MajDatePicker> = {
     title: "MajUi/MajDatePicker",

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajToggle from "../../components/maj-toggle/MajToggle";
+import { MajToggle } from "../../components";
 
 const meta: Meta<typeof MajToggle> = {
     title: "MajUi/MajToggle",

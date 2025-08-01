@@ -1,8 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 
-import MajChip from "../../components/maj-chip/MajChip";
-import { MajP, MajSubScript } from "../../components/maj-typography";
+import { MajChip } from "../../components";
 
 const meta: Meta<typeof MajChip> = {
     title: "MajUi/MajChip",

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajCheckbox from "../../components/maj-checkbox/MajCheckbox";
+import { MajCheckbox } from "../../components";
 
 const meta: Meta<typeof MajCheckbox> = {
     title: "MajUi/MajCheckbox",

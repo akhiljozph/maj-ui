@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajRadioGroup from "../../components/maj-radio-group/MajRadioGroup";
+import { MajRadioGroup } from "../../components";
 
 const meta: Meta<typeof MajRadioGroup> = {
     title: "MajUi/MajRadioGroup",

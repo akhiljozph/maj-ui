@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajSlider from "../../components/maj-slider/MajSlider";
+import { MajSlider } from "../../components";
 
 const meta: Meta<typeof MajSlider> = {
     title: "MajUi/MajSlider",

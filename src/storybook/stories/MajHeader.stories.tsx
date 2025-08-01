@@ -1,8 +1,8 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajHeader from "../../components/maj-header/MajHeader";
-import MajArticle from "../../components/maj-article/MajArticle";
+import { MajHeader } from "../../components";
+import { MajArticle } from "../../components";
 
 const meta: Meta<typeof MajHeader> = {
     title: "MajUi/MajHeader",

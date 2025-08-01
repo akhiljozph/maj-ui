@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajRating from "../../components/maj-rating/MajRating";
+import { MajRating } from "../../components";
 
 const meta: Meta<typeof MajRating> = {
     title: "MajUi/MajRating",

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajButton from "../../components/maj-button/MajButton";
+import { MajButton } from "../../components";
 
 const meta: Meta<typeof MajButton> = {
     title: "MajUi/MajButton",
