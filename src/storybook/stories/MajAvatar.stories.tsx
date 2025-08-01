@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajAvatar from "../../components/maj-avatar/MajAvatar";
+import { MajAvatar } from "../../components";
 
 const meta: Meta<typeof MajAvatar> = {
     title: "MajUi/MajAvatar",

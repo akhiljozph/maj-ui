@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajSnackbar from "../../components/maj-snackbar/MajSnackbar";
+import { MajSnackbar } from "../../components";
 import React from "react";
 
 const meta: Meta<typeof MajSnackbar> = {

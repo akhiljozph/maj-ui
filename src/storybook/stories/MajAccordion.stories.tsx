@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React from "react";
 
-import MajAccordion from "../../components/maj-accordion/MajAccordion";
-import { MajP, MajSubScript } from "../../components/maj-typography";
+import { MajAccordion } from "../../components";
+import { MajP, MajSubScript } from "../../components";
 
 const meta: Meta<typeof MajAccordion> = {
     title: "MajUi/MajAccordion",

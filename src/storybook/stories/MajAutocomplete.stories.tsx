@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajAutocomplete from "../../components/maj-autocomplete/MajAutocomplete";
+import { MajAutocomplete } from "../../components";
 
 const meta: Meta<typeof MajAutocomplete> = {
     title: "MajUi/MajAutocomplete",

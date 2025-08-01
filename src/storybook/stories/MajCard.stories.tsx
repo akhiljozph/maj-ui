@@ -1,7 +1,7 @@
 import React from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajCard from "../../components/maj-card/MajCard";
+import { MajCard } from "../../components";
 
 const meta: Meta<typeof MajCard> = {
     title: "MajUi/MajCard",

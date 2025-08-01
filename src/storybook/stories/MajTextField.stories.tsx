@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajTextField from "../../components/maj-text-field/MajTextField";
+import { MajTextField } from "../../components";
 
 const meta: Meta<typeof MajTextField> = {
     title: "MajUi/MajTextField",

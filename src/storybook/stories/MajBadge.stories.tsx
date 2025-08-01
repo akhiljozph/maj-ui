@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajBadge from "../../components/maj-badge/MajBadge";
+import { MajBadge } from "../../components";
 
 const meta: Meta<typeof MajBadge> = {
     title: "MajUi/MajBadge",

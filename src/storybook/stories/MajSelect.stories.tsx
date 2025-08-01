@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajSelect from "../../components/maj-select/MajSelect";
+import { MajSelect } from "../../components";
 
 const meta: Meta<typeof MajSelect> = {
     title: "MajUi/MajSelect",

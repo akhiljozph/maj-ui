@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajDivider from "../../components/maj-divider/MajDivider";
+import { MajDivider } from "../../components";
 
 const meta: Meta<typeof MajDivider> = {
     title: "MajUi/MajDivider",

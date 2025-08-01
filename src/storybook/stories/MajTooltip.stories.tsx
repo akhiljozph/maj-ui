@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import MajTooltip from "../../components/maj-tooltip/MajTooltip";
+import { MajTooltip } from "../../components";
 
 const meta: Meta<typeof MajTooltip> = {
     title: "MajUi/MajTooltip",

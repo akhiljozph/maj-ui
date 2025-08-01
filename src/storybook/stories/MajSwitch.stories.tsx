@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import MajSwitch from "../../components/maj-switch/MajSwitch";
+import { MajSwitch } from "../../components";
 
 const meta: Meta<typeof MajSwitch> = {
     title: "MajUi/MajSwitch",

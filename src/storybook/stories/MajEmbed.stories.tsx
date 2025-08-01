@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import MajEmbed from "../../components/maj-embed/MajEmbed";
+import { MajEmbed } from "../../components";
 
 const meta: Meta<typeof MajEmbed> = {
     title: "MajUi/MajEmbed",
