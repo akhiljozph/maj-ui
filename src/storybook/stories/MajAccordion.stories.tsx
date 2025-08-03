@@ -14,6 +14,7 @@ type Story = StoryObj<typeof MajAccordion>;
 
 export const Accordion: Story = {
     args: {
+        accordionTitle: "Expand for more details...",
         children: (
             <MajP>
                 Maj SubScript Component
