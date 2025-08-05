@@ -21,6 +21,7 @@ export * from "./maj-popover";
 export * from "./maj-progress-bar";
 export * from "./maj-radio-group";
 export * from "./maj-rating";
+export * from "./maj-section";
 export * from "./maj-select";
 export * from "./maj-slider";
 export * from "./maj-snackbar";
