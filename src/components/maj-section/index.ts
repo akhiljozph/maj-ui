@@ -1,1 +1,1 @@
-export { default as MajSectionProps } from "./MajSection";
+export { default as MajSection } from "./MajSection";
