@@ -1,1 +1,1 @@
-export { default as MajBold } from './MajBold';
+export { default as MajBold } from "./MajBold";

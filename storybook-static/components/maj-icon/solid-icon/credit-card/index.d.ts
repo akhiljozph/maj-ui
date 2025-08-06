@@ -1,1 +1,1 @@
-export { default as MajSolidCreditCardIcon } from './credit-card';
+export { default as MajSolidCreditCardIcon } from "./credit-card";

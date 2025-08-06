@@ -1,1 +1,1 @@
-export { default as MajDel } from './MajDel';
+export { default as MajDel } from "./MajDel";

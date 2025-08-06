@@ -1,1 +1,1 @@
-export { default as MajSolidVolumeIcon } from './volume';
+export { default as MajSolidVolumeIcon } from "./volume";

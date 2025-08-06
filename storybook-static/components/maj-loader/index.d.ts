@@ -1,1 +1,1 @@
-export { default as MajLoader } from './MajLoader';
+export { default as MajLoader } from "./MajLoader";

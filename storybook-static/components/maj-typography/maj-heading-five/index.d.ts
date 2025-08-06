@@ -1,1 +1,1 @@
-export { default as MajH5 } from './MajHeadingFive';
+export { default as MajH5 } from "./MajHeadingFive";

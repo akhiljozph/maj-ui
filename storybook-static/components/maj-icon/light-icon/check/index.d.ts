@@ -1,1 +1,1 @@
-export { default as MajLightCheckIcon } from './check';
+export { default as MajLightCheckIcon } from "./check";

@@ -1,1 +1,1 @@
-export { default as MajLightFlashIcon } from './flash';
+export { default as MajLightFlashIcon } from "./flash";

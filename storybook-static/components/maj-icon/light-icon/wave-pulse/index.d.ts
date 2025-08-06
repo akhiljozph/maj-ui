@@ -1,1 +1,1 @@
-export { default as MajLightWavePulseIcon } from './wave-pulse';
+export { default as MajLightWavePulseIcon } from "./wave-pulse";

@@ -1,1 +1,1 @@
-export { default as MajLightBoxOpenIcon } from './box-open';
+export { default as MajLightBoxOpenIcon } from "./box-open";

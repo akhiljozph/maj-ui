@@ -1,1 +1,1 @@
-export { default as MajSolidPaperclipIcon } from './paperclip';
+export { default as MajSolidPaperclipIcon } from "./paperclip";

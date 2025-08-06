@@ -1,1 +1,1 @@
-export { default as MajSolidStarIcon } from './star';
+export { default as MajSolidStarIcon } from "./star";

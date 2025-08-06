@@ -1,1 +1,1 @@
-export { default as MajLightXMarkIcon } from './x-mark';
+export { default as MajLightXMarkIcon } from "./x-mark";

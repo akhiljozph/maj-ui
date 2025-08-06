@@ -1,1 +1,1 @@
-export { default as MajTooltip } from './MajTooltip';
+export { default as MajTooltip } from "./MajTooltip";

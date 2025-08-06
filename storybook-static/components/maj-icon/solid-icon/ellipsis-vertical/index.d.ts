@@ -1,1 +1,1 @@
-export { default as MajSolidEllipsisVerticalIcon } from './ellipsis-vertical';
+export { default as MajSolidEllipsisVerticalIcon } from "./ellipsis-vertical";

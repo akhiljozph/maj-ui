@@ -1,1 +1,1 @@
-export { default as MajSolidEyeIcon } from './eye';
+export { default as MajSolidEyeIcon } from "./eye";

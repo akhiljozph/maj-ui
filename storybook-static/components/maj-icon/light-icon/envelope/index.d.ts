@@ -1,1 +1,1 @@
-export { default as MajLightEnvelopeIcon } from './envelope';
+export { default as MajLightEnvelopeIcon } from "./envelope";

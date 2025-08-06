@@ -1,1 +1,1 @@
-export { default as MajLightArrowDownToLineIcon } from './arrow-down-to-line';
+export { default as MajLightArrowDownToLineIcon } from "./arrow-down-to-line";

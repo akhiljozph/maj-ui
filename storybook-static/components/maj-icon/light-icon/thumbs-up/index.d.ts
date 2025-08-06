@@ -1,1 +1,1 @@
-export { default as MajLightThumbsUpIcon } from './thumbs-up';
+export { default as MajLightThumbsUpIcon } from "./thumbs-up";

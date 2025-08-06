@@ -1,2 +1,2 @@
-export * from './light-icon';
-export * from './solid-icon';
+export * from "./light-icon";
+export * from "./solid-icon";

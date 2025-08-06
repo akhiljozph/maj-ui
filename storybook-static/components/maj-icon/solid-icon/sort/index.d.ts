@@ -1,1 +1,1 @@
-export { default as MajSolidSortIcon } from './sort';
+export { default as MajSolidSortIcon } from "./sort";

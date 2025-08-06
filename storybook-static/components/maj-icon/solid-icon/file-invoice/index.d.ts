@@ -1,1 +1,1 @@
-export { default as MajSolidFileInvoiceIcon } from './file-invoice';
+export { default as MajSolidFileInvoiceIcon } from "./file-invoice";

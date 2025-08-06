@@ -1,1 +1,1 @@
-export { default as MajLightShuffleIcon } from './shuffle';
+export { default as MajLightShuffleIcon } from "./shuffle";

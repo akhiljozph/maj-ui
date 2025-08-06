@@ -1,1 +1,1 @@
-export { default as MajHeader } from './MajHeader';
+export { default as MajHeader } from "./MajHeader";

@@ -1,1 +1,1 @@
-export { default as MajLightGlobeIcon } from './globe';
+export { default as MajLightGlobeIcon } from "./globe";

@@ -1,1 +1,1 @@
-export { default as MajPopover } from './MajPopover';
+export { default as MajPopover } from "./MajPopover";

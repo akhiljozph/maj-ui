@@ -1,1 +1,1 @@
-export { default as MajLightThreeSixtyIcon } from './360';
+export { default as MajLightThreeSixtyIcon } from "./360";

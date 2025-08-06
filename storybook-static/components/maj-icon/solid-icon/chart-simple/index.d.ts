@@ -1,1 +1,1 @@
-export { default as MajSolidChartSimpleIcon } from './chart-simple';
+export { default as MajSolidChartSimpleIcon } from "./chart-simple";

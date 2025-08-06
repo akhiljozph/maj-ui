@@ -1,1 +1,1 @@
-export { default as MajP } from './MajParagraph';
+export { default as MajP } from "./MajParagraph";

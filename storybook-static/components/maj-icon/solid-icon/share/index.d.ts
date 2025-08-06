@@ -1,1 +1,1 @@
-export { default as MajSolidShareIcon } from './share';
+export { default as MajSolidShareIcon } from "./share";

@@ -1,1 +1,1 @@
-export { default as MajSection } from './MajSection';
+export { default as MajSection } from "./MajSection";

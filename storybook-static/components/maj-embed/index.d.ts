@@ -1,1 +1,1 @@
-export { default as MajEmbed } from './MajEmbed';
+export { default as MajEmbed } from "./MajEmbed";

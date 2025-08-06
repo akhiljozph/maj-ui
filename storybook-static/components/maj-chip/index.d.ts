@@ -1,1 +1,1 @@
-export { default as MajChip } from './MajChip';
+export { default as MajChip } from "./MajChip";

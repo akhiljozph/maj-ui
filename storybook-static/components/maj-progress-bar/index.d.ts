@@ -1,1 +1,1 @@
-export { default as MajProgressBar } from './MajProgressBar';
+export { default as MajProgressBar } from "./MajProgressBar";

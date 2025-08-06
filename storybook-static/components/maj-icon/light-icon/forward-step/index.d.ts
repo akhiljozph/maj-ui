@@ -1,1 +1,1 @@
-export { default as MajLightForwardStepIcon } from './forward-step';
+export { default as MajLightForwardStepIcon } from "./forward-step";

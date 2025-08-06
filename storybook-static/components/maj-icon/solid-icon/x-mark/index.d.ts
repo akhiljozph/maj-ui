@@ -1,1 +1,1 @@
-export { default as MajSolidXMarkIcon } from './x-mark';
+export { default as MajSolidXMarkIcon } from "./x-mark";

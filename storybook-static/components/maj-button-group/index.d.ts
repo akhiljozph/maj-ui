@@ -1,1 +1,1 @@
-export { default as MajButtonGroup } from './MajButtonGroup';
+export { default as MajButtonGroup } from "./MajButtonGroup";
