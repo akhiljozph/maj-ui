@@ -1,1 +1,1 @@
-export { default as MajSolidEyeSlashIcon } from "./eye-slash";
+export { default as MajSolidEyeSlashIcon } from './eye-slash';

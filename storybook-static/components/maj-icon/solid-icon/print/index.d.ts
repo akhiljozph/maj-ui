@@ -1,1 +1,1 @@
-export { default as MajSolidPrintIcon } from "./print";
+export { default as MajSolidPrintIcon } from './print';

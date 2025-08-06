@@ -1,1 +1,1 @@
-export { default as MajSolidTagIcon } from "./tag";
+export { default as MajSolidTagIcon } from './tag';

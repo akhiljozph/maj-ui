@@ -1,1 +1,1 @@
-export { default as MajSubScript } from "./MajSubScript";
+export { default as MajSubScript } from './MajSubScript';

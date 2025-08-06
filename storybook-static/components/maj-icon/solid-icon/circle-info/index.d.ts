@@ -1,1 +1,1 @@
-export { default as MajSolidCircleInfoIcon } from "./circle-info";
+export { default as MajSolidCircleInfoIcon } from './circle-info';

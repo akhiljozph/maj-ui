@@ -1,1 +1,1 @@
-export { default as MajBadge } from "./MajBadge";
+export { default as MajBadge } from './MajBadge';

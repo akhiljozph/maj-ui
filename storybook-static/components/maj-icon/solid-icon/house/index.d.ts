@@ -1,1 +1,1 @@
-export { default as MajSolidHouseIcon } from "./house";
+export { default as MajSolidHouseIcon } from './house';

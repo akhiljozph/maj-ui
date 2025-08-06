@@ -1,1 +1,1 @@
-export { default as MajAccordion } from "./MajAccordion";
+export { default as MajAccordion } from './MajAccordion';

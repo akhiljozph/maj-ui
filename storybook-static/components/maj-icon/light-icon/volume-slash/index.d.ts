@@ -1,1 +1,1 @@
-export { default as MajLightVolumeSlashIcon } from "./volume-slash";
+export { default as MajLightVolumeSlashIcon } from './volume-slash';

@@ -1,1 +1,1 @@
-export { default as MajLightChairOfficeIcon } from "./chair-office";
+export { default as MajLightChairOfficeIcon } from './chair-office';

@@ -1,1 +1,1 @@
-export { default as MajSolidChartColumnIcon } from "./chart-column";
+export { default as MajSolidChartColumnIcon } from './chart-column';

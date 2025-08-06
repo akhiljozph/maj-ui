@@ -1,1 +1,1 @@
-export { default as MajLabel } from "./MajLabel";
+export { default as MajLabel } from './MajLabel';

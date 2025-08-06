@@ -1,1 +1,1 @@
-export { default as MajSolidSquareYoutubeIcon } from "./square-youtube";
+export { default as MajSolidSquareYoutubeIcon } from './square-youtube';

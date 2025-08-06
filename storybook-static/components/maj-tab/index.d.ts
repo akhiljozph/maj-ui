@@ -1,1 +1,1 @@
-export { default as MajTab } from "./MajTab";
+export { default as MajTab } from './MajTab';

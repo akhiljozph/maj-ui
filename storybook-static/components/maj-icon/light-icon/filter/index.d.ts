@@ -1,1 +1,1 @@
-export { default as MajLightFilterIcon } from "./filter";
+export { default as MajLightFilterIcon } from './filter';

@@ -1,1 +1,1 @@
-export { default as MajSolidPauseIcon } from "./pause";
+export { default as MajSolidPauseIcon } from './pause';

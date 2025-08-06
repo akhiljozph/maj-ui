@@ -1,1 +1,1 @@
-export { default as MajLightCircleMinusIcon } from "./circle-minus";
+export { default as MajLightCircleMinusIcon } from './circle-minus';

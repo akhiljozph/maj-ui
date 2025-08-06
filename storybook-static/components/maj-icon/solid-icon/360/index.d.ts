@@ -1,1 +1,1 @@
-export { default as MajSolidThreeSixtyIcon } from "./360";
+export { default as MajSolidThreeSixtyIcon } from './360';

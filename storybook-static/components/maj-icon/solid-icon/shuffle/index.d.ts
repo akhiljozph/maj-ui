@@ -1,1 +1,1 @@
-export { default as MajSolidShuffleIcon } from "./shuffle";
+export { default as MajSolidShuffleIcon } from './shuffle';

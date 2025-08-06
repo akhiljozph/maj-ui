@@ -1,1 +1,1 @@
-export { default as MajSolidThumbsDownIcon } from "./thumbs-down";
+export { default as MajSolidThumbsDownIcon } from './thumbs-down';

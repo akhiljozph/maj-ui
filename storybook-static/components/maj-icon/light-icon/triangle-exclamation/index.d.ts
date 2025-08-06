@@ -1,1 +1,1 @@
-export { default as MajLightTriangleExclamation } from "./triangle-exclamation";
+export { default as MajLightTriangleExclamation } from './triangle-exclamation';

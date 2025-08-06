@@ -1,1 +1,1 @@
-export { default as MajLightStoreIcon } from "./store";
+export { default as MajLightStoreIcon } from './store';

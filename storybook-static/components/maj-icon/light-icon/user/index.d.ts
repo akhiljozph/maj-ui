@@ -1,1 +1,1 @@
-export { default as MajLightUserIcon } from "./user";
+export { default as MajLightUserIcon } from './user';

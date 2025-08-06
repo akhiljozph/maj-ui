@@ -1,1 +1,1 @@
-export { default as MajLightPrintIcon } from "./print";
+export { default as MajLightPrintIcon } from './print';

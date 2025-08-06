@@ -1,1 +1,1 @@
-export { default as MajPagination } from "./MajPagination";
+export { default as MajPagination } from './MajPagination';

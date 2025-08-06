@@ -1,1 +1,1 @@
-export { default as MajLightSortIcon } from "./sort";
+export { default as MajLightSortIcon } from './sort';

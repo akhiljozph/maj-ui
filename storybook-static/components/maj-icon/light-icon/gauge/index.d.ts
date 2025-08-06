@@ -1,1 +1,1 @@
-export { default as MajLightGaugeIcon } from "./gauge";
+export { default as MajLightGaugeIcon } from './gauge';

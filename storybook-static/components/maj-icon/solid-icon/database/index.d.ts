@@ -1,1 +1,1 @@
-export { default as MajSolidDatabaseIcon } from "./database";
+export { default as MajSolidDatabaseIcon } from './database';

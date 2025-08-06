@@ -1,1 +1,1 @@
-export { default as MajArticle } from "./MajArticle";
+export { default as MajArticle } from './MajArticle';

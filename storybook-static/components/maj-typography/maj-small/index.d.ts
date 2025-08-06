@@ -1,1 +1,1 @@
-export { default as MajSmall } from "./MajSmall";
+export { default as MajSmall } from './MajSmall';

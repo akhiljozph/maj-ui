@@ -1,1 +1,1 @@
-export { default as MajSolidCrossHairsIcon } from "./cross-hairs";
+export { default as MajSolidCrossHairsIcon } from './cross-hairs';

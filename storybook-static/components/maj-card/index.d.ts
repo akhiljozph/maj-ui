@@ -1,1 +1,1 @@
-export { default as MajCard } from "./MajCard";
+export { default as MajCard } from './MajCard';

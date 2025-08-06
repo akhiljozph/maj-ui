@@ -1,1 +1,1 @@
-export { default as MajSolidCircleQuestionIcon } from "./circle-question";
+export { default as MajSolidCircleQuestionIcon } from './circle-question';

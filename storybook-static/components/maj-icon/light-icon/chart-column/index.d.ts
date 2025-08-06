@@ -1,1 +1,1 @@
-export { default as MajLightChartColumnIcon } from "./chart-column";
+export { default as MajLightChartColumnIcon } from './chart-column';

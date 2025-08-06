@@ -1,1 +1,1 @@
-export { default as MajSolidFilterIcon } from "./filter";
+export { default as MajSolidFilterIcon } from './filter';

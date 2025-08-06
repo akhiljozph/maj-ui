@@ -1,1 +1,1 @@
-export { default as MajLightUnlockIcon } from "./unlock";
+export { default as MajLightUnlockIcon } from './unlock';

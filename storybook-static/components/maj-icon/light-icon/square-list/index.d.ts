@@ -1,1 +1,1 @@
-export { default as MajLightSquareListIcon } from "./square-list";
+export { default as MajLightSquareListIcon } from './square-list';

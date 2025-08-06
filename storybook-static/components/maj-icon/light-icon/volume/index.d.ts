@@ -1,1 +1,1 @@
-export { default as MajLightVolumeIcon } from "./volume";
+export { default as MajLightVolumeIcon } from './volume';

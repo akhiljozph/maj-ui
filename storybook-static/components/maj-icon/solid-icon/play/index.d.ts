@@ -1,1 +1,1 @@
-export { default as MajSolidPlayIcon } from "./play";
+export { default as MajSolidPlayIcon } from './play';

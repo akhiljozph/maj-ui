@@ -1,1 +1,1 @@
-export { default as MajSolidExpandIcon } from "./expand";
+export { default as MajSolidExpandIcon } from './expand';

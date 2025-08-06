@@ -1,1 +1,1 @@
-export { default as MajSolidFileArrowUpIcon } from "./file-arrow-up";
+export { default as MajSolidFileArrowUpIcon } from './file-arrow-up';

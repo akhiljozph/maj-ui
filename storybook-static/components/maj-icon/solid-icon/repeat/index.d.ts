@@ -1,1 +1,1 @@
-export { default as MajSolidRepeatIcon } from "./repeat";
+export { default as MajSolidRepeatIcon } from './repeat';

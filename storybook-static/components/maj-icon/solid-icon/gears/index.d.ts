@@ -1,1 +1,1 @@
-export { default as MajSolidGearsIcon } from "./gears";
+export { default as MajSolidGearsIcon } from './gears';

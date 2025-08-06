@@ -1,1 +1,1 @@
-export { default as MajLightCircleUserIcon } from "./circle-user";
+export { default as MajLightCircleUserIcon } from './circle-user';

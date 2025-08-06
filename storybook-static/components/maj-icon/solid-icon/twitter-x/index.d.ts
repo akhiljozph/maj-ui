@@ -1,1 +1,1 @@
-export { default as MajSolidTwitterXIcon } from "./twitter-x";
+export { default as MajSolidTwitterXIcon } from './twitter-x';

@@ -1,1 +1,1 @@
-export { default as MajLightEllipsisIcon } from "./ellipsis";
+export { default as MajLightEllipsisIcon } from './ellipsis';

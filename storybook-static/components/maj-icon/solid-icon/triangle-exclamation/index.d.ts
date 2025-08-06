@@ -1,1 +1,1 @@
-export { default as MajSolidTriangleExclamation } from "./triangle-exclamation";
+export { default as MajSolidTriangleExclamation } from './triangle-exclamation';

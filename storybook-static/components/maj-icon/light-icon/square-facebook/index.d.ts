@@ -1,1 +1,1 @@
-export { default as MajLightSquareFacebookIcon } from "./square-facebook";
+export { default as MajLightSquareFacebookIcon } from './square-facebook';

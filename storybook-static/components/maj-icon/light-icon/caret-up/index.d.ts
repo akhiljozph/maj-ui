@@ -1,1 +1,1 @@
-export { default as MajLightCaretUpIcon } from "./caret-up";
+export { default as MajLightCaretUpIcon } from './caret-up';

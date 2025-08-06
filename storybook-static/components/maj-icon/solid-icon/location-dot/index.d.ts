@@ -1,1 +1,1 @@
-export { default as MajSolidLocationDotIcon } from "./location-dot";
+export { default as MajSolidLocationDotIcon } from './location-dot';

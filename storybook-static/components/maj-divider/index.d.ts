@@ -1,1 +1,1 @@
-export { default as MajDivider } from "./MajDivider";
+export { default as MajDivider } from './MajDivider';

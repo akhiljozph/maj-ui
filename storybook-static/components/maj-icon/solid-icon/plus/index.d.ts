@@ -1,1 +1,1 @@
-export { default as MajSolidPlusIcon } from "./plus";
+export { default as MajSolidPlusIcon } from './plus';

@@ -1,1 +1,1 @@
-export { default as MajLightCartFlatbedBoxesIcon } from "./cart-flatbed-boxes";
+export { default as MajLightCartFlatbedBoxesIcon } from './cart-flatbed-boxes';

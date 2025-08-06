@@ -1,1 +1,1 @@
-export { default as MajSolidCalendarDaysIcon } from "./calendar-days";
+export { default as MajSolidCalendarDaysIcon } from './calendar-days';

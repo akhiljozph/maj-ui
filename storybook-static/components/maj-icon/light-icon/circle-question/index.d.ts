@@ -1,1 +1,1 @@
-export { default as MajLightCircleQuestionIcon } from "./circle-question";
+export { default as MajLightCircleQuestionIcon } from './circle-question';

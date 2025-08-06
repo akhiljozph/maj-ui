@@ -1,1 +1,1 @@
-export { default as MajLightSquareInstagramIcon } from "./square-instagram";
+export { default as MajLightSquareInstagramIcon } from './square-instagram';

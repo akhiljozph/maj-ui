@@ -1,1 +1,1 @@
-export { default as MajLightGridHorizontalIcon } from "./grid-horizontal";
+export { default as MajLightGridHorizontalIcon } from './grid-horizontal';

@@ -1,1 +1,1 @@
-export { default as MajLightHeartPulseIcon } from "./heart-pulse";
+export { default as MajLightHeartPulseIcon } from './heart-pulse';

@@ -1,1 +1,1 @@
-export { default as MajLink } from "./MajLink";
+export { default as MajLink } from './MajLink';

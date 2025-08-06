@@ -1,1 +1,1 @@
-export { default as MajLightArrowsRotateIcon } from "./arrows-rotate";
+export { default as MajLightArrowsRotateIcon } from './arrows-rotate';

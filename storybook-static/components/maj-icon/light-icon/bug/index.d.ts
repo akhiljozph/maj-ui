@@ -1,1 +1,1 @@
-export { default as MajLightBugIcon } from "./bug";
+export { default as MajLightBugIcon } from './bug';

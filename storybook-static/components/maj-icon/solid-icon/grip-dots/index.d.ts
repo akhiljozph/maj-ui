@@ -1,1 +1,1 @@
-export { default as MajSolidGripDotsIcon } from "./grip-dots";
+export { default as MajSolidGripDotsIcon } from './grip-dots';

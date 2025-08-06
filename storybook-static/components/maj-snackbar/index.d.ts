@@ -1,1 +1,1 @@
-export { default as MajSnackbar } from "./MajSnackbar";
+export { default as MajSnackbar } from './MajSnackbar';

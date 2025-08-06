@@ -1,1 +1,1 @@
-export { default as MajLightRepeatIcon } from "./repeat";
+export { default as MajLightRepeatIcon } from './repeat';
