@@ -22,7 +22,7 @@ const MajButton: React.FC<MajButtonProps> = (props: MajButtonProps) => {
             onClick={props?.onClick}
             type={props?.type}
         >
-            {props?.text}
+            {props?.children}
         </button>
     );
 };

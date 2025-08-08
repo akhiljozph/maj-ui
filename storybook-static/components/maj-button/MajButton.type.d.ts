@@ -1,4 +1,4 @@
-import { MouseEventHandler } from "../../../node_modules/react";
+import { MouseEventHandler, ReactNode } from "../../../node_modules/react";
 type MajButtonVariants =
     | "primary"
     | "secondary"
@@ -12,7 +12,7 @@ type MajButtonVariants =
 type MajButtonSizes = "small" | "medium" | "large";
 type MajButtonTypes = "button" | "submit" | "reset";
 export type MajButtonProps = {
-    text?: string;
+    children?: ReactNode;
     variant?: MajButtonVariants;
     disabled?: boolean;
     size?: MajButtonSizes;
