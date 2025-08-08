@@ -1,12 +1,12 @@
 import { MajAccordionProps } from "./MajAccordion.types";
 
 import "./MajAccordion.scss";
-import { MajSection } from "../index";
+import { MajButton, MajSection } from "../index";
 
 const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => {
     return (
         <MajSection>
-            <button>{props?.accordionTitle}</button>
+            <MajButton>{props?.accordionTitle}</MajButton>
             <div>{props?.children}</div>
         </MajSection>
     );
