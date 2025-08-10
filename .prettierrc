@@ -1,0 +1,12 @@
+{
+    "printWidth": 100,
+    "tabWidth": 4,
+    "endOfLine": "lf",
+    "semi": true,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "arrowParens": "always",
+    "singleAttributePerLine": true
+}
