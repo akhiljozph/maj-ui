@@ -3,6 +3,9 @@ import { MajButtonProps } from "./MajButton.type";
 import "./MajButton.scss";
 
 const MajButton: React.FC<MajButtonProps> = (props: MajButtonProps) => {
+    const isButtonDisabled = props.disabled;
+    console.log("IsButtonDisabled", isButtonDisabled);
+
     return (
         <button
             className={
