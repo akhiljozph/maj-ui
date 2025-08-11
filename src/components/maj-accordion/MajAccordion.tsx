@@ -6,7 +6,12 @@ import { MajButton, MajSection } from "../index";
 const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => {
     return (
         <MajSection>
-            <MajButton>{props?.accordionTitle}</MajButton>
+            <MajButton
+                variant="primary"
+                disabled={false}
+            >
+                {props?.accordionTitle}
+            </MajButton>
             <div>{props?.children}</div>
         </MajSection>
     );
