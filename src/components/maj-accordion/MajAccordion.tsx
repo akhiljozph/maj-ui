@@ -9,6 +9,7 @@ const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => 
             <MajButton
                 variant="primary"
                 disabled={false}
+                type="button"
             >
                 {props?.accordionTitle}
             </MajButton>
