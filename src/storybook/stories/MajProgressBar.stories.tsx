@@ -10,7 +10,13 @@ const meta: Meta<typeof MajProgressBar> = {
 export default meta;
 type Story = StoryObj<typeof MajProgressBar>;
 
-export const Primary: Story = {
+export const HorizontalBar: Story = {
+    args: {
+        message: "progress-bar",
+    },
+};
+
+export const VerticalBar: Story = {
     args: {
         message: "progress-bar",
     },
