@@ -1,20 +1,23 @@
 import { MajAccordionProps } from "./MajAccordion.types";
 
 import "./MajAccordion.scss";
+import { MajP } from "../maj-typography";
 
 const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => {
-    console.log(props);
+    function onAccordionTitleClick() {
+        console.log("Clicked");
+    }
 
     return (
         <>
-            <button className="accordion">Section 1</button>
+            <button
+                className="accordion"
+                onClick={onAccordionTitleClick}
+            >
+                {props?.accordionTitle}
+            </button>
             <div className="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-
-            <button className="accordion">Section 2</button>
-            <div className="panel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <MajP>{props?.children}</MajP>
             </div>
         </>
     );
