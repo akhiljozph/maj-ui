@@ -4,7 +4,6 @@
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    /* already full width */
     border: none;
     text-align: left;
     outline: none;
@@ -21,19 +20,14 @@
 
 .panel {
     width: 100%;
-    /* ✅ make panel also full width */
     background-color: white;
     overflow: hidden;
     max-height: 0;
-    /* collapsed by default */
     transition: max-height 0.3s ease;
     padding: 0 18px;
-    /* keep padding inside */
     box-sizing: border-box;
-    /* ensures padding doesn’t shrink width */
 }
 
 .panel.open {
     max-height: 500px;
-    /* big enough to show content */
 }
