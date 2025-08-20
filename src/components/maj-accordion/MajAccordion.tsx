@@ -1,11 +1,15 @@
-import { MajAccordionProps } from "./MajAccordion.types";
+import { useState } from "react";
 
-import "./MajAccordion.scss";
+import { MajAccordionProps } from "./MajAccordion.types";
 import { MajP } from "../maj-typography";
 
+import "./MajAccordion.scss";
+
 const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => {
+    const [isOpen, setIsOpen] = useState(false);
+
     function onAccordionTitleClick() {
-        console.log("Clicked");
+        setIsOpen(!isOpen);
     }
 
     return (
@@ -16,7 +20,7 @@ const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => 
             >
                 {props?.accordionTitle}
             </button>
-            <div className="panel">
+            <div className={`panel ${isOpen ? "open" : ""}`}>
                 <MajP>{props?.children}</MajP>
             </div>
         </>
