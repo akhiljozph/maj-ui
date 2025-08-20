@@ -13,7 +13,7 @@ const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => 
     }
 
     return (
-        <>
+        <div className="maj-accordion-wrapper">
             <button
                 className="accordion"
                 onClick={onAccordionTitleClick}
@@ -23,7 +23,7 @@ const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => 
             <div className={`panel ${isOpen ? "open" : ""}`}>
                 <MajP>{props?.children}</MajP>
             </div>
-        </>
+        </div>
     );
 };
 
