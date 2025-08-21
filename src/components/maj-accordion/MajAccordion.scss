@@ -1,37 +1,49 @@
-.maj-accordion-wrapper {
-    width: 100%;
-}
-
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: background-color 0.4s;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    display: block;
-}
-
 .active,
-.accordion:hover {
+.accordion-title-wrapper:hover {
     background-color: #ccc;
 }
 
-.panel {
+.maj-accordion-wrapper {
     width: 100%;
-    background-color: white;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease;
-    padding: 0 18px;
-    box-sizing: border-box;
-}
 
-.panel.open {
-    max-height: 500px;
+    .accordion-title-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: background-color 0.4s;
+        font-family: "Yanone Kaffeesatz", sans-serif;
+
+        .accordion-title {}
+
+        .accordion-icon {
+            font-size: 44px;
+            display: inherit;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+
+    .accordion-panel {
+        width: 100%;
+        background-color: white;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease;
+        padding: 0 18px;
+        box-sizing: border-box;
+    }
+
+    .accordion-expanded {
+        max-height: 500px;
+    }
 }
