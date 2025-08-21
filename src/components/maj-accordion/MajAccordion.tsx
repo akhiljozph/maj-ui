@@ -16,6 +16,7 @@ const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => 
         <div className="maj-accordion-wrapper">
             <button
                 className="accordion"
+                style={props?.accordionTitleStyle}
                 onClick={onAccordionTitleClick}
             >
                 {props?.accordionTitle}

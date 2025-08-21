@@ -15,6 +15,7 @@ type Story = StoryObj<typeof MajAccordion>;
 export const Accordion: Story = {
     args: {
         accordionTitle: "What is Lorem Ipsum?",
+        accordionTitleStyle: { backgroundColor: "black", color: "white", fontSize: "16px" },
         children: (
             <MajP>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
