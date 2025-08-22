@@ -1,6 +1,11 @@
-import { ReactNode } from "../../../node_modules/react";
-export type MajAccordionProps = {
-    children?: ReactNode;
-    accordionTitle?: string;
-    accordionTitleStyle?: React.CSSProperties;
-};
+interface CommonAccordionProps {
+    items: AccordionItem[];
+    allowMultiple?: boolean;
+    onChange?: (activeIndexes: number[]) => void;
+}
+interface AccordionItem {
+    title: string;
+    content: React.ReactNode;
+    isOpen?: boolean;
+}
+export type { AccordionItem, CommonAccordionProps };

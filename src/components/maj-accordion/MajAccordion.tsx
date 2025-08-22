@@ -1,40 +1,49 @@
-import { useState } from "react";
-
-import { MajAccordionProps } from "./MajAccordion.types";
-import { MajP, MajSubScript } from "../maj-typography";
-
+import React, { useState } from "react";
 import "./MajAccordion.scss";
 
-const MajAccordion: React.FC<MajAccordionProps> = (props: MajAccordionProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+interface AccordionItem {
+    title: string;
+    content: React.ReactNode;
+}
 
-    function onAccordionTitleClick() {
-        setIsOpen(!isOpen);
-    }
+interface CommonAccordionProps {
+    items: AccordionItem[];
+    allowMultipleOpen?: boolean;
+}
+
+const CommonAccordion: React.FC<CommonAccordionProps> = ({ items, allowMultipleOpen = false }) => {
+    const [openItems, setOpenItems] = useState<number[]>([]);
+
+    const toggleItem = (index: number) => {
+        if (allowMultipleOpen) {
+            setOpenItems((prev) =>
+                prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index],
+            );
+        } else {
+            setOpenItems((prev) => (prev[0] === index ? [] : [index]));
+        }
+    };
 
     return (
-        <>
-            <div className="maj-accordion-wrapper">
-                <button
-                    className="accordion-title-wrapper"
-                    style={props?.accordionTitleStyle}
-                    onClick={onAccordionTitleClick}
+        <div className="common-accordion">
+            {items.map((item, index) => (
+                <div
+                    key={index}
+                    className="accordion-item"
                 >
-                    <label className="accordion-title">{props?.accordionTitle}</label>
-                    <span className="accordion-icon">
-                        {isOpen ? (
-                            <MajSubScript>&#x2212;</MajSubScript>
-                        ) : (
-                            <MajSubScript>&#x2b;</MajSubScript>
-                        )}
-                    </span>
-                </button>
-                <div className={`accordion-panel ${isOpen ? "accordion-expanded" : ""}`}>
-                    <MajP>{props?.children}</MajP>
+                    <div
+                        className="accordion-title"
+                        onClick={() => toggleItem(index)}
+                    >
+                        {item.title}
+                    </div>
+                    {openItems.includes(index) && (
+                        <div className="accordion-content">{item.content}</div>
+                    )}
                 </div>
-            </div>
-        </>
+            ))}
+        </div>
     );
 };
 
-export default MajAccordion;
+export default CommonAccordion;
