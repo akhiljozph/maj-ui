@@ -1,11 +1,14 @@
-interface CommonAccordionProps {
-    items: AccordionItem[];
-    allowMultiple?: boolean;
-    onChange?: (activeIndexes: number[]) => void;
-}
-interface AccordionItem {
+export interface AccordionItem {
     title: string;
     content: React.ReactNode;
-    isOpen?: boolean;
+    disabled?: boolean;
 }
-export type { AccordionItem, CommonAccordionProps };
+export interface MajAccordionProps {
+    items: AccordionItem[];
+    openItems?: number[];
+    defaultOpenItems?: number[];
+    allowMultipleOpen?: boolean;
+    onChange?: (openItems: number[]) => void;
+    className?: string;
+}
+export default MajAccordionProps;

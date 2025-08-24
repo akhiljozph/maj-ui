@@ -1,49 +1,67 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 import "./MajAccordion.scss";
+import MajAccordionProps from "./MajAccordion.types";
 
-interface AccordionItem {
-    title: string;
-    content: React.ReactNode;
-}
+const MajAccordion: React.FC<MajAccordionProps> = ({
+    items,
+    openItems,
+    defaultOpenItems = [],
+    allowMultipleOpen = false,
+    onChange,
+    className = "",
+}) => {
+    const isControlled = openItems !== undefined;
+    const [internalOpenItems, setInternalOpenItems] = useState<number[]>(defaultOpenItems);
 
-interface CommonAccordionProps {
-    items: AccordionItem[];
-    allowMultipleOpen?: boolean;
-}
-
-const CommonAccordion: React.FC<CommonAccordionProps> = ({ items, allowMultipleOpen = false }) => {
-    const [openItems, setOpenItems] = useState<number[]>([]);
-
-    const toggleItem = (index: number) => {
-        if (allowMultipleOpen) {
-            setOpenItems((prev) =>
-                prev.includes(index) ? prev.filter((i) => i !== index) : [...prev, index],
-            );
-        } else {
-            setOpenItems((prev) => (prev[0] === index ? [] : [index]));
+    useEffect(() => {
+        if (isControlled && openItems) {
+            setInternalOpenItems(openItems);
         }
+    }, [openItems, isControlled]);
+
+    const handleToggle = (index: number) => {
+        let newOpenItems: number[];
+        if (allowMultipleOpen) {
+            newOpenItems = internalOpenItems.includes(index)
+                ? internalOpenItems.filter((i) => i !== index)
+                : [...internalOpenItems, index];
+        } else {
+            newOpenItems = internalOpenItems[0] === index ? [] : [index];
+        }
+
+        if (!isControlled) {
+            setInternalOpenItems(newOpenItems);
+        }
+        onChange?.(newOpenItems);
     };
 
     return (
-        <div className="common-accordion">
+        <div className={`maj-accordion ${className}`}>
             {items.map((item, index) => (
                 <div
                     key={index}
-                    className="accordion-item"
+                    className={`accordion-item${item.disabled ? " disabled" : ""}`}
                 >
-                    <div
+                    <button
                         className="accordion-title"
-                        onClick={() => toggleItem(index)}
+                        onClick={() => !item.disabled && handleToggle(index)}
+                        aria-expanded={internalOpenItems.includes(index)}
+                        disabled={item.disabled}
+                        type="button"
                     >
                         {item.title}
+                    </button>
+                    <div
+                        className={`accordion-content${internalOpenItems.includes(index) ? " open" : ""}`}
+                        style={{ display: internalOpenItems.includes(index) ? "block" : "none" }}
+                    >
+                        {item.content}
                     </div>
-                    {openItems.includes(index) && (
-                        <div className="accordion-content">{item.content}</div>
-                    )}
                 </div>
             ))}
         </div>
     );
 };
 
-export default CommonAccordion;
+export default MajAccordion;
