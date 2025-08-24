@@ -24,7 +24,7 @@ const MajAccordion: React.FC<MajAccordionProps> = ({
         let newOpenItems: number[];
         if (allowMultipleOpen) {
             newOpenItems = internalOpenItems.includes(index)
-                ? internalOpenItems.filter((i) => i !== index)
+                ? internalOpenItems.filter((item) => item !== index)
                 : [...internalOpenItems, index];
         } else {
             newOpenItems = internalOpenItems[0] === index ? [] : [index];
