@@ -38,7 +38,7 @@ const MajAutocomplete: React.FC<MajAutocompleteProps> = (props: MajAutocompleteP
 
     return (
         <>
-            <div className="maj-autocomplete-wrapper">
+            <div className={`maj-autocomplete-wrapper ${props?.className}`}>
                 <input
                     placeholder={props?.placeholder}
                     type="text"
