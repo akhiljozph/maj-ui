@@ -16,6 +16,7 @@ export const Accordion: Story = {
     args: {
         items: [
             {
+                id: 1,
                 title: "Section 1",
                 content: (
                     <MajP>
@@ -23,8 +24,10 @@ export const Accordion: Story = {
                         React components.
                     </MajP>
                 ),
+                disabled: true,
             },
             {
+                id: 2,
                 title: "Section 2",
                 content: (
                     <MajP>
@@ -34,6 +37,7 @@ export const Accordion: Story = {
                 ),
             },
             {
+                id: 3,
                 title: "Section 3",
                 content: (
                     <MajP>
