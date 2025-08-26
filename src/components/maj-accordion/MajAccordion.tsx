@@ -40,7 +40,7 @@ const MajAccordion: React.FC<MajAccordionProps> = ({
         <div className={`maj-accordion ${className}`}>
             {items.map((item, index) => (
                 <div
-                    key={index}
+                    key={item.id || index}
                     className={`accordion-item${item.disabled ? " disabled" : ""}`}
                 >
                     <button
