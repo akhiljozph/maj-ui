@@ -23,7 +23,7 @@ const MajAvatar: React.FC<MajAvatarProps> = (props: MajAvatarProps) => {
 
     return (
         <>
-            <div className="maj-avatar-container">
+            <div className={`maj-avatar-container ${props?.className ? props.className : ""}`}>
                 <div className="maj-avatar">
                     {props.avatarType === "initial"
                         ? makeAvatarWithInitial
