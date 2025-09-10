@@ -3,7 +3,7 @@ import { MajTooltipProps } from "./MajTooltip.types";
 import "./MajTooltip.scss";
 
 const MajTooltip = (props: MajTooltipProps) => {
-    return <>{props?.message}</>;
+    return <span>{props?.message}</span>;
 };
 
 export default MajTooltip;
