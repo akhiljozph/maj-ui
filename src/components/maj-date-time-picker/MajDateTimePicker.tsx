@@ -4,15 +4,13 @@ import "./MajDateTimePicker.scss";
 
 const MajDateTimePicker: React.FC<MajDateTimePickerProps> = (props: MajDateTimePickerProps) => {
     return (
-        <>
-            <input
-                type="datetime-local"
-                name="maj-date-time-picker"
-                id="maj-date-time-picker"
-                min={props?.minimumValue}
-                max={props?.maximumValue}
-            />
-        </>
+        <input
+            type="datetime-local"
+            name="maj-date-time-picker"
+            id="maj-date-time-picker"
+            min={props?.minimumValue}
+            max={props?.maximumValue}
+        />
     );
 };
 
