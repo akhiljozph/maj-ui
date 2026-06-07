@@ -1,0 +1,22 @@
+import react from '@vitejs/plugin-react';
+import { resolve } from 'path';
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    environment: 'jsdom',
+    globals: true,
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
+    },
+  },
+  optimizeDeps: {
+    include: [
+      'sb-original/default-loader',
+      'sb-original/image-context'
+    ],
+  },
+});

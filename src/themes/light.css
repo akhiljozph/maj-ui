@@ -1,0 +1,10 @@
+[data-theme="light"] {
+  /* Light theme uses the default root values. We explicitly define the semantic mappings here for clarity. */
+  --theme-bg-base: var(--color-neutral-50);
+  --theme-bg-surface: #ffffff;
+  --theme-text-base: var(--color-neutral-900);
+  --theme-text-muted: var(--color-neutral-500);
+  
+  --theme-border-base: var(--color-neutral-200);
+  --theme-border-focus: var(--color-primary-500);
+}

@@ -1,0 +1,41 @@
+[data-theme="dark"] {
+  /* Invert the neutral scale so that light-theme components (e.g. gray backgrounds) automatically look dark */
+  --color-neutral-50: hsl(var(--color-neutral-900-hsl));
+  --color-neutral-100: hsl(var(--color-neutral-800-hsl));
+  --color-neutral-200: hsl(var(--color-neutral-700-hsl));
+  --color-neutral-300: hsl(var(--color-neutral-600-hsl));
+  --color-neutral-400: hsl(var(--color-neutral-500-hsl));
+  --color-neutral-500: hsl(var(--color-neutral-400-hsl));
+  --color-neutral-600: hsl(var(--color-neutral-300-hsl));
+  --color-neutral-700: hsl(var(--color-neutral-200-hsl));
+  --color-neutral-800: hsl(var(--color-neutral-100-hsl));
+  --color-neutral-900: hsl(var(--color-neutral-50-hsl));
+
+  /* Map theme semantic properties */
+  --theme-bg-base: var(--color-neutral-50);
+  --theme-bg-surface: var(--color-neutral-100);
+  --theme-text-base: var(--color-neutral-900);
+  --theme-text-muted: var(--color-neutral-500);
+  
+  --theme-border-base: var(--color-neutral-200);
+  --theme-border-focus: var(--color-primary-400);
+
+  /* Primary scale inversion for dark mode legibility */
+  --color-primary-50: hsl(var(--color-primary-900-hsl));
+  --color-primary-100: hsl(var(--color-primary-800-hsl));
+  --color-primary-200: hsl(var(--color-primary-700-hsl));
+  --color-primary-300: hsl(var(--color-primary-600-hsl));
+  --color-primary-400: hsl(var(--color-primary-500-hsl));
+  --color-primary-500: hsl(var(--color-primary-400-hsl));
+  --color-primary-600: hsl(var(--color-primary-300-hsl));
+  --color-primary-700: hsl(var(--color-primary-200-hsl));
+  --color-primary-800: hsl(var(--color-primary-100-hsl));
+  --color-primary-900: hsl(var(--color-primary-50-hsl));
+
+  /* Shadow adjustments for dark mode */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.6), 0 1px 2px -1px rgba(0, 0, 0, 0.6);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -2px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6), 0 4px 6px -4px rgba(0, 0, 0, 0.6);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.6);
+}
